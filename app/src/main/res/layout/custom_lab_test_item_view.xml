@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <View
+        style="@style/DividerStyle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_span="1"></View>
+
+    <LinearLayout
+        android:id="@+id/labTestExistsLyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <View
+            style="@style/DividerStyle"
+            android:layout_span="1"></View>
+
+        <TextView
+            android:id="@+id/labNameTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/margin1"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/padding5"
+            android:text="Lab"></TextView>
+
+
+        <View
+            style="@style/DividerStyle"
+            android:layout_span="1"></View>
+
+        <TextView
+            android:id="@+id/testNameTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/margin1"
+            android:layout_span="1"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/padding5"
+            android:singleLine="false"
+            android:text="Test"></TextView>
+
+        <View
+            style="@style/DividerStyle"
+            android:layout_span="1"></View>
+
+        <TextView
+            android:id="@+id/completionDateTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/margin1"
+            android:layout_span="1"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/padding5"
+            android:text="Date"></TextView>
+
+        <View
+            style="@style/DividerStyle"
+            android:layout_span="1"></View>
+
+        <TextView
+            android:id="@+id/unitsTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/margin1"
+            android:layout_span="1"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/padding5"
+            android:text="Unit"></TextView>
+
+        <View
+            style="@style/DividerStyle"
+            android:layout_span="1"></View>
+
+        <View
+            style="@style/DividerStyle"
+            android:layout_span="1"></View>
+
+        <ImageView
+            android:id="@+id/deleteImg"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/margin1"
+            android:gravity="center"
+            android:padding="@dimen/padding5"
+            android:src="@drawable/ic_deletel"></ImageView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/noLabTestValuesTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/margin1"
+        android:layout_marginEnd="@dimen/margin1"
+        android:layout_marginStart="@dimen/margin1"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:padding="@dimen/padding5"
+        android:text="No Lab Test Details Found."
+        android:textColor="@color/colorRed"
+        android:textSize="@dimen/textSize18"
+        android:textStyle="normal"
+        android:visibility="gone" />
+
+    <View
+        style="@style/DividerStyle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_span="1"
+        android:paddingBottom="@dimen/padding5"></View>
+</LinearLayout>

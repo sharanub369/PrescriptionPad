@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frameLyt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/rootLyt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin10"
+            android:orientation="vertical">
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spaceHeight" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin20"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/hospitalLogoImg"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_profile_pic_default" />
+
+                <TextView
+                    android:id="@+id/hospitalNameTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/padding10"
+                    android:text="Hospital Name"
+                    android:textColor="@color/headerColor"
+                    android:textSize="@dimen/textSize20"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spaceHeight" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="@dimen/cardViewRadius"
+                card_view:cardElevation="@dimen/cardViewElevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding5"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginEnd="@dimen/margin2.5"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/doctorNameEdtTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="Doctor Name"
+                                android:textColor="@color/colorCyanDark"
+                                android:textSize="@dimen/textSize14"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/qualificationEdtTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="MBBS,MD, Cardiologist"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="@dimen/textSize14"
+                                android:textStyle="normal" />
+
+                            <TextView
+                                android:id="@+id/doctorEmailTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="doctor@gmail.com"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="@dimen/textSize14"
+                                android:textStyle="normal" />
+
+                            <TextView
+                                android:id="@+id/regNoEdtTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="REG"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="@dimen/textSize14"
+                                android:textStyle="normal" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginStart="@dimen/margin2.5"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/hospitalAddressEdtTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="Address"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="@dimen/textSize14"
+                                android:textStyle="normal" />
+
+                            <TextView
+                                android:id="@+id/hospitalPhoneNoEdtTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="right"
+                                android:text="88895566666,2525321"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="@dimen/textSize14"
+                                android:textStyle="normal" />
+
+                            <TextView
+                                android:id="@+id/doctorEmailEdtTxt"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="right"
+                                android:text="test@gmail.com"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="@dimen/textSize14"
+                                android:textStyle="normal" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spaceHeight" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorCyanDark"></View>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spaceHeightSmall" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="@dimen/cardViewRadius"
+                card_view:cardElevation="@dimen/cardViewElevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="@dimen/padding5"
+                        android:text="@string/KEY_PATIENT_SUB_TITLE"
+                        android:textColor="@color/headerColor"
+                        android:textSize="@dimen/textSize18"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:layout_weight="1"
+                                android:gravity="left"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.6"
+                                    android:padding="@dimen/padding2"
+                                    android:text="UID:"
+                                    android:textColor="@color/colorCyanDark"
+                                    android:textSize="@dimen/textSize14"
+                                    android:textStyle="normal" />
+
+                                <TextView
+                                    android:id="@+id/patientUidTxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:padding="@dimen/padding2"
+                                    android:text="456"
+                                    android:textColor="@color/colorBlack"
+                                    android:textSize="@dimen/textSize14"
+                                    android:textStyle="normal" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.6"
+                                    android:padding="@dimen/padding2"
+                                    android:text="Name:"
+                                    android:textColor="@color/colorCyanDark"
+                                    android:textSize="@dimen/textSize14"
+                                    android:textStyle="normal" />
+
+                                <TextView
+                                    android:id="@+id/patientNameTxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:padding="@dimen/padding2"
+                                    android:text="Sharan b"
+                                    android:textColor="@color/colorBlack"
+                                    android:textSize="@dimen/textSize14"
+                                    android:textStyle="normal" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.6"
+                                    android:padding="@dimen/padding2"
+                                    android:text="Age/Sex:"
+                                    android:textColor="@color/colorCyanDark"
+                                    android:textSize="@dimen/textSize14"
+                                    android:textStyle="normal" />
+
+                                <TextView
+                                    android:id="@+id/patientSexAgeTxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:padding="@dimen/padding2"
+                                    android:text="26/Male"
+                                    android:textColor="@color/colorBlack"
+                                    android:textSize="@dimen/textSize14"
+                                    android:textStyle="normal" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.6"
+                                    android:padding="@dimen/padding2"
+                                    android:text="Mobile:"
+                                    android:textColor="@color/colorCyanDark"
+                                    android:textSize="@dimen/textSize14"
+                                    android:textStyle="normal" />
+
+                                <TextView
+                                    android:id="@+id/patientMobileNoTxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:padding="@dimen/padding2"
+                                    android:text="8596745986"
+                                    android:textColor="@color/colorBlack"
+                                    android:textSize="@dimen/textSize14"
+                                    android:textStyle="normal" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.6"
+                                    android:padding="@dimen/padding2"
+                                    android:text="DOC"
+                                    android:textColor="@color/colorCyanDark"
+                                    android:textSize="@dimen/textSize14"
+                                    android:textStyle="normal" />
+
+                                <TextView
+                                    android:id="@+id/patientCreateDateTxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:padding="@dimen/padding2"
+                                    android:text="13 July 2018"
+                                    android:textColor="@color/colorBlack"
+                                    android:textSize="@dimen/textSize14"
+                                    android:textStyle="normal" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.6"
+                                    android:padding="@dimen/padding2"
+                                    android:text="DOB:"
+                                    android:textColor="@color/colorCyanDark"
+                                    android:textSize="@dimen/textSize14"
+                                    android:textStyle="normal" />
+
+                                <TextView
+                                    android:id="@+id/patientDobTxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:padding="@dimen/padding2"
+                                    android:text="10 June 1990"
+                                    android:textColor="@color/colorBlack"
+                                    android:textSize="@dimen/textSize14"
+                                    android:textStyle="normal" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.6"
+                                    android:padding="@dimen/padding2"
+                                    android:text="PCode"
+                                    android:textColor="@color/colorCyanDark"
+                                    android:textSize="@dimen/textSize14"
+                                    android:textStyle="normal" />
+
+                                <TextView
+                                    android:id="@+id/pcodeTxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:padding="@dimen/padding2"
+                                    android:text="456"
+                                    android:textColor="@color/colorBlack"
+                                    android:textSize="@dimen/textSize14"
+                                    android:textStyle="normal" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.6"
+                                    android:padding="@dimen/padding2"
+                                    android:text="Guardian:"
+                                    android:textColor="@color/colorCyanDark"
+                                    android:textSize="@dimen/textSize14"
+                                    android:textStyle="normal" />
+
+                                <TextView
+                                    android:id="@+id/guardianTxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:padding="@dimen/padding2"
+                                    android:text="XYZ"
+                                    android:textColor="@color/colorBlack"
+                                    android:textSize="@dimen/textSize14"
+                                    android:textStyle="normal" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.6"
+                                    android:padding="@dimen/padding2"
+                                    android:text="B-Group:"
+                                    android:textColor="@color/colorCyanDark"
+                                    android:textSize="@dimen/textSize14"
+                                    android:textStyle="normal" />
+
+                                <TextView
+                                    android:id="@+id/bloodGroupTxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:padding="@dimen/padding2"
+                                    android:text="AB+ve"
+                                    android:textColor="@color/colorBlack"
+                                    android:textSize="@dimen/textSize14"
+                                    android:textStyle="normal" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.6"
+                                    android:padding="@dimen/padding2"
+                                    android:text="Email:"
+                                    android:textColor="@color/colorCyanDark"
+                                    android:textSize="@dimen/textSize14"
+                                    android:textStyle="normal" />
+
+                                <TextView
+                                    android:id="@+id/patientEmailTxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:padding="@dimen/padding2"
+                                    android:text="Test@gmail.com"
+                                    android:textColor="@color/colorBlack"
+                                    android:textSize="@dimen/textSize14"
+                                    android:textStyle="normal" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1.6"
+                                    android:padding="@dimen/padding2"
+                                    android:text="Address:"
+                                    android:textColor="@color/colorCyanDark"
+                                    android:textSize="@dimen/textSize14"
+                                    android:textStyle="normal" />
+
+                                <TextView
+                                    android:id="@+id/patientAddressTxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:padding="@dimen/padding2"
+                                    android:text="Patient Address Here"
+                                    android:textColor="@color/colorBlack"
+                                    android:textSize="@dimen/textSize14"
+                                    android:textStyle="normal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorCyanDark"></View>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spaceHeightSmall" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="@dimen/cardViewRadius"
+                card_view:cardElevation="@dimen/cardViewElevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/KEY_LAB_SUB_TITLE"
+                        android:textColor="@color/headerColor"
+                        android:textSize="@dimen/textSize18"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/labTestRecyclerView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+                        <TextView
+                            android:id="@+id/noLabTestErrorTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="No Details Found!"
+                            android:textColor="@color/colorRed"
+                            android:textStyle="normal"
+                            android:visibility="visible" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorCyanDark"></View>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spaceHeightSmall" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="@dimen/cardViewRadius"
+                card_view:cardElevation="@dimen/cardViewElevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="@dimen/padding5"
+                        android:text="@string/KEY_DISEASE_SUB_TITLE"
+                        android:textColor="@color/headerColor"
+                        android:textSize="@dimen/textSize18"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/diseaseRecyclerView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+                        <TextView
+                            android:id="@+id/noDiseaseErrorTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="No Details Found!"
+                            android:textColor="@color/colorRed"
+                            android:textStyle="normal"
+                            android:visibility="visible" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorCyanDark"></View>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spaceHeightSmall" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="@dimen/cardViewRadius"
+                card_view:cardElevation="@dimen/cardViewElevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="@dimen/padding5"
+                        android:text="@string/KEY_VISIT_SUB_TITLE"
+                        android:textColor="@color/headerColor"
+                        android:textSize="@dimen/textSize18"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/visitRecyclerView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+                        <TextView
+                            android:id="@+id/noVisitErrorTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="No Details Found!"
+                            android:textColor="@color/colorRed"
+                            android:textStyle="normal"
+                            android:visibility="visible" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spaceHeightSmall" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorCyanDark"></View>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spaceHeightSmall" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="@dimen/cardViewRadius"
+                card_view:cardElevation="@dimen/cardViewElevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="@dimen/padding5"
+                        android:text="@string/KEY_MED_SUB_TITLE"
+                        android:textColor="@color/headerColor"
+                        android:textSize="@dimen/textSize18"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/medicinesRecyclerView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+                        <TextView
+                            android:id="@+id/noMedErrorTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="No Details Found!"
+                            android:textColor="@color/colorRed"
+                            android:textStyle="normal"
+                            android:visibility="visible" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/footerHeightBig" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorWhite"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="@color/grayColor"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/demographicBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:background="@color/headerColor"
+            android:text="Demographic"
+            android:textAllCaps="false"
+            android:textSize="@dimen/textSize14"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/medicineBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:background="@color/headerColor"
+            android:text="Medicine"
+            android:textAllCaps="false"
+            android:textSize="@dimen/textSize14"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/previewBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorCyanDark"
+            android:text="Preview"
+            android:textAllCaps="false"
+            android:textSize="@dimen/textSize14"
+            android:textStyle="bold" />
+    </LinearLayout>
+</FrameLayout>

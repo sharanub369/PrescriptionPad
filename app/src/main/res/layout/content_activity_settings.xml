@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/margin10"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/doctorDetailBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_shape"
+        android:text="Doctor Detail"
+        android:textSize="@dimen/textSize16"
+        android:textStyle="bold" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spaceHeight" />
+
+    <Button
+        android:id="@+id/prescriptionBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_shape"
+        android:text="Prescription Setting"
+        android:textSize="@dimen/textSize16"
+        android:textStyle="bold" />
+</LinearLayout>

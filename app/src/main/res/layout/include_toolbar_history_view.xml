@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/headerColor"
+    android:theme="@style/custom_toolbar_theme"
+    app:contentInsetStart="0dp"
+    app:popupTheme="@style/ToolbarPopUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/actionbarTitleTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:gravity="center_vertical"
+            android:padding="@dimen/padding10"
+            android:text="History"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/textSize20"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/shareSaveImg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:src="@drawable/ic_share" />
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>

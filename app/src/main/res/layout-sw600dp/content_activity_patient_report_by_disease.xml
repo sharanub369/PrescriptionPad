@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin10"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal">
+
+        <com.prescriptionpad.app.android.util.CustomAutoCompleteTextView
+            android:id="@+id/diseaseNameEdtTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin2.5"
+            android:layout_weight="1"
+            android:background="@drawable/custom_edit_text_bg"
+            android:focusableInTouchMode="true"
+            android:hint="Disease Name"
+            android:padding="@dimen/padding10"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/textSize16"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/searchBtnTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/margin2.5"
+            android:layout_marginStart="@dimen/margin2.5"
+            android:layout_weight="2"
+            android:background="@drawable/custom_button_corner"
+            android:drawableStart="@drawable/ic_action_search"
+            android:gravity="center"
+            android:padding="@dimen/padding10"
+            android:text="Search"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/textSize16" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin10"
+            android:layout_marginRight="@dimen/margin10"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/padding5"
+                android:text="@string/KEY_PATIENT_SUB_TITLE"
+                android:textColor="@color/headerColor"
+                android:textSize="@dimen/textSize20"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/detailsExistLyt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorCyanDark"></View>
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spaceHeightSmall" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorCyanDark"
+                    android:fillViewport="false"
+                    android:fitsSystemWindows="true"
+                    android:nestedScrollingEnabled="true"
+                    android:scrollbarStyle="outsideOverlay"
+                    android:scrollbars="horizontal">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margin2"
+                        android:background="@color/colorWhite">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/headerColor"
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="@dimen/margin1"
+                                android:gravity="center"
+                                android:padding="@dimen/padding5"
+                                android:text="Delete"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="@dimen/textSize15"
+                                android:textStyle="bold"></TextView>
+
+
+                            <View
+                                style="@style/Divider"
+                                android:layout_span="1"></View>
+
+                            <TextView
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:padding="@dimen/padding5"
+                                android:singleLine="false"
+                                android:text="UID"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="@dimen/textSize15"
+                                android:textStyle="bold"></TextView>
+
+                            <View
+                                style="@style/Divider"
+                                android:layout_span="1"></View>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="@dimen/margin1"
+                                android:layout_span="1"
+                                android:layout_weight="1"
+                                android:ems="30"
+                                android:gravity="center"
+                                android:padding="@dimen/padding5"
+                                android:text="Patient Name"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="@dimen/textSize15"
+                                android:textStyle="bold"></TextView>
+
+                            <View
+                                style="@style/Divider"
+                                android:layout_span="1"></View>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="@dimen/margin1"
+                                android:layout_span="1"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:padding="@dimen/padding5"
+                                android:text="Age"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="@dimen/textSize15"
+                                android:textStyle="bold"></TextView>
+
+                            <View
+                                style="@style/Divider"
+                                android:layout_span="1"></View>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="@dimen/margin1"
+                                android:layout_span="1"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:padding="@dimen/padding5"
+                                android:text="Sex"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="@dimen/textSize15"
+                                android:textStyle="bold"></TextView>
+
+                            <View
+                                style="@style/Divider"
+                                android:layout_span="1"></View>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="@dimen/margin1"
+                                android:layout_span="1"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:padding="@dimen/padding5"
+                                android:text="Created Date"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="@dimen/textSize15"
+                                android:textStyle="bold"></TextView>
+
+                            <View
+                                style="@style/Divider"
+                                android:layout_span="1"></View>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="@dimen/margin1"
+                                android:layout_span="1"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:padding="@dimen/padding5"
+                                android:text="Disease"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="@dimen/textSize15"
+                                android:textStyle="bold"></TextView>
+
+                        </LinearLayout>
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/detailsRecyclerView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:nestedScrollingEnabled="true"></android.support.v7.widget.RecyclerView>
+                    </TableLayout>
+                </HorizontalScrollView>
+
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spaceHeightBig" />
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spaceHeightBig" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/detailsNonExistLyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin10"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="No Details Found for this Search Criteria."
+            android:textColor="@color/colorCyanDark"
+            android:textSize="@dimen/textSize18"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">EPMR</string>
+
+    <string name="supportEmail">support@provansys.com</string>
+    <string name="supportText"><![CDATA[
+    For your queries and technical support please write to us
+    <font color="blue">support@provansys.com </font>]]></string>
+    <string name="tcText"><![CDATA[
+    I agree to
+    <font color="blue"><u>Disclaimer</u> </font> and <font color="blue"><u>privacy policy.<u> </font>]]></string>
+
+    <string name="action_home">Home</string>
+    <string name="action_Profile">Profile</string>
+    <string name="action_Logout">Logout</string>
+
+    <string name="view_report"><u>View Report</u></string>
+    Disclaimer and privacy policy
+    //Sub Title
+    <string name="KEY_PATIENT_SUB_TITLE">Patient Details</string>
+    <string name="KEY_LAB_SUB_TITLE">Lab Test Details</string>
+    <string name="KEY_DISEASE_SUB_TITLE">Disease Details</string>
+    <string name="KEY_VISIT_SUB_TITLE">Visit Details</string>
+    <string name="KEY_MED_SUB_TITLE">Medicine Details</string>
+
+</resources>

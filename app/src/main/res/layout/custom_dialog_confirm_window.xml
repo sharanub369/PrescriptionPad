@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin20"
+    android:background="@color/grayColor"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorCyanDark"
+        android:gravity="center"
+        android:padding="@dimen/padding10"
+        android:text="Confirmation"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/textSize18"
+        android:textStyle="bold" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spaceHeightSmall" />
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="@dimen/padding10"
+        android:text="Are you sure to save details????"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/textSize18"
+        android:textStyle="normal"
+        tools:ignore="HardcodedText" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spaceHeight" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/headerColor"
+        android:padding="@dimen/padding10"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding5">
+
+        <TextView
+            android:id="@+id/cancelBtnTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="@dimen/padding10"
+            android:text="Cancel"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/textSize16"
+            android:textStyle="normal"
+            tools:ignore="HardcodedText" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/headerColor"></View>
+
+        <TextView
+            android:id="@+id/saveBtnTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="@dimen/padding10"
+            android:text="Save"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/textSize16"
+            android:textStyle="normal"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+
+</LinearLayout>

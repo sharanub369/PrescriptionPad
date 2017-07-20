@@ -1,0 +1,135 @@
+apply plugin: 'com.android.application'
+apply plugin: 'realm-android'
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        // These docs use an open ended version so that our plugin
+        // can be updated quickly in response to Android tooling updates
+
+        // We recommend changing it to the latest version from our changelog:
+        // https://docs.fabric.io/android/changelog.html#fabric-gradle-plugin
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '25.0.0'
+
+    signingConfigs {
+        config {
+            keyAlias 'PrescriptionPad'
+            keyPassword 'test12345'
+            storeFile file('E:\\Android Keys\\padKeys\\keystore')
+            storePassword 'test12345'
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.prescriptionpad.app.android"
+        minSdkVersion 19
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        project.ext.set("archivesBaseName", "EPMR");
+    }
+
+    dexOptions {
+        preDexLibraries = false
+        javaMaxHeapSize "4g"
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            minifyEnabled true
+            debuggable true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    afterEvaluate {
+        tasks.matching {
+            it.name.startsWith('dex')
+        }.each { dx ->
+            if (dx.additionalParameters == null) {
+                dx.additionalParameters = ['--multi-dex']
+            } else {
+                dx.additionalParameters += '--multi-dex'
+            }
+        }
+    }
+
+    productFlavors {
+        production {
+            applicationId "com.prescriptionpad.app.android"
+            versionCode 1
+            versionName "1.0.0"
+            signingConfig signingConfigs.config
+        }
+
+        stagging {
+            applicationId "com.prescriptionpad.app.android"
+            versionCode 1
+            versionName "1.0.0"
+            signingConfig signingConfigs.config
+        }
+
+        qa {
+            applicationId "com.prescriptionpad.app.android"
+            versionCode 1
+            versionName "1.0.1"
+            //signingConfig signingConfigs.config
+        }
+    }
+}
+
+
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:design:24.0.0'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.android.support:cardview-v7:24.0.0'
+    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'com.android.support:support-v4:24.0.0'
+    compile 'com.android.support:recyclerview-v7:24.0.0'
+    compile 'com.android.support:support-annotations:24.0.0'
+    compile files('libs/butterknife-5.1.2.jar')
+
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    compile files('libs/itextpdf-5.4.0.jar')
+    compile('com.crashlytics.sdk.android:crashlytics:2.6.7@aar') {
+        transitive = true;
+    }
+    compile 'com.google.android.gms:play-services-auth:9.6.0'
+    compile 'com.google.firebase:firebase-auth:9.6.0'
+}

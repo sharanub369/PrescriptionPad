@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/colorWhite"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialogTitleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="@dimen/padding10"
+        android:text="View Patient Report By"
+        android:background="@color/colorCyanDark"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/textSize18"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/diseaseWiseBtnTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="@dimen/padding10"
+        android:singleLine='true'
+        android:text="Disease Wise"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/textSize16"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/viewId"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/saveSharePdfTxt"
+        android:background="@color/grayColor"
+        android:padding="@dimen/padding10"></View>
+
+    <TextView
+        android:id="@+id/betweenDatesBtnTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewId"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="@dimen/padding10"
+        android:singleLine='true'
+        android:text="Between Dates"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/textSize16"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/saveShareImageTxt"
+        android:background="@color/grayColor"
+        android:padding="@dimen/padding10"></View>
+</LinearLayout>

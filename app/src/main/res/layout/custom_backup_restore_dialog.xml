@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/colorWhite"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/dialogTitleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/headerColor"
+        android:gravity="center"
+        android:padding="@dimen/padding10"
+        android:text="Restore Backup Data"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/textSize16"
+        android:textStyle="bold" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorCyanDark"></View>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spaceHeight" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/diseaseWiseBtnTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/padding10"
+            android:singleLine='false'
+            android:text="Do you have backup file?"
+            android:textColor="@color/colorCyanDark"
+            android:textSize="@dimen/textSize18"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:gravity="fill"
+            android:padding="@dimen/padding5"
+            android:singleLine='false'
+            android:text="Note: Please keep backup file under  PrescriptionPad folder  inside your device internal memory to restore"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/textSize12"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spaceHeight" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ignoreTxtBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/margin2.5"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button_shape"
+            android:gravity="center"
+            android:padding="@dimen/padding10"
+            android:text="Ignore"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/textSize18"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/restoreTxtBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin2.5"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button_shape"
+            android:gravity="center"
+            android:padding="@dimen/padding10"
+            android:text="Restore"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/textSize18"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spaceHeightSmall" />
+</LinearLayout>

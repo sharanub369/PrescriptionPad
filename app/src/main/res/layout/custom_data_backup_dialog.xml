@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/colorWhite"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!--<android.support.v4.widget.Space-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/spaceHeight" />-->
+
+    <TextView
+        android:id="@+id/dialogTitleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorCyanDark"
+        android:gravity="center"
+        android:text="Data Backup"
+        android:padding="@dimen/padding10"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/textSize18"
+        android:textStyle="bold" />
+
+    <!--<android.support.v4.widget.Space-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/spaceHeight" />-->
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:background="@color/colorCyanDark"></View>-->
+
+
+    <TextView
+        android:id="@+id/exportBtnTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="@dimen/padding10"
+        android:singleLine='true'
+        android:text="Export"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/textSize16"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/viewId"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/saveSharePdfTxt"
+        android:background="@color/grayColor"
+        android:padding="@dimen/padding10"></View>
+
+    <TextView
+        android:id="@+id/importBtnTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewId"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="@dimen/padding10"
+        android:singleLine='true'
+        android:text="Import"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/textSize16"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/saveShareImageTxt"
+        android:background="@color/grayColor"
+        android:padding="@dimen/padding10"></View>
+</LinearLayout>

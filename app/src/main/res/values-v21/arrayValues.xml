@@ -1,0 +1,3697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="speciality">
+        <item>Allergist or Immunologist</item>
+        <item>Anesthesiologist</item>
+        <item>Cardiologist</item>
+        <item>Dermatologist</item>
+        <item>Dentist</item>
+        <item>Gastroenterologist</item>
+        <item>Hematologist/Oncologist</item>
+        <item>Internal Medicine Physician</item>
+        <item>Nephrologist</item>
+        <item>Neurologist</item>
+        <item>Neurosurgeon</item>
+        <item>Obstetrician</item>
+        <item>Gynaecologist</item>
+        <item>Nurse-Midwifery</item>
+        <item>Occupational Medicine</item>
+        <item>Ophthalmologist</item>
+        <item>Oral and Maxillofacial Surgeon</item>
+        <item>Orthopaedic Surgeon</item>
+        <item>Otolaryngologist(Head and Neck Surgeon)</item>
+        <item>Pathologist</item>
+        <item>Pediatrician</item>
+        <item>Plastic Surgeon</item>
+        <item>Podiatrist</item>
+        <item>Plastic Surgeon</item>
+        <item>Podiatrist</item>
+        <item>Psychiatrist</item>
+        <item>Pulmonary Medicine physician</item>
+        <item>Radiation Oncologist</item>
+        <item>Diagnostic Radiologist</item>
+        <item>Rheumatologist</item>
+        <item>Urologist</item>
+    </string-array>
+    <string-array name="list_of_file_sources">
+        <item>Gallery</item>
+        <item>Camera</item>
+        <item>Cancel</item>
+    </string-array>
+
+    <string-array name="blood_groups">
+        <item>O-ve</item>
+        <item>O+ve</item>
+        <item>A-ve</item>
+        <item>A+ve</item>
+        <item>B+ve</item>
+        <item>B-ve</item>
+        <item>AB+ve</item>
+        <item>AB-ve</item>
+    </string-array>
+    <string-array name="symbols">
+        <item>1 - 0 - 0</item>
+        <item>0 - 1 - 0</item>
+        <item>0 - 0 - 1</item>
+        <item>1 - 1 - 0</item>
+        <item>1 - 1 - 1</item>
+        <item>0 - 1 - 1</item>
+        <item>1 - 0 - 1</item>
+        <item>11 - 0 - 0</item>
+        <item>0 - 11 - 0</item>
+        <item>11 - 11 - 0</item>
+        <item>11 - 11 - 11</item>
+        <item>0 - 11 - 11</item>
+        <item>11 - 0 - 11</item>
+        <item>1 - 1 - 1 - 1</item>
+        <item>11 - 11 - 11 - 11</item>
+        <item>111 - 0 - 0</item>
+        <item>0 - 111 - 0</item>
+        <item>0 - 0 - 111</item>
+        <item>111 - 111 - 0</item>
+        <item>111 - 111 - 111</item>
+        <item>0 - 111 - 111</item>
+        <item>111 - 0 - 111</item>
+        <item>111 - 111 - 111 - 111</item>
+        <item>1&amp;1/2 - 1&amp;1/2 - 1&amp;1/2</item>
+        <item>1/2</item>
+        <item>1&amp;1/2</item>
+        <item>11 - 0 - 1/2</item>
+        <item>1/2 - 0 - 1/2</item>
+        <item>1/2 - 1/2</item>
+        <item>1&amp;1/2 - 0 - 1</item>
+        <item>1 - 0 - 1/2</item>
+        <item>1&amp;1/2 - 0 - 1/2</item>
+        <item>1/2 - 1/2 - 1/2</item>
+        <item>11 - 0 - 1</item>
+        <item>1&amp;1/2 - 0 - 1&amp;1/2</item>
+        <item>3/4 - 3/4 - 3/4</item>
+        <item>3/4</item>
+        <item>1 - 1 - 11</item>
+        <item>1/4</item>
+        <item>1 - 0 - 1?</item>
+        <item>0 - 0 - 1/2</item>
+        <item>1/2 - 0 - 1</item>
+        <item>1/2 - 1/2 - 1/2</item>
+        <item>1 - 0 - 1/2</item>
+        <item>1 - 0 - 1/2</item>
+        <item>1 &amp; 1/2</item>
+        <item>0 - 0 - 1/2</item>
+        <item>1 - 1 - 1 - 1</item>
+        <item>1/2 - 0 - 0</item>
+        <item>1/2 - 1/2 - 0</item>
+        <item>SOS</item>
+        <item>1 - 0 - 1</item>
+        <item>1/2 - 1</item>
+        <item>1 - 2</item>
+        <item>1 - 0 - 1</item>
+        <item>1/2 - 0 - 1</item>
+    </string-array>
+
+    <string-array name="periods">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="units">
+        <item>Day(s)</item>
+        <item>Week(s)</item>
+        <item>Months(s)</item>
+        <item>Year(s)</item>
+    </string-array>
+
+    <string-array name="how">
+        <item>With Water</item>
+        <item>With Milk</item>
+        <item>With Juice</item>
+        <item>WIth Water/Juice</item>
+        <item>With HOt Water</item>
+        <item>With Tea</item>
+        <item>With Coffee</item>
+        <item>SOS</item>
+        <item>With Dilute in normal Saline</item>
+    </string-array>
+
+    <string-array name="when">
+        <item>After Breakfast</item>
+        <item>Before Breakfast</item>
+        <item>On Empty Stomach</item>
+        <item>After Lunch</item>
+        <item>Before Lunch</item>
+        <item>After Meal</item>
+        <item>Before Meal</item>
+        <item>Before Evening Snacks</item>
+        <item>After Evening Snacks</item>
+        <item>After Dinner</item>
+        <item>Before Before</item>
+        <item>At Bed Time</item>
+    </string-array>
+
+    <string-array name="list_of_share_Save_titles">
+        <item>Share &amp; Save/Print as Pdf</item>
+        <item>Share &amp; Save/Print as Pdf</item>
+    </string-array>
+
+    <string-array name="disease">
+        <item>Acne</item>
+        <item>ADHD</item>
+        <item>AIDS/HIV</item>
+        <item>Allergies</item>
+        <item>Alzheimer\'s</item>
+        <item>Angina</item>
+        <item>Anxiety</item>
+        <item>Arthritis</item>
+        <item>Asthma</item>
+        <item>Bipolar Disorder</item>
+        <item>Bronchitis</item>
+        <item>Cancer</item>
+        <item>Cholesterol</item>
+        <item>Colds &amp; Flu</item>
+        <item>Constipation</item>
+        <item>COPD</item>
+        <item>Depression</item>
+        <item>Diabetes (Type 1)</item>
+        <item>Diabetes (Type 2)</item>
+        <item>Diarrhea</item>
+        <item>Eczema</item>
+        <item>Erectile Dysfunction</item>
+        <item>Fibromyalgia</item>
+        <item>Gastrointestinal</item>
+        <item>GERD (Heartburn)</item>
+        <item>Gout</item>
+        <item>Hair Loss</item>
+        <item>Hayfever</item>
+        <item>Heart Disease</item>
+        <item>Hepatitis A</item>
+        <item>Hepatitis B</item>
+        <item>Herpes</item>
+        <item>Hypertension</item>
+        <item>Hypothyroidism</item>
+        <item>Incontinence</item>
+        <item>IBD (Bowel)</item>
+        <item>Insomnia</item>
+        <item>Menopause</item>
+        <item>Mental Health</item>
+        <item>Migraine</item>
+        <item>Osteoarthritis</item>
+        <item>Osteoporosis</item>
+        <item>Pain</item>
+        <item>Psoriasis</item>
+        <item>Rheumatoid Arthritis</item>
+        <item>Schizophrenia</item>
+        <item>Seizures</item>
+        <item>Sexual Health</item>
+        <item>Stroke</item>
+        <item>Swine Flu</item>
+        <item>UTI</item>
+        <item>Weight Loss</item>
+        <item>Machado Joseph Disease</item>
+        <item>Macular Degeneration</item>
+        <item>Macular Hole</item>
+        <item>Macular Pucker </item>
+        <item>Magnetic Resonance Imaging (MRI)</item>
+        <item>Malignant Hyperthermia</item>
+        <item>Malignant Pleural Effusions</item>
+        <item>Marfans Syndrome</item>
+        <item>Mastocytosis</item>
+        <item>McCune Albright Syndrome</item>
+        <item>Meckels Diverticulum</item>
+        <item>Medical Miracles</item>
+        <item>Megalencephaly</item>
+        <item>Melkersson Rosenthal Syndrome</item>
+        <item>Menetrier Disease</item>
+        <item>Menieres Disease</item>
+        <item>Meningitis</item>
+        <item>Mental Disorders</item>
+        <item>Microcephaly</item>
+        <item>Middle Ear Infection (Otitis Media)</item>
+        <item>Migraine</item>
+        <item>Mind-Body</item>
+        <item>Miscellaneous</item>
+        <item>Mitochondrial Myopathies</item>
+        <item>Monomelic Amyotrophy </item>
+        <item>Mortons Neuroma</item>
+        <item>Motor Neuron diseases(name)</item>
+        <item>Moyamoya Disease</item>
+        <item>Mucopolysaccharidoses</item>
+        <item>Multifocal Motor Neuropathy</item>
+        <item>Multiple Sclerosis (MS)</item>
+        <item>Multiple System Atrophy with Orthostatic Hypotension</item>
+        <item>Muscle Disorders</item>
+        <item>Muscle Strain</item>
+        <item>Muscular Dystrophy</item>
+        <item>Myasthenia Gravis</item>
+        <item>Myoclonus</item>
+        <item>Myopathy</item>
+        <item>Myositis</item>
+        <item>Myotonia Congenita</item>
+        <item>Lacunar Stroke</item>
+        <item>Landau Kleffner Syndrome</item>
+        <item>Langerhans Cell Histiocytosis (Histiocytosis X)</item>
+        <item>Large Cell Cancer of the Lung</item>
+        <item>Laryngeal Papillomatosis</item>
+        <item>Laryngitis</item>
+        <item>Lasik</item>
+        <item>Lazy Eye (Amblyopia)</item>
+        <item>Learning Disorder</item>
+        <item>Leg Fracture</item>
+        <item>Leg Strain</item>
+        <item>Leighs Disease</item>
+        <item>Lesch Nyhan Syndrome</item>
+        <item>Lissencephaly</item>
+        <item>Liver Cancer</item>
+        <item>Long QT Syndrome</item>
+        <item>Lower GI Series</item>
+        <item>Lung diseases(name)</item>
+        <item>Lung Transplant</item>
+        <item>Lupus (Systemic Lupus Erythematosus)</item>
+        <item>Lyme Disease</item>
+        <item>Lymphangioleiomyomatosis</item>
+        <item>Keratitis</item>
+        <item>Kidney Biopsy</item>
+        <item>Kidney diseases(name)</item>
+        <item>Klippel Feil Syndrome</item>
+        <item>Knee Sprain</item>
+        <item>Krabbe Disease</item>
+        <item>Jet Lag</item>
+        <item>Joubert Syndrome</item>
+        <item>Juvenile Arthritis</item>
+        <item>Idiopathic Pulmonary Fibrosis</item>
+        <item>Idiopathic Thrombocytopenic Purpura</item>
+        <item>Immune Thrombocytopenic Purpura (ITP)</item>
+        <item>Immunotherapy</item>
+        <item>Impacted Tooth</item>
+        <item>Inclusion Body Myositis</item>
+        <item>Indigestion</item>
+        <item>Infantile Neuroaxonal Dystrophy</item>
+        <item>Infectious Arthritis</item>
+        <item>Inguinal Hernia</item>
+        <item>Insomnia</item>
+        <item>Interstitial Cystitis</item>
+        <item>Intestinal Pseudo Obstruction</item>
+        <item>Intracranial Aneurysms</item>
+        <item>Intraocular Melanoma</item>
+        <item>Irritable Bowel Syndrome (IBS)</item>
+        <item>Hallervorden Spatz Disease</item>
+        <item>Hammertoe</item>
+        <item>Head Injury In Adults</item>
+        <item>Head Injury In Children</item>
+        <item>Head Lice</item>
+        <item>Health Apps</item>
+        <item>Health Gadgets</item>
+        <item>Hearing Loss In Adults</item>
+        <item>Hearing Loss In Children</item>
+        <item>Heat Stroke (Hyperthermia)</item>
+        <item>Hematuria</item>
+        <item>Hemifacial Spasm</item>
+        <item>Hemochromatosis</item>
+        <item>Hemolytic Anemia</item>
+        <item>Hemophilia</item>
+        <item>Hemorrhagic Stroke</item>
+        <item>Hemorrhoids</item>
+        <item>Hepatitis B</item>
+        <item>Hepatitis C</item>
+        <item>Hepatitis Overview</item>
+        <item>Hereditary Spastic Paraplegia</item>
+        <item>Hereditary-Patterned Baldness</item>
+        <item>Hernia</item>
+        <item>Hernia Repair</item>
+        <item>Herniated Disk</item>
+        <item>Hiatal Hernia</item>
+        <item>Hip Fracture</item>
+        <item>Hip Replacement Surgery</item>
+        <item>Hirschsprung Disease</item>
+        <item>Histoplasmosis</item>
+        <item>Holoprosencephaly</item>
+        <item>Huntingtons Disease Chorea</item>
+        <item>Hydranencephaly</item>
+        <item>Hydrocephalus</item>
+        <item>Hydromyelia</item>
+        <item>Hyperthyroidism</item>
+        <item>Hypertonia Disease</item>
+        <item>Hypoglycemia</item>
+        <item>Hypoparathyroidism</item>
+        <item>Hypothyroidism</item>
+        <item>Hypotonia</item>
+        <item>Hysterectomy</item>
+        <item>Gallstones</item>
+        <item>Gangliosidoses</item>
+        <item>Gas (Flatulence)</item>
+        <item>Gas in the Digestive Tract</item>
+        <item>Gastritis</item>
+        <item>Gastroenteritis In Adults</item>
+        <item>Gastroenteritis In Children</item>
+        <item>Gastroesophageal Reflux Disease (GERD)</item>
+        <item>Gastrointestinal Amebiasis</item>
+        <item>Gastroparesis</item>
+        <item>Gaucher Disease</item>
+        <item>Generalized Seizures (Grand Mal Seizures)</item>
+        <item>Gerstmann Straussler Scheinker Disease</item>
+        <item>Gerstmanns Syndrome</item>
+        <item>Giant Cell Arteritis (Temporal Arteritis)</item>
+        <item>Giant axonal neuropathy</item>
+        <item>Giardiasis</item>
+        <item>Gingival Flap Surgery</item>
+        <item>Glaucoma</item>
+        <item>Glomerulonephritis</item>
+        <item>Gloss Pharyngeal Neuralgia</item>
+        <item>Goodpasture Syndrome</item>
+        <item>Gout</item>
+        <item>Graves Disease</item>
+        <item>Graves Eye Disease (Graves Ophthalmopathy)</item>
+        <item>Guillain Barre Syndrome</item>
+        <item>Ohtahara Syndrome</item>
+        <item>Opsoclonus Myoclonus</item>
+        <item>Optic Nerve Swelling Papilledema</item>
+        <item>Oral Health Conditions</item>
+        <item>Osgood Schlatter Disease</item>
+        <item>Osteoarthritis</item>
+        <item>Osteogenesis Imperfecta</item>
+        <item>Osteogenesis Imperfecta and Constipation</item>
+        <item>Osteogenesis Imperfecta and Osteoporosis</item>
+        <item>Osteogenesis Imperfecta in Adulthood</item>
+        <item>Osteopathy</item>
+        <item>Osteoporosis</item>
+        <item>Osteoporosis and Anorexia Nervosa</item>
+        <item>Osteoporosis and Arthritis</item>
+        <item>Osteoporosis and Asthma</item>
+        <item>Osteoporosis and Breast Cancer </item>
+        <item>Osteoporosis and Celiac Disease</item>
+        <item>Osteoporosis and Diabetes</item>
+        <item>Osteoporosis and Inflammatory Bowel Disease</item>
+        <item>Osteoporosis and Lactose Intolerance</item>
+        <item>Osteoporosis and Lupus</item>
+        <item>Osteoporosis and Prostate Cancer</item>
+        <item>Osteoporosis and Rheumatoid Arthritis</item>
+        <item>Osteosarcoma</item>
+        <item>Otitis Media in Children </item>
+        <item>Otosclerosis</item>
+        <item>Pagets Disease of Bone</item>
+        <item>Pagets Disease of Bone and Osteoarthritis</item>
+        <item>Pain</item>
+        <item>Pallister Hall syndrome</item>
+        <item>Pantothenate Kinase Associated Neurodegeneration</item>
+        <item>Paraneoplastic Syndromes</item>
+        <item>Parkinsons Disease</item>
+        <item>Parotitis</item>
+        <item>Paroxysmal Choreoathetosis Disease</item>
+        <item>Partial Seizures Focal Seizures</item>
+        <item>Patent Ductus Arteriosus</item>
+        <item>Pelizaeus Merzbacher Disease</item>
+        <item>Peptic Ulcer</item>
+        <item>Perforated Eardrum</item>
+        <item>Pericarditis</item>
+        <item>Periodontal Disease</item>
+        <item>Peripheral neuropathy</item>
+        <item>Peritonsillar Abscess</item>
+        <item>Perocoronitis</item>
+        <item>Phenylketonuria PKU</item>
+        <item>Pheochromocytoma</item>
+        <item>Pinched Nerve </item>
+        <item>Pinkeye Conjunctivitis</item>
+        <item>Pituitary Tumors</item>
+        <item>Plantar Fasciitis</item>
+        <item>Platyspondylic lethal skeletal dysplasia Torrance type</item>
+        <item>Pleurisy And Pleural Effusion</item>
+        <item>Pneumoconiosis</item>
+        <item>Pneumonia</item>
+        <item>Pneumothorax</item>
+        <item>Polyarteritis Nodosa</item>
+        <item>Polychondritis</item>
+        <item>Polycystic Kidney Disease</item>
+        <item>Polymyalgia Rheumatica</item>
+        <item>Polymyositis</item>
+        <item>Positron Emission Tomography PET Scan</item>
+        <item>Posterior Cruciate Ligament (PCL Injuries)</item>
+        <item>Pregnancy Symptoms</item>
+        <item>Pregnancy and Bone Health </item>
+        <item>Premature ejaculation</item>
+        <item>Presbycusis</item>
+        <item>Presbyopia</item>
+        <item>Press Releases</item>
+        <item>Problem Sleepiness</item>
+        <item>Progressive Multifocal Leukoencephalopathy</item>
+        <item>Progressive Supranuclear Palsy</item>
+        <item>Prosopagnosia</item>
+        <item>Pseudogout CPPDD</item>
+        <item>Psoriatic Arthritis</item>
+        <item>Pulmonary Embolism</item>
+        <item>Pyelonephritis</item>
+        <item>Radionuclide Scanning</item>
+        <item>Rapid Gastric Emptying</item>
+        <item>Raynauds Phenomenon</item>
+        <item>Reflex Sympathetic Dystrophy Syndrome (RSDS)</item>
+        <item>Repetitive Motion Disorders</item>
+        <item>Respiratory Distress Syndrome</item>
+        <item>Respiratory Failure</item>
+        <item>Respiratory Syncytial Virus</item>
+        <item>Restless Legs Syndrome</item>
+        <item>Retinal Detachment</item>
+        <item>Retinal Vessel Occlusion</item>
+        <item>Retinitis Pigmentosa</item>
+        <item>Retinoblastoma</item>
+        <item>Retinopathy</item>
+        <item>Retrobulbar Neuritis</item>
+        <item>Rett Syndrome</item>
+        <item>Reyes Syndrome</item>
+        <item>Rheumatoid Arthritis</item>
+        <item>Rocky Mountain Spotted Fever</item>
+        <item>Rotator Cuff Injury</item>
+        <item>Salivary Gland Disorders</item>
+        <item>Sarcoidosis</item>
+        <item>Scarlet Fever</item>
+        <item>Schizencephaly</item>
+        <item>Sciatica</item>
+        <item>Scleritis</item>
+        <item>Scleroderma</item>
+        <item>Scoliosis</item>
+        <item>Scrotal Tongue</item>
+        <item>Seizure</item>
+        <item>Septo Optic Dysplasia </item>
+        <item>Shigellosis</item>
+        <item>Shin Splints</item>
+        <item>Short Bowel Syndrome</item>
+        <item>Shoulder Dislocation</item>
+        <item>Shoulder Sprain</item>
+        <item>Sialadenitis</item>
+        <item>Sigmoidoscopy</item>
+        <item>Sjogrens Syndrome</item>
+        <item>Skin Tags (Acrochordon)</item>
+        <item>Sleep Apnea</item>
+        <item>Sleep Studies </item>
+        <item>Sleepwalking And Sleep Terrors</item>
+        <item>Small Cell Lung Cancer</item>
+        <item>Smell Disorders</item>
+        <item>Smith Magenis Syndrome</item>
+        <item>Sore Throat Pharyngitis</item>
+        <item>Sotos Syndrome</item>
+        <item>Spasmodic Dysphonia</item>
+        <item>Spina Bifida</item>
+        <item>Spinal Cord Trauma</item>
+        <item>Spinal Cord Tumors</item>
+        <item>Spinal Stenosis</item>
+        <item>Spirituality</item>
+        <item>Sprain</item>
+        <item>Squamous Cell Carcinoma of the Skin</item>
+        <item>Stomach Disorders</item>
+        <item>Stroke</item>
+        <item>Student News</item>
+        <item>Stuttering</item>
+        <item>Styes And Chalazions</item>
+        <item>Subarachnoid Hemorrhage</item>
+        <item>Subdural Hematoma</item>
+        <item>Superior Vena Cava Syndrome in Children </item>
+        <item>Swallowed Object</item>
+        <item>Swimmers Ear (Otitis Externa)</item>
+        <item>Sydenham Chorea</item>
+        <item>Tabes Dorsalis</item>
+        <item>Tangier disease</item>
+        <item>Tarlov Cysts</item>
+        <item>Taste Disorders</item>
+        <item>Tay Sachs Disease</item>
+        <item>Tear Duct Infection Dacryocystitis</item>
+        <item>Telogen Effluvium</item>
+        <item>Temporomandibular Joint and Muscle Disorders</item>
+        <item>Tendonitis</item>
+        <item>Tennis Elbow Lateral Epicondylitis</item>
+        <item>Tethered Spinal Cord Syndrome</item>
+        <item>Thoracentesis</item>
+        <item>Thrombocytopenia</item>
+        <item>Thrombotic Stroke</item>
+        <item>Thyroid Cancer</item>
+        <item>Thyroidectomy</item>
+        <item>Tics</item>
+        <item>Tinnitus</item>
+        <item>Tooth Discoloration</item>
+        <item>Tooth Sensitivity</item>
+        <item>Top diseases(name)</item>
+        <item>Torn Meniscus</item>
+        <item>Torsional Deformity</item>
+        <item>Tourette Syndrome Tourette Disorder</item>
+        <item>Toxoplasmosis</item>
+        <item>Transverse Myelitis</item>
+        <item>Travelers Diarrhea</item>
+        <item>Treacher Collins Syndrome</item>
+        <item>Trigeminal Neuralgia Tic Douloureux</item>
+        <item>Triglycerides</item>
+        <item>Tropical Spastic Paraparesis</item>
+        <item>Tropical Sprue</item>
+        <item>Type I Osteogenesis Imperfecta</item>
+        <item>Ulcerative Colitis</item>
+        <item>Ultrasound</item>
+        <item>Upper GI Endoscopy</item>
+        <item>Upper GI Series</item>
+        <item>Urinary Catheterization</item>
+        <item>Urinary Incontinence</item>
+        <item>Urinary Retention </item>
+        <item>Uveitis</item>
+        <item>Varicose Veins</item>
+        <item>Vasectomy</item>
+        <item>Vertigo</item>
+        <item>Vestibular Schwannoma </item>
+        <item>Viral Gastroenteritis</item>
+        <item>Virtual Colonoscopy</item>
+        <item>Vitreous Detachment</item>
+        <item>Von Willebrand Disease</item>
+        <item>Waardenburg Syndrome</item>
+        <item>Wax Blockage of the Ear Canal</item>
+        <item>Werner Syndrome</item>
+        <item>Whipples Disease</item>
+        <item>Williams Syndrome</item>
+        <item>Workout Tips</item>
+        <item>Wrist Sprain</item>
+        <item>X-Rays</item>
+        <item>Zollinger Ellison Syndrome</item>
+    </string-array>
+
+    <string-array name="medName">
+        <item> Abacavir</item>
+        <item> Abciximab</item>
+        <item> Acamprosate</item>
+        <item> Acarbose</item>
+        <item> Acebrofylline</item>
+        <item> Acebrofylline (SR)</item>
+        <item> Aceclofenac</item>
+        <item> Aceclofenac ÃŸ-cyclodextrin</item>
+        <item> Acenocoumarol</item>
+        <item> Acetaminophen</item>
+        <item> Acetaminophen and Codeine</item>
+        <item> Acetazolamide</item>
+        <item> Acetylcysteine</item>
+        <item> Acetylsalicylic Acid</item>
+        <item> Acitretin</item>
+        <item> Aclarubicin</item>
+        <item> Acrivastine</item>
+        <item> Activated Charcoal</item>
+        <item> Activated Dimethicone</item>
+        <item> Activated Polymethylsiloxane</item>
+        <item> Acyclovir</item>
+        <item> Adapalene </item>
+        <item> Adefovir Dipivoxil</item>
+        <item> Adenosine</item>
+        <item> Adrenaline</item>
+        <item> Adrenochrome Monosemicarbazone</item>
+        <item> Albendazole</item>
+        <item> Albumin Human</item>
+        <item> Albuterol </item>
+        <item> Albuterol (Salbutamol)</item>
+        <item> Albuterol Sulphate</item>
+        <item> Alcohol</item>
+        <item> Alendronate</item>
+        <item> Alfacalcidol</item>
+        <item> Alfuzosin</item>
+        <item> Alginic acid</item>
+        <item> Aliskiren</item>
+        <item> Allantoin</item>
+        <item> Allopurinol </item>
+        <item> Allylestrenol</item>
+        <item> Alpha amylase</item>
+        <item> Alpha galactosidase</item>
+        <item> Alpha galactosidase A</item>
+        <item> alpha hederin</item>
+        <item> Alpha Ketoanalogue</item>
+        <item> Alpha Ketoanalogue Tablets</item>
+        <item> Alpha Lipoic acid</item>
+        <item> Alpha tocopherol acetate</item>
+        <item> Alphachymotrypsin</item>
+        <item> Alprazolam</item>
+        <item> Alprostadil</item>
+        <item> Alteplase</item>
+        <item> Aluminium</item>
+        <item> Aluminium Hydroxide</item>
+        <item> Aluminium hydroxide gel</item>
+        <item> Aluminium Magnesium Silicate</item>
+        <item> Aluminum hydroxide</item>
+        <item> Aluminum Hydroxide and Magnesium Hydroxide</item>
+        <item> Amantadine</item>
+        <item> Amantadine Hydrochloride</item>
+        <item> Ambrisentan</item>
+        <item> Ambroxol</item>
+        <item> Ambroxol (SR)</item>
+        <item> Ambroxol Hydrochloride</item>
+        <item> Ambroxol Hydrochloride (SR)</item>
+        <item> Amifostin</item>
+        <item> Amifostine</item>
+        <item> Amikacin</item>
+        <item> Amiloride </item>
+        <item> Amiloride Hydrochloride</item>
+        <item> Aminocaproic acid</item>
+        <item> Aminophylline</item>
+        <item> Amiodarone</item>
+        <item> Amisulpride</item>
+        <item> Amitriptyline</item>
+        <item> Amlodipine</item>
+        <item> Amlodipine besylate</item>
+        <item> Amlodipine(IR)</item>
+        <item> Ammonium Chloride</item>
+        <item> Ammonium Chloride</item>
+        <item> Ammonium Lactate</item>
+        <item> Amodiaquine</item>
+        <item> Amontelukast</item>
+        <item> Amoxicillin</item>
+        <item> Amoxicillin(1 tab)</item>
+        <item> Amoxicillin(2 FC-tab)</item>
+        <item> Amoxicillin(2 tabs)</item>
+        <item> Amoxxicillin</item>
+        <item> Amphotericin B</item>
+        <item> Ampicillin</item>
+        <item> Ampicillin and Sulbactam</item>
+        <item> Amrinone</item>
+        <item> Amylase</item>
+        <item> Amylmetacresol</item>
+        <item> Anastrozole</item>
+        <item> Anhydrous Benzyl Peroxide</item>
+        <item> Anhydrous Caffeine</item>
+        <item> Anhydrous Citric acid</item>
+        <item> Anise oil</item>
+        <item> Anorectal preparations</item>
+        <item> Anti Rabies Immune Globulin</item>
+        <item> Antidiarrheals</item>
+        <item> Anti-emetics</item>
+        <item> Antipyrine</item>
+        <item> Antispasmodics</item>
+        <item> Antithymocyte Ig</item>
+        <item> Apomorphine</item>
+        <item> Apraclonidine</item>
+        <item> Aprepitant</item>
+        <item> Aprotinin</item>
+        <item> Ardeparin</item>
+        <item> Arformoterol Tartrate</item>
+        <item> Arformoterol Tartrate Inhalation </item>
+        <item> Aripiprazole</item>
+        <item> armodafinil</item>
+        <item> Artemether</item>
+        <item> Artesunate</item>
+        <item> Ascorbic Acid (Vitamin C)</item>
+        <item> Asenapine</item>
+        <item> Asparaginase</item>
+        <item> Aspartame</item>
+        <item> Aspirin</item>
+        <item> Aspirin (enteric coated)</item>
+        <item> Aspirin (Modified release)</item>
+        <item> Aspirin Enteric Coated</item>
+        <item> Aspirin(enteric coated)</item>
+        <item> Astemizole</item>
+        <item> Atazanavir</item>
+        <item> Atenolol</item>
+        <item> Atomoxetine</item>
+        <item> Atorvastatin</item>
+        <item> Atorvastatin (film coated)</item>
+        <item> Atorvastatin Calcium</item>
+        <item> Atracurium</item>
+        <item> Atracurium Besilate</item>
+        <item> Atropine</item>
+        <item> Atropine and Diphenoxylate</item>
+        <item> Atropine Methonitrate</item>
+        <item> Attapulgite</item>
+        <item> Auranofin</item>
+        <item> Azatadine Maleate</item>
+        <item> Azathioprine</item>
+        <item> Azelastine </item>
+        <item> Azelastine Hydrochloride</item>
+        <item> Azithromycin </item>
+        <item> Aztreonam</item>
+        <item> Azulene</item>
+        <item> Bacampicillin</item>
+        <item> Bacillus clausii</item>
+        <item> Bacillus mesentricus</item>
+        <item> Bacitracin (Neomycin/Polymyxin B) Ophthalmic</item>
+        <item> Baclofen</item>
+        <item> Bacterial Lysate</item>
+        <item> Balofloxacin</item>
+        <item> Balsalazide</item>
+        <item> Bambuterol</item>
+        <item> Bambuterol Hydrochloride</item>
+        <item> Bamipine</item>
+        <item> Beclometasone</item>
+        <item> Beclometasone Dipropionate</item>
+        <item> Beclomethasone</item>
+        <item> Beclomethasone dipropionate</item>
+        <item> Belcometasone Dipropionate</item>
+        <item> Belladona/Ergotamine/Phenobarbital</item>
+        <item> Belladonna dry extract</item>
+        <item> Bemiparin Sodium</item>
+        <item> Benazepril</item>
+        <item> Bendamustine hydrochloride </item>
+        <item> Benedipine</item>
+        <item> Benfothiamine</item>
+        <item> Benfotiamine</item>
+        <item> Benidipine</item>
+        <item> Benserazide</item>
+        <item> Benzalkonium Chloride</item>
+        <item> Benzene Hexachloride</item>
+        <item> Benzocaine</item>
+        <item> Benzoic acid</item>
+        <item> Benzonatate</item>
+        <item> Benzoyl Peroxide</item>
+        <item> Benzthiazide</item>
+        <item> Benzthiazide (Benzothiazide)</item>
+        <item> Benzydamine</item>
+        <item> Benzyl Benzoate</item>
+        <item> Benzyl Nicotinate</item>
+        <item> Beromhexine</item>
+        <item> Betahistidine</item>
+        <item> Betahistine</item>
+        <item> Betamethasone</item>
+        <item> Betaxolol Ophthalmic</item>
+        <item> Bethanechol</item>
+        <item> Bezafibrate</item>
+        <item> Bicalutamide</item>
+        <item> Bifidobacteirum infantis</item>
+        <item> Bifidobacteirum longum</item>
+        <item> Bifidobacterium</item>
+        <item> Bifidobacterium bifidum</item>
+        <item> Bifidobacterium breve</item>
+        <item> Bifidobacterium infantis</item>
+        <item> Bifidobacterium lactis</item>
+        <item> Bifidobacterium longum</item>
+        <item> Bifidobactierum bifidum</item>
+        <item> Bile</item>
+        <item> Bile salts</item>
+        <item> Bilidum</item>
+        <item> Bimatoprost</item>
+        <item> Biotin</item>
+        <item> Bisacodyl</item>
+        <item> Bisoprolol</item>
+        <item> Bisoprolol Fumarate</item>
+        <item> Bivalirudin</item>
+        <item> Bleomycin</item>
+        <item> Bortezomib</item>
+        <item> Bosentan</item>
+        <item> Brimonidine</item>
+        <item> Bromelain</item>
+        <item> Bromhexine</item>
+        <item> Bromhexine Hydrochloride</item>
+        <item> Bromhexine Hydrochloride</item>
+        <item> Bromocriptine</item>
+        <item> Bromohexine Hydrochloride</item>
+        <item> Buclizine</item>
+        <item> Budesonide</item>
+        <item> Budesonide And Formoterol</item>
+        <item> Bulaquine</item>
+        <item> Bupivacaine</item>
+        <item> Buprenorphine</item>
+        <item> Bupropion</item>
+        <item> Buserelin</item>
+        <item> Buspirone</item>
+        <item> Butenafine</item>
+        <item> Butorphanol</item>
+        <item> Butyl amino benzoate</item>
+        <item> Ca hypophosphete</item>
+        <item> Cabergoline</item>
+        <item> Caffeine</item>
+        <item> Calamine</item>
+        <item> Calcipotriol</item>
+        <item> Calcitonin- Salmon</item>
+        <item> Calcitriol</item>
+        <item> Calcium Acetate</item>
+        <item> Calcium Ascorbate</item>
+        <item> Calcium Carbonate</item>
+        <item> Calcium Chloride</item>
+        <item> Calcium dextropantothenate</item>
+        <item> calcium dextro-pantothenate</item>
+        <item> Calcium Dobesilate</item>
+        <item> Calcium Gluconate</item>
+        <item> Calcium Gluconogalacto Gluconate</item>
+        <item> Calcium Hypophosphate</item>
+        <item> Calcium Laevulinate</item>
+        <item> calcium pantothenate</item>
+        <item> Calcium Phosphate</item>
+        <item> Calcium Polystyrene Sulphonate Powder</item>
+        <item> Camphor</item>
+        <item> Camylofin</item>
+        <item> Camylofin Dihydrochloride</item>
+        <item> Candesartan</item>
+        <item> Capecitabine</item>
+        <item> Capreomycin</item>
+        <item> Caps. Etoposide</item>
+        <item> Caps. Temozolomide</item>
+        <item> Capsaicin</item>
+        <item> Captopril</item>
+        <item> Caraway</item>
+        <item> Caraway oil</item>
+        <item> Carbamazepine</item>
+        <item> Carbazochrome</item>
+        <item> Carbenicillin</item>
+        <item> Carbidopa-Levodopa </item>
+        <item> Carbimazole</item>
+        <item> Carbinoxamine</item>
+        <item> Carbocisteine</item>
+        <item> Carbohydrate</item>
+        <item> Carbonyl Iron</item>
+        <item> Carboplatin</item>
+        <item> Carboprost</item>
+        <item> Carboxymethylcellulose</item>
+        <item> Carboxymethylcellulose Sodium</item>
+        <item> Cardamom oil</item>
+        <item> Carisoprodol</item>
+        <item> Carnitine</item>
+        <item> Caroverine</item>
+        <item> Carvedilol</item>
+        <item> Caspofungin</item>
+        <item> Castor Oil</item>
+        <item> Cefaclor</item>
+        <item> Cefadroxil</item>
+        <item> Cefaloridine</item>
+        <item> Cefazolin</item>
+        <item> Cefdinir</item>
+        <item> Cefditoren</item>
+        <item> Cefepime</item>
+        <item> Cefetamet</item>
+        <item> Cefixime</item>
+        <item> Cefoperazone 1gm+Sulbactam 500mg</item>
+        <item> Cefoperazone 500mg+Sulbactam 500mg</item>
+        <item> Cefoperazone Sodium Injection</item>
+        <item> Cefotaxime</item>
+        <item> Cefpirome</item>
+        <item> Cefpodoxmine Proxetil </item>
+        <item> Cefprozil</item>
+        <item> Ceftazidime</item>
+        <item> Ceftibuten</item>
+        <item> Ceftriaxone</item>
+        <item> ceftriaxone 1000+tazobactum 125</item>
+        <item> Ceftriaxone 1gm</item>
+        <item> Cefuroxime</item>
+        <item> Cefuroxime Sodium Injection</item>
+        <item> Celecoxib</item>
+        <item> Celiprolol</item>
+        <item> Cellulase</item>
+        <item> Centchroman</item>
+        <item> Cephalexin</item>
+        <item> Cetirizine</item>
+        <item> Cetirizine diHCl</item>
+        <item> Cetirizine dihydrochloride</item>
+        <item> Cetirizine Hydrochloride</item>
+        <item> Cetrimide</item>
+        <item> Cetrizine</item>
+        <item> Cetrizine Hydrochloride</item>
+        <item> Cetrizinre</item>
+        <item> Cetrorelix</item>
+        <item> Cetrorelix Acetate</item>
+        <item> Chlolecalciferol</item>
+        <item> Chlophemine Maleate</item>
+        <item> Chlopheramine Maleate</item>
+        <item> Chlorambucil</item>
+        <item> Chloramphenicol</item>
+        <item> Chlordiazepoxide</item>
+        <item> Chlordiazepoxide and Clidinium Bromide</item>
+        <item> Chlorhexidine</item>
+        <item> Chlormezanone</item>
+        <item> Chlorobutanol</item>
+        <item> Chlorophenamin Maleate</item>
+        <item> Chloropheniramine Maleate</item>
+        <item> Chloroquine</item>
+        <item> Chlorothymol</item>
+        <item> Chloroxylenol</item>
+        <item> Chlorphenamine maleate</item>
+        <item> Chlorpheniramine</item>
+        <item> Chlorpheniramine Maleate</item>
+        <item> Chlorpheramine Maleate</item>
+        <item> Chlorpromazine</item>
+        <item> Chlorpropamide</item>
+        <item> Chlortalidone</item>
+        <item> Chlorthalidone</item>
+        <item> Chlorzoxazone</item>
+        <item> Cholagogues,cholelitholytics/Hepatic Protectors</item>
+        <item> Cholecalciferol</item>
+        <item> Cholera Vaccine</item>
+        <item> Choline</item>
+        <item> Choline bitartrate</item>
+        <item> Chorionic Gonadotrophin</item>
+        <item> Chorionic Gonadotropin</item>
+        <item> Chromium Picolinate</item>
+        <item> Chymotrypsin</item>
+        <item> Chymotrypsin (EC)</item>
+        <item> Chymotrypsin Alfa</item>
+        <item> Ciclesonide</item>
+        <item> Ciclopirox</item>
+        <item> Ciclosporin</item>
+        <item> Cilnidipine</item>
+        <item> Cilostazol</item>
+        <item> Cimetidine</item>
+        <item> Cinchocaine Hcl</item>
+        <item> cinchocaine hydrochloride</item>
+        <item> Cinitapride</item>
+        <item> Cinitapride(ER)</item>
+        <item> Cinnamon oil</item>
+        <item> Cinnarizine</item>
+        <item> Ciprofloxacin</item>
+        <item> Ciprofloxacin and Tinidazole</item>
+        <item> Cisplatin</item>
+        <item> Citalopram</item>
+        <item> Citicoline</item>
+        <item> Citric acid</item>
+        <item> Citric Acid</item>
+        <item> Citric acid monohydrate</item>
+        <item> Clarithromycin</item>
+        <item> Clarithromycin (2 FC-tab)</item>
+        <item> Clarithromycin (250mg)</item>
+        <item> Clavulanate</item>
+        <item> Clemastine</item>
+        <item> Clidinium Br</item>
+        <item> Clidinium Bromide</item>
+        <item> Clindamycin</item>
+        <item> Clindamycin Phosphate Injection</item>
+        <item> Clinidipine</item>
+        <item> Clioquinol</item>
+        <item> Clobazam</item>
+        <item> Clobetasol</item>
+        <item> Clobetasol Propinate</item>
+        <item> Clofazimine</item>
+        <item> Clomiphene</item>
+        <item> Clomiphene Citrate</item>
+        <item> Clomipramine</item>
+        <item> Clonazepam</item>
+        <item> Clonidine</item>
+        <item> Clonidine Hydrochloride</item>
+        <item> Clopamide</item>
+        <item> Clopidogrel</item>
+        <item> Clopidogrel Bisulfate</item>
+        <item> Clostridium butyricum</item>
+        <item> Clotrimazole</item>
+        <item> Clotrimazole Tabs</item>
+        <item> Clozapine</item>
+        <item> Codeine</item>
+        <item> Codeine Phosphate</item>
+        <item> Codergocrine</item>
+        <item> Coenzyme Q 10</item>
+        <item> Coenzyme Q10</item>
+        <item> Co-enzyme Q10</item>
+        <item> Coenzyme Q10, L-Carnitine, Omega 3 Fatty Acids</item>
+        <item> Colchicine</item>
+        <item> Colistimethate Injection </item>
+        <item> Collagen</item>
+        <item> Colostrum</item>
+        <item> Copper</item>
+        <item> Corticotropin</item>
+        <item> Co-trimoxazole</item>
+        <item> Cough Syrup</item>
+        <item> Creosote</item>
+        <item> Cromoglcic Acid</item>
+        <item> Cromoglicic Acid</item>
+        <item> Crotamiton</item>
+        <item> Cyanocobalamin</item>
+        <item> Cyanocobalamin (Vitamin B12)</item>
+        <item> Cyanocobalamine</item>
+        <item> Cyclobenzaprine</item>
+        <item> Cyclobenzaprine Hydrochloride</item>
+        <item> Cyclopentolate</item>
+        <item> Cyclophosphamide</item>
+        <item> Cycloserine</item>
+        <item> Cyclosporine</item>
+        <item> Cyproheptadine</item>
+        <item> Cyproterone Acetate</item>
+        <item> Cytarabine</item>
+        <item> Cytomegalovirus Immune Globulin</item>
+        <item> D.Pneumoniae</item>
+        <item> Dacarbazine</item>
+        <item> Dactinomycin</item>
+        <item> Dalteparin</item>
+        <item> Dalteparin Sodium</item>
+        <item> Danazol</item>
+        <item> Dapoxetine</item>
+        <item> Dapsone</item>
+        <item> Darbepoetin Alfa</item>
+        <item> Darbepoetin Alpha</item>
+        <item> Darifenacin</item>
+        <item> Darifenacin  </item>
+        <item> Darunavir</item>
+        <item> Dasatinib</item>
+        <item> Daunorubicin</item>
+        <item> Deferasirox </item>
+        <item> Deferiprone</item>
+        <item> Deflazacort</item>
+        <item> Deglycyrrhized Liquorice</item>
+        <item> Dehydroemetine</item>
+        <item> Dehydroemetine hydrochloride</item>
+        <item> Dehydroepiandrosterone</item>
+        <item> Demeclocycline</item>
+        <item> Desamino Oxytocin</item>
+        <item> Desferrioxamine</item>
+        <item> Desloratadine</item>
+        <item> Desmopressin</item>
+        <item> Desogestrel</item>
+        <item> Desogestrel and Ethinyl Estradiol</item>
+        <item> Desonide</item>
+        <item> Desvenlafaxine</item>
+        <item> Dexamethasone</item>
+        <item> Dexamethasone Oral</item>
+        <item> Dexchlorpheniramine</item>
+        <item> Dexibuprofen</item>
+        <item> Dexmedetomidine</item>
+        <item> Dexpanthenol</item>
+        <item> Dexrabeprazole </item>
+        <item> Dexrabeprazole Sodium</item>
+        <item> Dextran</item>
+        <item> Dextromethorphan</item>
+        <item> Dextro-Methorphan</item>
+        <item> Dextromethorphan Hydrobromide</item>
+        <item> Dextromethorphan Hydrochloride</item>
+        <item> Dextromethorphen HBr</item>
+        <item> Dextropanthenol</item>
+        <item> Dextropropoxyphene</item>
+        <item> Dextrose</item>
+        <item> Di Ethylcarbamazine</item>
+        <item> Di Sodium Hydrogen Citrate</item>
+        <item> Diacerein</item>
+        <item> Diacerin</item>
+        <item> Diastase</item>
+        <item> Diazepam</item>
+        <item> Dibasic Calcium Phosphate</item>
+        <item> Dibucaine</item>
+        <item> Diclofenac</item>
+        <item> Diclofenac Diethylamine</item>
+        <item> Diclofenac potassium</item>
+        <item> Diclofenac Sodium</item>
+        <item> Diclofenac Sodium (SR)</item>
+        <item> Dicloxacillin</item>
+        <item> Dicyclomine</item>
+        <item> Dicyclomine Hcl</item>
+        <item> Dicyclomine hydrochloride</item>
+        <item> Dicycloverine</item>
+        <item> Didanosine</item>
+        <item> Dienestrol</item>
+        <item> Diethyl Carbamazine Citrate</item>
+        <item> Digoxin</item>
+        <item> Dihydralazine</item>
+        <item> Dihydralazine Sulphate</item>
+        <item> Dihydrocodeinone</item>
+        <item> Di-Iodohydroxyquinoline</item>
+        <item> Dil oil</item>
+        <item> Dilazep</item>
+        <item> Dill</item>
+        <item> Dill oil</item>
+        <item> Diloxanide</item>
+        <item> Diltiazem</item>
+        <item> Dimenhydrinate</item>
+        <item> Dimercaprol</item>
+        <item> Dimethendine</item>
+        <item> Dimethicone</item>
+        <item> Dimethicone activated</item>
+        <item> DI-Methionine</item>
+        <item> Dimethl Poly Siloxane</item>
+        <item> Dimethylpolysiloxane</item>
+        <item> Dinoprostone</item>
+        <item> Diosmin</item>
+        <item> Diphenhydramine </item>
+        <item> Diphenhydramine</item>
+        <item> Diphenhydramine Hydrochloride</item>
+        <item> Diphenoxylate</item>
+        <item> Diphenydramine</item>
+        <item> Diphenydramine Hydrochloride</item>
+        <item> Diphenylpraline</item>
+        <item> Dipivefrin Ophthalmic</item>
+        <item> Diptheria Toxoid</item>
+        <item> Dipyridamole</item>
+        <item> Dipyrone</item>
+        <item> Disopyramide</item>
+        <item> Disulfiram</item>
+        <item> Dithranol</item>
+        <item> Divalproex</item>
+        <item> Divalproex Sodium</item>
+        <item> Dobutamine</item>
+        <item> Docetaxel</item>
+        <item> Docosahexaenoic acid (DHA)</item>
+        <item> Docusate</item>
+        <item> Domperidone</item>
+        <item> Domperidone Maleate</item>
+        <item> Domperidone SR</item>
+        <item> Domperidone(IR)</item>
+        <item> Domperidone(SR)</item>
+        <item> Donepezil</item>
+        <item> Dopamine</item>
+        <item> Dorzolamide/Timolol</item>
+        <item> Dothiepin</item>
+        <item> Dothiepin (Dosulepin)</item>
+        <item> Doxapram</item>
+        <item> Doxazosin</item>
+        <item> Doxazosin Besylate</item>
+        <item> Doxepin</item>
+        <item> Doxercalciferol</item>
+        <item> Doxofylline</item>
+        <item> Doxofylline (SR)</item>
+        <item> Doxorubicin</item>
+        <item> Doxycycline</item>
+        <item> Doxylamine</item>
+        <item> Doxylamine succinate</item>
+        <item> D-Panthenol</item>
+        <item> Dried aluminium hydroxide</item>
+        <item> Dried aluminium hydroxide gel</item>
+        <item> Dronedarone</item>
+        <item> Droperidol</item>
+        <item> Drospirenone</item>
+        <item> Drospirenone and Estradiol</item>
+        <item> Drotaverine</item>
+        <item> Drotaverine Hcl</item>
+        <item> Drotaverine hydrochloride</item>
+        <item> Drotrecogin Alfa</item>
+        <item> Duloxetine</item>
+        <item> Dutasteride</item>
+        <item> Dydrogesterone</item>
+        <item> Ebastin</item>
+        <item> Ebastine</item>
+        <item> Econazole</item>
+        <item> Edaravone</item>
+        <item> Efavirenz</item>
+        <item> Eicosapentaenoic acid (EPA)</item>
+        <item> Elemental Calcium</item>
+        <item> Elemental Iron</item>
+        <item> Elemental Iron (Fe)</item>
+        <item> Elemental zinc</item>
+        <item> Embramine</item>
+        <item> Emtricitabine</item>
+        <item> Emtricitabine- Rilpivirine- Tenofovir</item>
+        <item> Emtricitabine- Tenofovir</item>
+        <item> Enalapril</item>
+        <item> Enalapril Maleate</item>
+        <item> Enbucrilate</item>
+        <item> Enclomiphene</item>
+        <item> Enoxaparin</item>
+        <item> Enoxaparin sodium</item>
+        <item> Entacapone</item>
+        <item> Entecavir</item>
+        <item> Enzyme concentration from Aspergillus Oryzae</item>
+        <item> Epalrestat</item>
+        <item> Eperisone</item>
+        <item> Eperisone Hydrochloride</item>
+        <item> Ephedrine</item>
+        <item> Ephedrine Hydrochloride</item>
+        <item> Epinephrine</item>
+        <item> Epirubicin</item>
+        <item> Eplerenone</item>
+        <item> Epoetin Beta-Methoxy Polyethylene Glycol</item>
+        <item> Eptifibatide</item>
+        <item> Equine Rabies Ig Fragment</item>
+        <item> Erdosteine</item>
+        <item> Ergocalciferol (Vitamin D2)</item>
+        <item> Ergoloid Mesylates</item>
+        <item> Ergometrine</item>
+        <item> Ergometrine Maleate</item>
+        <item> Ergotamine Sublingual </item>
+        <item> Ergotamine Tartrate and Caffeine</item>
+        <item> Erlotinib</item>
+        <item> Ertapenem</item>
+        <item> Erythrityl Tetranitrate</item>
+        <item> Erythromycin</item>
+        <item> Erythropoietin</item>
+        <item> Escitalopram</item>
+        <item> Esmolol</item>
+        <item> Esomeprazole</item>
+        <item> Esomeprazole Magnesium</item>
+        <item> Esomeprazole Magnesium(EC)</item>
+        <item> Esomeprazole(EC)</item>
+        <item> Essential Amino Acid Solution</item>
+        <item> Essential Amino Acid Tablets</item>
+        <item> Essential Vitamins</item>
+        <item> Estradiol</item>
+        <item> Estradiol Benzoate</item>
+        <item> Estradiol Phenylpropionate</item>
+        <item> Estradiol Valerate</item>
+        <item> Estramustine</item>
+        <item> Estrogen</item>
+        <item> Estrogens</item>
+        <item> Eszopiclone</item>
+        <item> Etamsylate</item>
+        <item> Etanercept</item>
+        <item> Ethacridine Lactate</item>
+        <item> Ethambutol</item>
+        <item> Ethanol 95%</item>
+        <item> Ethinyl Estradiol</item>
+        <item> Ethinylestradiol</item>
+        <item> Ethosuximide</item>
+        <item> Ethyl amino benzoate</item>
+        <item> Ethyl Morphine</item>
+        <item> Ethylmorphine hydrochloride</item>
+        <item> Ethynodiol</item>
+        <item> Etidronate</item>
+        <item> Etizolam</item>
+        <item> Etodolac</item>
+        <item> Etofylline</item>
+        <item> Etofylline (SR)</item>
+        <item> Etoposide</item>
+        <item> Etoricoxib</item>
+        <item> Eucalyptol</item>
+        <item> Evening Primrose</item>
+        <item> Exemestane</item>
+        <item> Exenatide</item>
+        <item> Ezetimibe</item>
+        <item> Famciclovir</item>
+        <item> Famotidine</item>
+        <item> Faropenem Sodium</item>
+        <item> Fe Gluconate</item>
+        <item> Febuxostat</item>
+        <item> Felodipine</item>
+        <item> Fennel oil</item>
+        <item> Fenofibrate</item>
+        <item> Fenofibrate (micronized)</item>
+        <item> Fenofibrate B-Cyclodextrin</item>
+        <item> Fenofibric Acid</item>
+        <item> Fenoverine</item>
+        <item> Fentanyl</item>
+        <item> Fentanyl Citrate</item>
+        <item> Feracrylum</item>
+        <item> Ferric Hydroxide Polymaltose Complex</item>
+        <item> Ferrous Ammonium Citrate</item>
+        <item> Ferrous Ascorbate</item>
+        <item> Ferrous Destran</item>
+        <item> Ferrous Fumarate</item>
+        <item> Ferrous Fumarate &amp; Folic Acid</item>
+        <item> Ferrous Gluconate</item>
+        <item> Ferrous Sucrose</item>
+        <item> Ferrous Sulfate</item>
+        <item> Ferrous Sulfate Â– Iron</item>
+        <item> Fexofemadine HCl</item>
+        <item> Fexofenadine</item>
+        <item> Fexofenadine dihydrochloride</item>
+        <item> Fexofenadine HCl</item>
+        <item> Filgrastim</item>
+        <item> Finasteride</item>
+        <item> Flavoxate</item>
+        <item> Flodrocortisone</item>
+        <item> Flubiprofen Sodium</item>
+        <item> Fluconazole</item>
+        <item> Fludarabine</item>
+        <item> Flunarazine</item>
+        <item> Flunarizine</item>
+        <item> Flunisolide</item>
+        <item> Fluocinolone</item>
+        <item> Fluocinonide</item>
+        <item> Fluorometholone</item>
+        <item> Fluorouracil</item>
+        <item> Fluoxetine</item>
+        <item> Flupenthixol</item>
+        <item> Fluphenazine</item>
+        <item> Flupirtine</item>
+        <item> Flurazepam</item>
+        <item> Flurbiprofen</item>
+        <item> Flutamide</item>
+        <item> Fluticasone</item>
+        <item> Fluticasone Furoate</item>
+        <item> Fluticasone Propionate</item>
+        <item> Fluvastatin</item>
+        <item> Fluvoxamine</item>
+        <item> Fluvoxamine Maleate</item>
+        <item> Folic Acid</item>
+        <item> Follicle Stimulating Hormone</item>
+        <item> Follitrophin a</item>
+        <item> Follitrophin ÃŸ</item>
+        <item> Follitropin Alfa</item>
+        <item> Fondaparinux</item>
+        <item> Formeterol Fumarate</item>
+        <item> Formoterol</item>
+        <item> Formoterol Fumarate</item>
+        <item> Formoterol Fumarate Dihydrate</item>
+        <item> Fosfestrol</item>
+        <item> Fosinopril</item>
+        <item> Fosphenytoin</item>
+        <item> Framycetin</item>
+        <item> Framycetin sulphate</item>
+        <item> Fructo oligosaccharide</item>
+        <item> Fructo oligosaccharides</item>
+        <item> Fructo oligosaccharride</item>
+        <item> Fructooligosaccharides</item>
+        <item> Fungal diastase</item>
+        <item> Furazolidone</item>
+        <item> Furosemide</item>
+        <item> Gabapentin</item>
+        <item> Galactose</item>
+        <item> Galantamine</item>
+        <item> Gamma Benzene Hexachloride</item>
+        <item> Ganciclovir</item>
+        <item> Gatifloxacin</item>
+        <item> Gatifloxacin Anhydrous</item>
+        <item> Gefitinib</item>
+        <item> Gemcitabine</item>
+        <item> Gemfibrozil</item>
+        <item> Gensparin Sodium</item>
+        <item> Gentamicin</item>
+        <item> Gentamicin Ophthalmic</item>
+        <item> Gentamycin Sulfate Injection</item>
+        <item> Ginger extract</item>
+        <item> Ginkgo Biloba</item>
+        <item> Glibenclamide </item>
+        <item> Gliclazide</item>
+        <item> Glimepiride</item>
+        <item> Glimepride</item>
+        <item> Glipizide</item>
+        <item> Glucagon</item>
+        <item> Glucomannan</item>
+        <item> Glucosamine</item>
+        <item> Glucosamine Sulphate</item>
+        <item> Glucosamine Sulphate Potassium Chloride</item>
+        <item> Glucosamine Sulphate Sodium Chloride</item>
+        <item> Glutamic Acid</item>
+        <item> Glycerin</item>
+        <item> Glyceryl Guaicolate</item>
+        <item> Glyceryl Trinitrate</item>
+        <item> Glycopyrolate</item>
+        <item> Glycopyrrolate</item>
+        <item> Glycopyrronium Bromide</item>
+        <item> Goserelin</item>
+        <item> Granisetron</item>
+        <item> Grape seed extract</item>
+        <item> Griseofulvin</item>
+        <item> Guaiacol</item>
+        <item> Guaiacol Sulfonate</item>
+        <item> Guaiacolate</item>
+        <item> Guaifenesin</item>
+        <item> Guaifenesin HCl</item>
+        <item> Guaiphenesin</item>
+        <item> H.Influenzae B Vaccine</item>
+        <item> Haemocoagulase</item>
+        <item> Haemophilus Ilfluenzae</item>
+        <item> Halcinonide</item>
+        <item> Halobetasol Propionate</item>
+        <item> Haloperidol</item>
+        <item> Halothane</item>
+        <item> Hamycin</item>
+        <item> Harpagophylum procumbens</item>
+        <item> Hemicellulase</item>
+        <item> Heparin</item>
+        <item> Heparin Sodium</item>
+        <item> Hepatitis A Vaccine</item>
+        <item> Hepatitis B Vaccine</item>
+        <item> Hepatitis B (recombinant) vaccine</item>
+        <item> Hexylresorcinol</item>
+        <item> High Protein Supplement</item>
+        <item> Histamine Di-Hydrochloride</item>
+        <item> HMG Menotrophin</item>
+        <item> Homatropine</item>
+        <item> Homatropine Hydrobromide </item>
+        <item> Homatropine hydrobromide  (Isopto Homatropine)</item>
+        <item> Human Anti-D Immunoglobulin</item>
+        <item> Human Menopausal Gonadotrophins</item>
+        <item> Human Papillomavirus Quadrivalent </item>
+        <item> Hyaluronidase</item>
+        <item> Hydralazine</item>
+        <item> Hydrobromide IP</item>
+        <item> Hydrochlorothiazide</item>
+        <item> Hydrochlorthiazide</item>
+        <item> Hydrocodeine Phosphate</item>
+        <item> Hydrocortisone</item>
+        <item> Hydrocortisone acetate</item>
+        <item> Hydroflumethiazide</item>
+        <item> Hydroquinone</item>
+        <item> Hydrotalcite</item>
+        <item> Hydroxocobalamin </item>
+        <item> Hydroxy Progesterone</item>
+        <item> Hydroxyapatite</item>
+        <item> Hydroxychloroquine</item>
+        <item> Hydroxycobalamin</item>
+        <item> Hydroxyethyl Theophylline</item>
+        <item> Hydroxy-Progesterone Caproate</item>
+        <item> Hydroxyurea</item>
+        <item> Hydroxyzine</item>
+        <item> Hyoscine</item>
+        <item> Hyoscine Butylbromide</item>
+        <item> Hyoscyamine</item>
+        <item> Hyprogesterone</item>
+        <item> Hypromellose</item>
+        <item> Hypromellose  (Isopto Tears)</item>
+        <item> Ibandronate</item>
+        <item> Ibuprofen</item>
+        <item> Idarubicin</item>
+        <item> Idoxuridine Ophthalmic</item>
+        <item> Ifosfamide</item>
+        <item> Ilaprazole</item>
+        <item> Imatinib</item>
+        <item> Imatinib Mesylate</item>
+        <item> Imidapril</item>
+        <item> Imipenem 500mg+Cillastatin 500mg</item>
+        <item> Imipenem and Cilastatin</item>
+        <item> Imipramine</item>
+        <item> Imiquimod </item>
+        <item> Immune Globulin Intravenous</item>
+        <item> Indapamide</item>
+        <item> Indapamide (SR)</item>
+        <item> Indinavir</item>
+        <item> Indomethacin</item>
+        <item> Infliximab</item>
+        <item> Influenza Virus Vaccine</item>
+        <item> Inj Oxaliplatin</item>
+        <item> Inositol</item>
+        <item> Insulin</item>
+        <item> Insulin Aspart</item>
+        <item> Insulin Detemir</item>
+        <item> Insulin Glargine</item>
+        <item> Insulin Glargine</item>
+        <item> Insulin Lispro</item>
+        <item> Interferon Alfa 2A</item>
+        <item> Interferon Alfa 2A</item>
+        <item> Interferon Alpha-2A&amp;2B</item>
+        <item> Interferon Alpha-2B</item>
+        <item> Interferon Beta 1B</item>
+        <item> Iodochlorohydroxyquinoline</item>
+        <item> Ipratropium</item>
+        <item> Ipratropium Bromide</item>
+        <item> Irbesartan</item>
+        <item> Irinotecan</item>
+        <item> Iron (III) Hydroxide Polymaltose</item>
+        <item> Iron Choline Citrate</item>
+        <item> Iron Dextran</item>
+        <item> Isoflurane</item>
+        <item> Isoniazid</item>
+        <item> Isoprenaline</item>
+        <item> Isopropamide</item>
+        <item> Isopropylantipyrine (Propyphenazone)</item>
+        <item> Isosartan Potassium</item>
+        <item> Isosorbide</item>
+        <item> Isosorbide 5 Mononitrate</item>
+        <item> Isosorbide 5-Mononitrate</item>
+        <item> Isosorbide Dinitrate</item>
+        <item> Isosorbide Mononitrate</item>
+        <item> Isotretinoin</item>
+        <item> Isoxsuprine</item>
+        <item> Ispaghula husk</item>
+        <item> Isphagula husk</item>
+        <item> Itopride</item>
+        <item> Itopride (SR)</item>
+        <item> Itopride Hydrochloride</item>
+        <item> Itopride Hydrochloride(SR)</item>
+        <item> Itopride(SR)</item>
+        <item> Itraconazole</item>
+        <item> IUD</item>
+        <item> Ivabradine</item>
+        <item> Ivermectin</item>
+        <item> Kanamycin</item>
+        <item> Kaolin</item>
+        <item> Kaolin and Pectin</item>
+        <item> Karaya gum</item>
+        <item> Ketamine</item>
+        <item> Ketoconazole</item>
+        <item> Ketoprofen</item>
+        <item> Ketorolac</item>
+        <item> Ketotifen</item>
+        <item> Klebsiella Pneumoniae Subsp</item>
+        <item> L - Glutamine</item>
+        <item> L- carnitine L-tartrate</item>
+        <item> L- Ornithine L - Aspartate</item>
+        <item> Labetalo</item>
+        <item> Labetalol</item>
+        <item> Lacidipine</item>
+        <item> Lacosamide </item>
+        <item> Lactase</item>
+        <item> Lactibacillus</item>
+        <item> Lactibacillus rhamnosus</item>
+        <item> Lactic acid </item>
+        <item> Lactitol</item>
+        <item> Lactitol monohydrate</item>
+        <item> Lactitol Monohydrate Powder</item>
+        <item> Lactobacillus</item>
+        <item> Lactobacillus casei</item>
+        <item> Lactobacillus rhamnosus Gr-1</item>
+        <item> Lactobacillus acidophillus</item>
+        <item> Lactobacillus Acidophilus</item>
+        <item> Lactobacillus bulgaricus</item>
+        <item> Lactobacillus casei</item>
+        <item> Lactobacillus paracasei</item>
+        <item> Lactobacillus plantarum</item>
+        <item> Lactobacillus rhamnosus</item>
+        <item> Lactobacillus rheuteri Rc-14</item>
+        <item> Lactobacillus sporogenes</item>
+        <item> Lactose</item>
+        <item> Lactulose</item>
+        <item> Lafutidine</item>
+        <item> Lamivudine</item>
+        <item> Lamotrigine</item>
+        <item> Lansoprazole</item>
+        <item> Lansoprazole (2 caps)</item>
+        <item> Lansoprazole (EC)</item>
+        <item> Lanthanum Carbonate</item>
+        <item> L-arginine</item>
+        <item> L-Asparaginase</item>
+        <item> L-aspartate</item>
+        <item> Latanoprost</item>
+        <item> Laxatives ,Purgatives</item>
+        <item> L-Camitine</item>
+        <item> L-carnitine</item>
+        <item> Lecithin</item>
+        <item> Leflunomide</item>
+        <item> Lenogastrim</item>
+        <item> Leptazol</item>
+        <item> Lercanidipine</item>
+        <item> Letrozole</item>
+        <item> Leucovorin</item>
+        <item> Leucovorin Calcium</item>
+        <item> Leuprolide</item>
+        <item> Levalbuterol HCl </item>
+        <item> Levamisole</item>
+        <item> Levecetirizine</item>
+        <item> Levesalbutamol</item>
+        <item> Levetiracetam</item>
+        <item> Levobunolol (Ophthalmic)</item>
+        <item> Levocarnitine</item>
+        <item> Levocetirizine</item>
+        <item> Levocetirizine dihydrochloride</item>
+        <item> Levocetirizine Hydrochloride</item>
+        <item> Levocetirizinne</item>
+        <item> Levocetrizine Hydrochloride</item>
+        <item> Levodopa</item>
+        <item> Levodopa and Carbidopa</item>
+        <item> Levodropropizine</item>
+        <item> Levofloxacin</item>
+        <item> Levomefolic Acid</item>
+        <item> Levonorgestrel</item>
+        <item> Levosalbutamol</item>
+        <item> LevoSalbutamol sulphate</item>
+        <item> LevoSalbutamol Sutate</item>
+        <item> Levosulpiride</item>
+        <item> Levosulpiride(EC)</item>
+        <item> Levosulpiride(MR)</item>
+        <item> Levosulpiride(SR)</item>
+        <item> Levosulpiride(SR-Tablet)</item>
+        <item> Levosulpride</item>
+        <item> Levothyroxine</item>
+        <item> L-Glutamic acid</item>
+        <item> L-glutamine</item>
+        <item> L-Glutamine USP</item>
+        <item> Lidocaine</item>
+        <item> Lidocaine hydrochloride</item>
+        <item> Lidoflazine</item>
+        <item> Lignocaine</item>
+        <item> Linalidomide</item>
+        <item> Lincomycin</item>
+        <item> Lindane</item>
+        <item> Linezolid</item>
+        <item> Linseed Oil</item>
+        <item> Liothyronine</item>
+        <item> Lipase</item>
+        <item> Lipase/amylase/protease  (Pancrease MT 10)</item>
+        <item> Liposomal Dithranol</item>
+        <item> Liquid Paraffin</item>
+        <item> liquorice</item>
+        <item> Lisinopril</item>
+        <item> Lisinopril Anhydrous</item>
+        <item> Lithium</item>
+        <item> Lithium Carbonate</item>
+        <item> Liver extract</item>
+        <item> Liver Tonic</item>
+        <item> L-Methylfolate 15mg</item>
+        <item> L-Methylfolate 7.5mg</item>
+        <item> Lomefloxacin</item>
+        <item> Lomoxicam</item>
+        <item> Lomustine</item>
+        <item> Loperamide</item>
+        <item> Loperamide hydrochloride</item>
+        <item> Loratadine</item>
+        <item> Lorazepam</item>
+        <item> L-Ornithine-1-aspartate</item>
+        <item> L-ornithine-L-aspartate</item>
+        <item> Losartan</item>
+        <item> Losartan Potassium</item>
+        <item> Loteprednol</item>
+        <item> Loteprednol Etabonate</item>
+        <item> Lovastatin</item>
+        <item> Loxapine</item>
+        <item> Loxapine Succinate</item>
+        <item> Lubiprostone</item>
+        <item> Lumefantrine</item>
+        <item> Luteinizing hormone</item>
+        <item> Lutropin a</item>
+        <item> Luvistin</item>
+        <item> Lycopene antioxidant</item>
+        <item> Lycophene</item>
+        <item> Lynestrenol</item>
+        <item> Lyophilized Saccharomyces Boulardii</item>
+        <item> Magaldrate</item>
+        <item> Magaldrate-Simethicone </item>
+        <item> Magnesium</item>
+        <item> Magnesium Aluminium Silicate</item>
+        <item> Magnesium Aluminium Silicate hydrate</item>
+        <item> Magnesium Carbonate</item>
+        <item> Magnesium Hydroxide</item>
+        <item> Magnesium sulphate</item>
+        <item> Magnesium trisilicate</item>
+        <item> Manganese</item>
+        <item> Mannitol</item>
+        <item> Mazindol</item>
+        <item> Measles, mumps, and rubella (mmr) vaccine</item>
+        <item> Mebendazole</item>
+        <item> Mebeverin</item>
+        <item> Mebeverine</item>
+        <item> Mebeverine hydrochloride</item>
+        <item> Meclizine</item>
+        <item> Mecobalamin</item>
+        <item> Medroxyprogesterone</item>
+        <item> Medroxy-Progesterone</item>
+        <item> Mefenamic Acid</item>
+        <item> Mefloquine</item>
+        <item> Megestrol</item>
+        <item> Melatonin</item>
+        <item> Melitracen</item>
+        <item> Meloxicam</item>
+        <item> Melphalan</item>
+        <item> Melphalan Inj.</item>
+        <item> Memantine</item>
+        <item> Menadione</item>
+        <item> Menadione sodium bisulfite</item>
+        <item> Menapthone Sodium bisulphite</item>
+        <item> Menotrophin</item>
+        <item> Menotropins</item>
+        <item> Menthol</item>
+        <item> Mepacrine</item>
+        <item> Mephenesin</item>
+        <item> Mephentermine</item>
+        <item> Mercaptopurine</item>
+        <item> Meropenem</item>
+        <item> Meropenem 1000mg</item>
+        <item> Meropenem 500mg</item>
+        <item> Mesalamine(Mesalazine)</item>
+        <item> Mesalazine</item>
+        <item> Mesna</item>
+        <item> Mesterolone</item>
+        <item> Mestranol and Northindrone</item>
+        <item> Metaclopromide</item>
+        <item> Metadoxine</item>
+        <item> Metaxalone</item>
+        <item> Metformin</item>
+        <item> Methdilazine</item>
+        <item> Methdilazine Hydralzine</item>
+        <item> Methdilazine Hydrochloride</item>
+        <item> Methenamine</item>
+        <item> Methimezole</item>
+        <item> Methionine</item>
+        <item> Methocarbamol</item>
+        <item> Methotrexate</item>
+        <item> Methoxsalen</item>
+        <item> Methyl Dopa</item>
+        <item> Methyl Phenidate</item>
+        <item> Methyl Polysiloxane</item>
+        <item> Methyl Salicylate</item>
+        <item> Methyl Sulfonyl Methane</item>
+        <item> Methylcobalamin</item>
+        <item> Methylcobalamin(mecobalamin)</item>
+        <item> Methylcobalamin, Pyridoxine, Nicotinamide</item>
+        <item> Methylcobalamine</item>
+        <item> Methylcobalamine(mecobalamin)</item>
+        <item> Methyldopa</item>
+        <item> Methylergometrine</item>
+        <item> Methylhesperidin</item>
+        <item> Methylpolysiloxane</item>
+        <item> Methylprednisolone</item>
+        <item> Methyl-Prednisolone</item>
+        <item> Methylsalicylate</item>
+        <item> Methylsulfonyl Methane</item>
+        <item> Methyltestosterone </item>
+        <item> Metoclopramide</item>
+        <item> Metoclopromide</item>
+        <item> Metolazone</item>
+        <item> Metoprolol</item>
+        <item> Metoprolol (ER)</item>
+        <item> Metoprolol (SR)</item>
+        <item> Metoprolol Succinate</item>
+        <item> Metoprolol Succinate (ER)</item>
+        <item> Metoprolol Succinate(ER)</item>
+        <item> Metoprolol Tartrate</item>
+        <item> Metoprolol Tartrate (ER)</item>
+        <item> Metoprolol Tartrate(ER)</item>
+        <item> Metoprolol Tartrate(MR)</item>
+        <item> Metoprolol(ER)</item>
+        <item> Metoprolol(XR)</item>
+        <item> Metronidazole</item>
+        <item> Metronidazole benzoate</item>
+        <item> Metronidazole Oral</item>
+        <item> Mexiletine</item>
+        <item> Mexiletine hydrochloride</item>
+        <item> Mianserin</item>
+        <item> Miconazole</item>
+        <item> Micronised Fenofibrate</item>
+        <item> Micronized Atorvastatin</item>
+        <item> Micronized fenofibrate</item>
+        <item> Midazolam</item>
+        <item> Mifepristone</item>
+        <item> Miglitol</item>
+        <item> Milk of Magnesia</item>
+        <item> Milnacipran hcl  (Savella)</item>
+        <item> Milrinone</item>
+        <item> Minocycline</item>
+        <item> Minoxidil</item>
+        <item> Mirtazapine</item>
+        <item> Mirtazepine</item>
+        <item> Misoprostol </item>
+        <item> Mitomycin</item>
+        <item> Mitotane</item>
+        <item> Mitoxantrone</item>
+        <item> Mizolastine</item>
+        <item> Moclobemide</item>
+        <item> Modafinil</item>
+        <item> Molgramostin</item>
+        <item> Mometasone</item>
+        <item> Monntelukast</item>
+        <item> Monobenzone</item>
+        <item> Monoclonal antibody purified</item>
+        <item> Montelekast</item>
+        <item> Montelikast Na</item>
+        <item> Montelukast</item>
+        <item> Montelukast Na</item>
+        <item> Montelukast Sodium</item>
+        <item> Morphine</item>
+        <item> Mosapride</item>
+        <item> Moxifloxacin</item>
+        <item> Moxonidine</item>
+        <item> MPS</item>
+        <item> Multivitamins</item>
+        <item> Mupirocin</item>
+        <item> Mustine (Mechlore-Thamine)</item>
+        <item> MutiVitamin</item>
+        <item> Mycophenolate Mofetil</item>
+        <item> Mycophenolate Sodium</item>
+        <item> Mycophenolatemofetil</item>
+        <item> Nabumetone</item>
+        <item> N-acebrofylcysteine</item>
+        <item> N-Acetyl Cysteine</item>
+        <item> N-acetylcysteine</item>
+        <item> N-Acetylycysteine</item>
+        <item> Nadifloxacin</item>
+        <item> Nadroparin</item>
+        <item> Nadroparin Calcium</item>
+        <item> Nafarelin</item>
+        <item> Naftopidil</item>
+        <item> Nalbuphine</item>
+        <item> Nalidixic Acid</item>
+        <item> Naloxone</item>
+        <item> Naltrexone</item>
+        <item> Nandrolone</item>
+        <item> Nandrolone Decanoate</item>
+        <item> Nandrolone Deconate</item>
+        <item> Nanoized Fenofibrate</item>
+        <item> Naphazoline</item>
+        <item> Naphazoline Nitrate</item>
+        <item> Naphazoline/Pheniramine- Ophthalmic</item>
+        <item> Naproxen</item>
+        <item> Naproxen sodium</item>
+        <item> Naratriptan</item>
+        <item> Natamycin</item>
+        <item> Natamycin Ophthalmic</item>
+        <item> Nateglinide</item>
+        <item> Natural Vitamin E</item>
+        <item> N-Butylcyanoacrylate</item>
+        <item> Nebivolol</item>
+        <item> Nebivolol Hydrochloride</item>
+        <item> Nefopam</item>
+        <item> Neisseria Catarrhails</item>
+        <item> Nelfinavir</item>
+        <item> Neomycin oral</item>
+        <item> Neomycin topical</item>
+        <item> Neomycin,Sulphacetamide Sodium,Bacitracin Zinc</item>
+        <item> Neostigmine</item>
+        <item> Nepafenac ophthalmic </item>
+        <item> Netilmicin</item>
+        <item> Netilmicin Sulfate Injection</item>
+        <item> Nevirapine</item>
+        <item> Niaciamide</item>
+        <item> Niacin</item>
+        <item> Niacinamide</item>
+        <item> Nicergoline</item>
+        <item> Niclosamide</item>
+        <item> Nicorandil</item>
+        <item> Nicotinamide</item>
+        <item> Nicotine</item>
+        <item> Nicotinic acid</item>
+        <item> Nicotinic acid (Sustained release)</item>
+        <item> Nifedipine</item>
+        <item> Nifedipine(SR)</item>
+        <item> Nilutamide</item>
+        <item> Nimesulide</item>
+        <item> Nimodipine</item>
+        <item> Nimotuzumab</item>
+        <item> Nitazoxanide</item>
+        <item> Nitrazepam</item>
+        <item> Nitrendipine</item>
+        <item> Nitrofurantoin</item>
+        <item> Nitrofurantoin Sustained Release</item>
+        <item> Nitrofurazone</item>
+        <item> Nitroglycerin </item>
+        <item> Nitroglycerin Ointment</item>
+        <item> Nitroglycerine</item>
+        <item> Nitroxazepine</item>
+        <item> Noradrenaline (Levarterenol)</item>
+        <item> Norepinephrine</item>
+        <item> Norethindrone</item>
+        <item> Norethisterone</item>
+        <item> Norethisterone Acetate</item>
+        <item> Norfloxacin</item>
+        <item> Norgestrel</item>
+        <item> Nortriptyline</item>
+        <item> Noscapine</item>
+        <item> NosCapsuleine</item>
+        <item> Nylidrin</item>
+        <item> Nystatin</item>
+        <item> Octreotide</item>
+        <item> Oestradiol</item>
+        <item> Oestrogen</item>
+        <item> Ofloxacin</item>
+        <item> Olanzapine</item>
+        <item> Olanzepine</item>
+        <item> Olmesartan</item>
+        <item> Olmesartan Medoxomil</item>
+        <item> Olopatadine</item>
+        <item> Omega 3-fatty acid</item>
+        <item> Omega-3 fatty acid</item>
+        <item> Omeprazole</item>
+        <item> Omeprazole(1 cap)</item>
+        <item> Omeprazole(2 EC-caps)</item>
+        <item> Ondansetron</item>
+        <item> Ondansetron HCl</item>
+        <item> Ondansetron(1-IR-Tablet)</item>
+        <item> Ondansetron(1-SR-Tablet)</item>
+        <item> Ondansteron</item>
+        <item> Oral Iron Formulations</item>
+        <item> Orciprenaline</item>
+        <item> Orciprenaline Sulphate</item>
+        <item> Orlistat</item>
+        <item> Ormeloxifene</item>
+        <item> Ornidazole</item>
+        <item> Orphenadrine</item>
+        <item> Oseltamivir</item>
+        <item> Other anorectal preparations</item>
+        <item> Other antidiarrheals</item>
+        <item> Other digestives:</item>
+        <item> Other laxatives and purgatives:</item>
+        <item> Otilonium Bromide</item>
+        <item> Ovo Lecithin</item>
+        <item> Oxaceprol</item>
+        <item> Oxaliplatin</item>
+        <item> Oxaprozin</item>
+        <item> Oxazepam</item>
+        <item> Oxcarbazepine</item>
+        <item> Oxetacaine</item>
+        <item> Oxethazaine</item>
+        <item> Oxiconazole</item>
+        <item> Oxprenolol</item>
+        <item> Oxtriphylline</item>
+        <item> Oxybutynin Chloride</item>
+        <item> Oxyfedrine</item>
+        <item> Oxyfenbutazone</item>
+        <item> Oxymetazoline</item>
+        <item> Oxymetazoline Nasal</item>
+        <item> Oxymetholone</item>
+        <item> Oxyphenonium</item>
+        <item> Oxyphenonum</item>
+        <item> Oxyprenolol</item>
+        <item> Oxytetracycline</item>
+        <item> Oxytocin</item>
+        <item> Ozaenae</item>
+        <item> Ozagrel Hydrochloride</item>
+        <item> Paclitaxel</item>
+        <item> Paliperidone</item>
+        <item> Palonosetron</item>
+        <item> Pamabrom</item>
+        <item> Pamidronate</item>
+        <item> Pancreatin</item>
+        <item> Pancuronium Bromide</item>
+        <item> Pantaprazole</item>
+        <item> Pantoprazole</item>
+        <item> Pantoprazole Sodium</item>
+        <item> Pantoprazole(2 tabs)</item>
+        <item> Pantoprazole(EC)</item>
+        <item> Pantoprazole(ER)</item>
+        <item> Papain</item>
+        <item> Papaverine</item>
+        <item> Papaverine Hydrochloride</item>
+        <item> Para-Aminobenzoic Acid (PABA)</item>
+        <item> Paracetamol</item>
+        <item> Parecoxib</item>
+        <item> Parnaparin</item>
+        <item> Parnaparin Sodium</item>
+        <item> Paroxetine</item>
+        <item> Parvastatin Sodium</item>
+        <item> Pasteurized Antihemophilic factor</item>
+        <item> Pectin</item>
+        <item> Pefloxacin</item>
+        <item> PEG 3350</item>
+        <item> PEG-Electrolytes</item>
+        <item> Pegfilgrastim</item>
+        <item> Peginterferon Alfa 2 B</item>
+        <item> Pemetrexed</item>
+        <item> Penfluridol</item>
+        <item> Penicillamine</item>
+        <item> Penicillin</item>
+        <item> Penicillin G Potassium or Sodium Injection</item>
+        <item> Pentazocine</item>
+        <item> Pentosan Polysulfate Sodium</item>
+        <item> Pentoxifylline</item>
+        <item> Pepsin</item>
+        <item> Peptone</item>
+        <item> Perindopril</item>
+        <item> Perindopril and Indapamide</item>
+        <item> Permethrin</item>
+        <item> Pethidine</item>
+        <item> Phenazone</item>
+        <item> Phenazopyridine</item>
+        <item> Phenindione</item>
+        <item> Phenobarb</item>
+        <item> Phenobarbital</item>
+        <item> Phenobarbitone</item>
+        <item> Phenobard</item>
+        <item> Phenoxy benzamine</item>
+        <item> Phenoxybenzamine</item>
+        <item> Phentolamine Mesylate</item>
+        <item> Phenyl mercuric nitrate</item>
+        <item> Phenylbutazone</item>
+        <item> Phenylephrine</item>
+        <item> Phenylephrine (SR)</item>
+        <item> Phenylephrine Hydrochloride</item>
+        <item> Phenylpropanolamine</item>
+        <item> Phenytoin</item>
+        <item> Phethalyl Sulphathiazole</item>
+        <item> Pheylephrine</item>
+        <item> Pholcodine</item>
+        <item> Pholcodine Citrate</item>
+        <item> phospholipids</item>
+        <item> Phylloquinone (Vitamin K)</item>
+        <item> Phynylepherine</item>
+        <item> Physostigmine</item>
+        <item> Phytomenadione</item>
+        <item> Pilocarpine</item>
+        <item> Pimozide</item>
+        <item> Pinaverium Bromide</item>
+        <item> Pindolol</item>
+        <item> Pioglitazone</item>
+        <item> Pipecuronium</item>
+        <item> Piperacillin</item>
+        <item> Piperacillin 4g+Tazobactam 0.5g</item>
+        <item> Piperacillin Sodium Injection</item>
+        <item> Piperacillin/Tazobactam</item>
+        <item> Piperazine</item>
+        <item> Piperazine Theophylline Ethanoate</item>
+        <item> Piracetam</item>
+        <item> Pirfenidone</item>
+        <item> Piribedil</item>
+        <item> Piroxicam</item>
+        <item> Pitavastatin</item>
+        <item> Pitofenone</item>
+        <item> Ployspimethylsiloxane</item>
+        <item> Policosanol</item>
+        <item> Policresulen</item>
+        <item> Polidocanol</item>
+        <item> Polidocanol Injection</item>
+        <item> Polio vaccine</item>
+        <item> Poly ethylene glycol ( PEG)</item>
+        <item> Polyethylene Glycol</item>
+        <item> Polymyxin</item>
+        <item> Polyvinyl Alcohol</item>
+        <item> Potaasium chloride</item>
+        <item> Potassium</item>
+        <item> Potassium Chloride</item>
+        <item> Potassium sulphate</item>
+        <item> Povidone Iodine</item>
+        <item> Pralidoxime</item>
+        <item> Pramipexole</item>
+        <item> Prasugrel</item>
+        <item> Pravastatin</item>
+        <item> Praziquantel</item>
+        <item> Prazosin</item>
+        <item> Prazosin Hydrochloride</item>
+        <item> Pre &amp; Probiotic Capsules</item>
+        <item> Prednicarbate</item>
+        <item> Prednisolone</item>
+        <item> Prednisone</item>
+        <item> Pregabalin</item>
+        <item> Prenoxdiazine</item>
+        <item> Pre-Probiotics</item>
+        <item> Primaquine</item>
+        <item> Primidone</item>
+        <item> Probenecid</item>
+        <item> Procainamide</item>
+        <item> Procainamide hydrochloride</item>
+        <item> Procaine/Penicillin</item>
+        <item> Procarbazine</item>
+        <item> Prochlorperazine</item>
+        <item> Procyclidine</item>
+        <item> Progesterone</item>
+        <item> Proguanil</item>
+        <item> Promethazine</item>
+        <item> Promethazine Hydrochloride</item>
+        <item> propafenone</item>
+        <item> Propafenone</item>
+        <item> Propantheline</item>
+        <item> Propofol</item>
+        <item> Propoxyphene</item>
+        <item> Propoxyphene Napsylate</item>
+        <item> Propranolol</item>
+        <item> Propranolol HCl.</item>
+        <item> Propranolol hydrochloride</item>
+        <item> Pro-Prebiotic Capsule</item>
+        <item> Propyl Thiouracil</item>
+        <item> Propylene Glycol</item>
+        <item> Propylthiouracil</item>
+        <item> Protamine Sulphate</item>
+        <item> Protease</item>
+        <item> Protein Powder</item>
+        <item> Proteolysed meat extract</item>
+        <item> Prothionamide</item>
+        <item> Prulifoxacin</item>
+        <item> Pseudoephedrine</item>
+        <item> PseudoEphedrine Hydrochloride</item>
+        <item> Pseudoephedrine Sulfate</item>
+        <item> Psoralen</item>
+        <item> Pyrantal Pamoate</item>
+        <item> Pyrantel</item>
+        <item> Pyrazinamide</item>
+        <item> Pyridostigmine</item>
+        <item> Pyridoxin</item>
+        <item> Pyridoxine</item>
+        <item> Pyridoxine (Vitamin B6)</item>
+        <item> Pyridoxine hydrochloride</item>
+        <item> Pyrimethamine- Sulfadoxine</item>
+        <item> Pyritinol</item>
+        <item> Quetiapine</item>
+        <item> Quinapril</item>
+        <item> Quinapril  </item>
+        <item> Quinapril Hydrochloride</item>
+        <item> Quinidine</item>
+        <item> Quinine</item>
+        <item> Quiniodochlor</item>
+        <item> Rabeprazole</item>
+        <item> Rabeprazole Sodium</item>
+        <item> Rabeprazole Sodium(EC)</item>
+        <item> Rabeprazole Sodium(ER)</item>
+        <item> Rabeprazole(1-EC-Tablet)</item>
+        <item> Rabeprazole(EC)</item>
+        <item> Rabeprazole(ER)</item>
+        <item> Racecadotril</item>
+        <item> Raloxifene</item>
+        <item> Ramalteon</item>
+        <item> Ramipril</item>
+        <item> Ranitidine</item>
+        <item> Ranitidine HCl</item>
+        <item> Ranolazine</item>
+        <item> Rasagiline</item>
+        <item> Rebamipide</item>
+        <item> Reboxetine</item>
+        <item> Repaglinide </item>
+        <item> Reserpine</item>
+        <item> Resorcinol</item>
+        <item> Retinol (Vitamin A)</item>
+        <item> Revaprazan</item>
+        <item> Reviparin Sodium</item>
+        <item> Ribavirin</item>
+        <item> Riboflavin</item>
+        <item> Riboflavin sodium phosphate</item>
+        <item> Rifabutin</item>
+        <item> Rifampicin</item>
+        <item> Rifaximin</item>
+        <item> Riluzole</item>
+        <item> Risedronate</item>
+        <item> Risperidone</item>
+        <item> Ritodrine</item>
+        <item> Ritonavir</item>
+        <item> Rituximab</item>
+        <item> Rivastigmine</item>
+        <item> Rizatriptan</item>
+        <item> Rocuronium</item>
+        <item> R-Ondansetron</item>
+        <item> Ropinirole</item>
+        <item> Ropivacaine</item>
+        <item> Rose Hips</item>
+        <item> Rosuvastatin</item>
+        <item> Rosuvastatin Calcium</item>
+        <item> Roxatidine</item>
+        <item> Roxithromycin</item>
+        <item> Rupatadine</item>
+        <item> Rutin</item>
+        <item> Rutoside</item>
+        <item> Rutoside Trihydrate</item>
+        <item> Saccharomyces boulardii</item>
+        <item> Saccharomyces cerevisiae</item>
+        <item> Sachharomyces boulardii</item>
+        <item> S-Adenosyl Methionine</item>
+        <item> S-adenosyl-l-methionine</item>
+        <item> Salbutamine</item>
+        <item> Salbutamol</item>
+        <item> Salbutamol Sulphate</item>
+        <item> Salicylamide (O-Hydroxybenzamide)</item>
+        <item> Salicylic Acid (Aspirin)</item>
+        <item> Salmeterol</item>
+        <item> Salmeterol Xinafoate</item>
+        <item> S-Amlodipine</item>
+        <item> Saquinavir</item>
+        <item> Sargramostim </item>
+        <item> Sarjikakshara</item>
+        <item> Satranidazole</item>
+        <item> Scorpion Vaccine</item>
+        <item> Secnidazole</item>
+        <item> Selegiline</item>
+        <item> Selenium DiSulfide</item>
+        <item> Selenium Sulfide</item>
+        <item> Selvelamer Carbonate</item>
+        <item> Senna</item>
+        <item> Sennoside B</item>
+        <item> Sennosides</item>
+        <item> Sennosides A and B</item>
+        <item> Serrapeptase</item>
+        <item> Serratiopeptidase</item>
+        <item> Sertaconazole</item>
+        <item> Sertaconazole Nitrate </item>
+        <item> Sertraline</item>
+        <item> Sevelamer</item>
+        <item> Sevelamer Carbonate</item>
+        <item> Sevoflurane</item>
+        <item> Shark liver oil</item>
+        <item> Sibutramine</item>
+        <item> Sildenafil</item>
+        <item> Sildenafil Citrate</item>
+        <item> Silodosin</item>
+        <item> Silver Sulfadiazine</item>
+        <item> Silymarin</item>
+        <item> Simethicone</item>
+        <item> Simvastatin</item>
+        <item> Sirolimus</item>
+        <item> Sisomycin</item>
+        <item> Sisomycin ophthalmic</item>
+        <item> Sitagliptin</item>
+        <item> Sodium</item>
+        <item> Sodium Acid Phosphate</item>
+        <item> Sodium Alginate</item>
+        <item> Sodium Ascorbate</item>
+        <item> Sodium Benzoate</item>
+        <item> Sodium Bicarbonate</item>
+        <item> Sodium Carboxymethylcellulose</item>
+        <item> Sodium chloride</item>
+        <item> Sodium Citrate </item>
+        <item> Sodium Cromoglycate</item>
+        <item> Sodium Feredetate</item>
+        <item> Sodium fusidate</item>
+        <item> Sodium Hyaluronate</item>
+        <item> Sodium Ironedetate</item>
+        <item> Sodium Nitroprusside</item>
+        <item> Sodium Picosulfate</item>
+        <item> Sodium Picosulphate</item>
+        <item> Sodium Salicylate</item>
+        <item> Sodium Sulphacetamide</item>
+        <item> Sodium sulphate</item>
+        <item> Sodium tauroglycocholate</item>
+        <item> Sodium Tetradecyl Sulphate</item>
+        <item> Sodium Valproate</item>
+        <item> Solifenacin </item>
+        <item> Somatostatin</item>
+        <item> Somatropin</item>
+        <item> Sorbitol</item>
+        <item> Sotalol</item>
+        <item> Sparfloxacin</item>
+        <item> Spectinomycin</item>
+        <item> Spiramycin</item>
+        <item> Spironolactone</item>
+        <item> Stanozolol</item>
+        <item> Stavudine</item>
+        <item> Sterlie Ceftriaxone</item>
+        <item> Streptococus Pyogenes</item>
+        <item> Streptococus Viridans</item>
+        <item> Streptokinase</item>
+        <item> Streptomyces</item>
+        <item> Streptomyces fecalis</item>
+        <item> streptomyces thermophilus</item>
+        <item> Streptomycin sulphate</item>
+        <item> Strontium Chloride</item>
+        <item> Succinylcholine</item>
+        <item> Sucralfate</item>
+        <item> Sulfamethizole</item>
+        <item> Sulfamethoxazole and Trimethoprim Injection</item>
+        <item> Sulfamoxole</item>
+        <item> Sulfasalazine</item>
+        <item> Sulphadiazine</item>
+        <item> Sulphadimidine (Sulfamethazine)</item>
+        <item> Sulphadoxine</item>
+        <item> Sulphaguanidine</item>
+        <item> Sulpiride (Levosulpiride)</item>
+        <item> Sultamicillin</item>
+        <item> Sumatriptan</item>
+        <item> Suxamethonium</item>
+        <item> Suxamethonium Chloride</item>
+        <item> Tacrolimus</item>
+        <item> Tadalafil</item>
+        <item> Tamoxifen</item>
+        <item> Tamsulosin</item>
+        <item> Tamsulosin &amp; Dutasteride</item>
+        <item> Tannic Acid</item>
+        <item> Tapentadol  </item>
+        <item> Taurine</item>
+        <item> Tazarotene</item>
+        <item> Tebutaline Sulphate</item>
+        <item> Teicoplanin</item>
+        <item> Telbivudine</item>
+        <item> Telmisartan</item>
+        <item> Temozolomide</item>
+        <item> Temsirolimus</item>
+        <item> Tenofovir</item>
+        <item> Tenoxicam</item>
+        <item> Terazosin</item>
+        <item> Terbinafine</item>
+        <item> Terbuitaline Sulphate</item>
+        <item> Terbutaline</item>
+        <item> Terbutaline Sulphate</item>
+        <item> Terbutalinew Sulphate</item>
+        <item> Terconazole</item>
+        <item> Terfenadine</item>
+        <item> Terlipressin</item>
+        <item> Terpineol</item>
+        <item> Testosterone</item>
+        <item> Testosterone Decanoate</item>
+        <item> Testosterone Enantate</item>
+        <item> Testosterone Enanthate</item>
+        <item> Testosterone Isocaproate</item>
+        <item> Testosterone Phenylpropionate</item>
+        <item> Testosterone Propionate</item>
+        <item> Testosterone Undecanoate</item>
+        <item> Tetanus Toxoid</item>
+        <item> Tetrabenazine</item>
+        <item> Tetracycline</item>
+        <item> Tetrahydrozoline Hcl</item>
+        <item> Tetramisole</item>
+        <item> Thalidomide</item>
+        <item> Theophyline</item>
+        <item> Theophylline</item>
+        <item> Theophylline Hydrate</item>
+        <item> Theophylline Anhydrous</item>
+        <item> Theophylline Hydrate</item>
+        <item> Thiamine</item>
+        <item> Thiamine (Vitamin B1)</item>
+        <item> Thiamine hydrochloride</item>
+        <item> Thiamine mononitrate</item>
+        <item> Thiocolchicoside</item>
+        <item> Thiocolchicoside (Thiocolchicide)</item>
+        <item> Thioguanine</item>
+        <item> Thiomersal</item>
+        <item> Thiopental</item>
+        <item> Thioridazine</item>
+        <item> Thiotepa</item>
+        <item> Thyroid</item>
+        <item> Thyroxine</item>
+        <item> Tiagabine</item>
+        <item> Tianeptine</item>
+        <item> Tibolone</item>
+        <item> Ticarcillin</item>
+        <item> Ticarcillin And Clavulanic</item>
+        <item> Ticarcillin Disodium Injection</item>
+        <item> Ticlopidine</item>
+        <item> Tigecycline</item>
+        <item> Timolol Ophthalmic</item>
+        <item> Tinidazole</item>
+        <item> Tinidazole (2 FC-tab)</item>
+        <item> Tinidazole(1 tab)</item>
+        <item> Tinidazole(2 FC-tab)</item>
+        <item> Tinidazole(2 tabs)</item>
+        <item> Tinocordin</item>
+        <item> Tinzaparin</item>
+        <item> Tioproeiun</item>
+        <item> Tiotropine BR</item>
+        <item> Tiotropine BR Monohydrate</item>
+        <item> Tiotropium Bromide</item>
+        <item> Tirofiban</item>
+        <item> Tiropramide hydrochloride</item>
+        <item> Tizanidine</item>
+        <item> Tizanidine Hydrochloride</item>
+        <item> Tobramycin Ophthalmic</item>
+        <item> Tobramycin Sulfate Injection</item>
+        <item> Tocopherol acetate</item>
+        <item> Tolbutamide</item>
+        <item> Tolfenamic Acid</item>
+        <item> Tolnaftate</item>
+        <item> Tolperisone</item>
+        <item> Tolperisone Hydrochloride</item>
+        <item> Tolterodine</item>
+        <item> Tolvaptan</item>
+        <item> Topiramate</item>
+        <item> Topotecan</item>
+        <item> Torasemide</item>
+        <item> Torsemide</item>
+        <item> Tramadol</item>
+        <item> Tramadol Hydrochloride</item>
+        <item> Trandolapril</item>
+        <item> Tranexamic Acid</item>
+        <item> Trastuzumab</item>
+        <item> Travoprost </item>
+        <item> Trazodone</item>
+        <item> Tretinoin</item>
+        <item> Triamcinolone</item>
+        <item> Triamterene</item>
+        <item> Tricholine citrate</item>
+        <item> Triclabendazole</item>
+        <item> Triclofos</item>
+        <item> Triclosan</item>
+        <item> Trifluoperazine</item>
+        <item> Trifluopromazine</item>
+        <item> Trifluperidol</item>
+        <item> Trihexiphenidyl</item>
+        <item> Trihexyphenidyl</item>
+        <item> Trimebutine Maleate</item>
+        <item> Trimetazidine</item>
+        <item> Trimipramine</item>
+        <item> Trioxsalen</item>
+        <item> Triprolidine</item>
+        <item> Triprolidine Hydrochloride</item>
+        <item> Triptorelin Pamoate for Injectable Suspension </item>
+        <item> Trithioparamethoxy Phenylpropene</item>
+        <item> Trithioparamethoxyphenylpropene</item>
+        <item> Tropicamide</item>
+        <item> Trospium</item>
+        <item> Troxipide</item>
+        <item> Trypsin</item>
+        <item> Trypsine</item>
+        <item> Tryptophan</item>
+        <item> Typhoid Vaccine, live</item>
+        <item> Tyrothricin</item>
+        <item> Undenatured type II Collagen</item>
+        <item> Urofollitropin</item>
+        <item> Urokinase</item>
+        <item> Ursodeoxycholic Acid</item>
+        <item> Valacyclovir</item>
+        <item> Valdecoxib</item>
+        <item> Valethamate</item>
+        <item> Valethamate Bromide</item>
+        <item> Valganciclovir</item>
+        <item> Valproic acid</item>
+        <item> Valsartan</item>
+        <item> Vancomycin</item>
+        <item> Vancomycin Hydrochloride Injection</item>
+        <item> Vardenafil</item>
+        <item> Varenicline</item>
+        <item> Vasopressin</item>
+        <item> Vecuronium</item>
+        <item> Vecuronium Bromide</item>
+        <item> Venlafaxine</item>
+        <item> Verapamil</item>
+        <item> Vidagliptin</item>
+        <item> Vigabatrin</item>
+        <item> Vinblastine</item>
+        <item> Vincristine</item>
+        <item> Vinorelbine</item>
+        <item> Vinpocetine</item>
+        <item> Vit A Palmitate</item>
+        <item> Vitamin A</item>
+        <item> Vitamin B complex</item>
+        <item> Vitamin B1</item>
+        <item> Vitamin B1 mononitrate</item>
+        <item> Vitamin B12</item>
+        <item> Vitamin B2</item>
+        <item> Vitamin B3</item>
+        <item> Vitamin B5 (Pantothenic acid)</item>
+        <item> Vitamin B6</item>
+        <item> Vitamin B6 hydrochloride</item>
+        <item> Vitamin C</item>
+        <item> Vitamin D3</item>
+        <item> Vitamin E</item>
+        <item> Vitamin H</item>
+        <item> Vitamin K</item>
+        <item> Vitamin K1</item>
+        <item> Vitamin Q10</item>
+        <item> Voglibose</item>
+        <item> voriconazole</item>
+        <item> voriconazole Tab</item>
+        <item> Warfarin</item>
+        <item> Wheat dextrin</item>
+        <item> Xanthinol Nicotinate</item>
+        <item> Xantinol Nicotinate</item>
+        <item> Xipamide</item>
+        <item> Xylometazoline</item>
+        <item> Xylometazoline Hydrochloride</item>
+        <item> Yeast</item>
+        <item> Yellow Fever Vaccine</item>
+        <item> Zafirlukast</item>
+        <item> Zaleplon</item>
+        <item> Zanamivir</item>
+        <item> Zidovudine</item>
+        <item> Zinc</item>
+        <item> Zinc Carnosine</item>
+        <item> Zinc gluconate</item>
+        <item> Zinc Oxide</item>
+        <item> Zinc Pyrithionone</item>
+        <item> Zinc sulphate monohydrate</item>
+        <item> Zinc-l-carnosine</item>
+        <item> Ziprasidone</item>
+        <item> Zn gluconate</item>
+        <item> Zoledronic Acid</item>
+        <item> Zolpidem</item>
+        <item> Zonisamide</item>
+        <item> Zopiclone</item>
+        <item> Zotepine</item>
+        <item> Zuclopenthixol</item>
+        <item>Â Micronized Purified Flavanoid Fraction of Rutaceae</item>
+        <item>Â GIT Regulators, antiflatulents and anti inflammatories</item>
+        <item>Â Candesartan Cilexetil Hydrochlorothiazide Â (Atacand HCT)</item>
+    </string-array>
+
+    <string-array name="labTest">
+        <item>VITAMIN D 25-HYDROXY</item>
+        <item>1 HOUR GESTATIONAL GLUCOSE, 50 GM</item>
+        <item>10 HYDROXYCARBAZEPINE</item>
+        <item>11 DEOXYCORTISOL</item>
+        <item>17 OH PREGNENOLONE</item>
+        <item>17-KETOSTEROIDS WITH CREAT, 24-HR URINE</item>
+        <item>17-KETOSTEROIDS, 24-HOUR URINE</item>
+        <item>17-OH CORTICOSTEROIDS</item>
+        <item>1ST TRIMESTER PANEL</item>
+        <item>2 HOUR GLUCOSE TOLERANCE</item>
+        <item>2-HOUR GESTATIONAL GLUCOSE, 75 GM</item>
+        <item>20Q DELETION (FISH)</item>
+        <item>3 HOUR GESTATIONAL GLUCOSE TOLERANCE, 100 GM</item>
+        <item>5 FLUOROCYTOSINE</item>
+        <item>5 HOUR GLUCOSE TOLERANCE</item>
+        <item>5\'NUCLEOTIDASE</item>
+        <item>5-HIAA 24 HR URINE</item>
+        <item>5-HIAA RANDOM URINE</item>
+        <item>6-MAM CONFIRMATORY (URINE)</item>
+        <item>6-MAM FORENSIC CONFIRMATION</item>
+        <item>A1-CONVERTING ENZ CSF</item>
+        <item>A1AT STOOL</item>
+        <item>AB TO THYROGLOBULIN</item>
+        <item>ABO</item>
+        <item>ABO/RH</item>
+        <item>ABO/RH</item>
+        <item>ACETAMINOPHEN LEVEL</item>
+        <item>ACETAMINOPHEN LEVEL</item>
+        <item>ACETAZOLAMIDE</item>
+        <item>ACETYL FENTANYL, SCREEN, BLOOD</item>
+        <item>ACETYL FENTANYL, SCREEN, URINE</item>
+        <item>ACETYLCHOLINE AMNIOT</item>
+        <item>ACETYLCHOLINE RCP AB</item>
+        <item>ACETYLCHOLINE RECEPTOR BLOCKING ANTIBODY</item>
+        <item>ACETYLCHOLINE RECEPTOR MODULATING AB</item>
+        <item>ACTH</item>
+        <item>ACTIVATED PROTEIN C (APC) RESISTANCE ASSAY</item>
+        <item>ACUTE HEPATITIS PANEL</item>
+        <item>ACYLCARNITINE PROFILE/CARNITINE ESTERS</item>
+        <item>ADAMTS13 ACTIVITY WITH RFLX TO INHIBITOR</item>
+        <item>ADENOSINE DEAM, BLOOD</item>
+        <item>ADENOVIRUS (CSF)</item>
+        <item>ADENOVIRUS AB</item>
+        <item>ADENOVIRUS PCR (PLASMA)</item>
+        <item>ADIPONECTIN LEVEL</item>
+        <item>ADJUSTED CALCIUM</item>
+        <item>ADMI FRAGILE X</item>
+        <item>ADRENAL ANTIBODY</item>
+        <item>ADRENAL VEIN SAMPLE</item>
+        <item>AFP AMNIOTIC FLUID, RFLX TO Ache &amp; HGBF</item>
+        <item>AFP, MATERNAL SERUM</item>
+        <item>ALBUMIN</item>
+        <item>ALBUMIN, 24 HOUR URINE</item>
+        <item>ALBUMIN, FLUID BATTERY</item>
+        <item>ALDO/RENIN RATIO</item>
+        <item>ALDOLASE</item>
+        <item>ALDOSTERONE LEVEL</item>
+        <item>ALDOSTERONE, 24 HR UR</item>
+        <item>ALK PHOS ISOENZYMES</item>
+        <item>ALKALINE PHOS/FRACTIONS</item>
+        <item>ALKALINE PHOSPHATASE</item>
+        <item>ALL 4,10,17 (FISH)</item>
+        <item>ALL PRE-B CELL, PEDS (FISH)</item>
+        <item>ALL, NHL, BURKITT LYMPHOMA, PEDS (FISH)</item>
+        <item>ALL/MPD, FISH, PEDS</item>
+        <item>ALLERGY TEST</item>
+        <item>ALPHA 1 ANTITRYPSIN</item>
+        <item>ALPHA 1 ANTITRYPSIN MUTATION ANALYSIS</item>
+        <item>ALPHA 2 ANTIPLASMIN</item>
+        <item>ALPHA SUBUNIT PITUITARY GLYCOPROTEIN HORMONES</item>
+        <item>ALPHA-FETOPROTEIN</item>
+        <item>ALPHA-GALACTOSIDASE, SERUM</item>
+        <item>ALPHA-GLOBIN GENE DELETION OR DUPLICATION</item>
+        <item>ALPRAZOLAM</item>
+        <item>ALT</item>
+        <item>ALUMINUM</item>
+        <item>AMANTADINE</item>
+        <item>AMIKACIN, PEAK</item>
+        <item>AMIKACIN, RANDOM</item>
+        <item>AMIKACIN, TROUGH</item>
+        <item>AMINO ACID QUANT/URI</item>
+        <item>AMINO ACID, QUANT</item>
+        <item>AMIODARONE LEVEL</item>
+        <item>AMITRIPTYLINE/NORTRI-LEVEL</item>
+        <item>AML T 12:21 (FISH)</item>
+        <item>AML-M3 T 15,17 (FISH)</item>
+        <item>AML-MDS 7 DEL 7Q31 (FISH)</item>
+        <item>AML1-ETO (FISH)</item>
+        <item>AMMONIA</item>
+        <item>AMMONIA</item>
+        <item>AMMONIA</item>
+        <item>AMPHETAMINES, CONFIRMATORY (URINE)</item>
+        <item>AMPHIPHYSIN ANTIBODY</item>
+        <item>AMPS FORENSIC CONFIRMATION</item>
+        <item>AMYLASE</item>
+        <item>AMYLASE ISOENZYMES</item>
+        <item>AMYLASE, 12-HOUR URINE</item>
+        <item>AMYLASE, FLUID BATTERY</item>
+        <item>AMYLASE, RANDOM URINE</item>
+        <item>AMYLOIDOSIS EVALUATION, TRANSTHYRETIN</item>
+        <item>ANA</item>
+        <item>ANAEROBIC ID (ORDER)</item>
+        <item>ANAL HPV HIGH RISK</item>
+        <item>ANAL PAP</item>
+        <item>ANCA BATTERY</item>
+        <item>ANDROSTENEDIONE</item>
+        <item>ANEMIA CONSULT (PATH)</item>
+        <item>ANGIOTENSIN-1-CONVERTING ENZYME</item>
+        <item>ANTI GBM AB</item>
+        <item>ANTI SKIN ANTIBODY</item>
+        <item>ANTI-BETA 2 GLYCOPROTEIN AB</item>
+        <item>ANTI-CARDIOLIPIN ANTIBODY</item>
+        <item>ANTI-CENTROMERE AB</item>
+        <item>ANTI-DNA AB, DOUBLE STRANDED</item>
+        <item>ANTI-ISLET CELL ANTIBODY</item>
+        <item>ANTI-MITOCHONDRIAL AB</item>
+        <item>ANTI-MYELOPEROXIDASE AB</item>
+        <item>ANTI-PROTEINASE 3 AB</item>
+        <item>ANTI-SMOOTH MUSCLE AB</item>
+        <item>ANTI-SS DNA ANTIBODY</item>
+        <item>ANTI-STREP DNASE B</item>
+        <item>ANTI-STRIATED MUSCLE AB</item>
+        <item>ANTIBODY SCREEN</item>
+        <item>ANTIBODY SCREEN</item>
+        <item>ANTIBODY TITER</item>
+        <item>ANTICARDIOLIPIN IGA AB</item>
+        <item>ANTICOAG 50/50 MIX</item>
+        <item>ANTIMULLERIAN HORMONE ASSAY</item>
+        <item>ANTINUCLEAR AB TITER AND PATTERN</item>
+        <item>ANTITHROMBIN III</item>
+        <item>APOLIPOPROTEIN A-1</item>
+        <item>APOLIPOPROTEIN B</item>
+        <item>APT TEST</item>
+        <item>APTT</item>
+        <item>APTT HEPASORBED</item>
+        <item>ARGININE VASOPRESSIN</item>
+        <item>ARSENIC</item>
+        <item>ARSENIC,24HR URINE</item>
+        <item>ASCA AB, IGA, IGG</item>
+        <item>ASCORBIC ACID LEVEL</item>
+        <item>ASPER FUMIGATE CF</item>
+        <item>ASPERGILLIS GALACTOMANNAN (BRONCH LAVAGE)</item>
+        <item>ASPERGILLIS GALACTOMANNAN, BLOOD (SERUM)</item>
+        <item>ASPERGILLUS GALACTOMANNAN ANTIGEN</item>
+        <item>ASPERGILLUS NIGER (m207) IgE</item>
+        <item>ASPIRIN, VERIFY NOW</item>
+        <item>AST</item>
+        <item>ATAXIA COMPLETE PROF</item>
+        <item>ATOPC DERMATITIS IGE</item>
+        <item>B CELL GENE RE-ARRANGE</item>
+        <item>B CELL MALIGNANCY (FISH)</item>
+        <item>B DERMATIDITIS AB CF &amp; ID</item>
+        <item>B HYDROXYBUTYRIC</item>
+        <item>B PERTUSSIS PANEL</item>
+        <item>B-CELL LEUKEMIA PANEL (FISH)</item>
+        <item>BACTERIAL IDENTIFICATION</item>
+        <item>BACTERIAL MENINGITIS ANTIGENS</item>
+        <item>BACTERIAL VAGINOSIS/VAGINITIS PANEL</item>
+        <item>BARBITURATES, URINE CONFIRM</item>
+        <item>BARTONELLA DNA PCR</item>
+        <item>BARTONELLA HENSELAE AB</item>
+        <item>BASIC METABOLIC PANEL</item>
+        <item>BCR ABL GENE PCR W/SUBTYPING</item>
+        <item>BCR ABL QUANTITATIVE</item>
+        <item>BENCE JONES PROTEIN 24-HOUR URINE</item>
+        <item>BENCE JONES PROTEIN RANDOM URINE</item>
+        <item>BENZODIAZEPINES, CONFIRMATORY (URINE)</item>
+        <item>BETA 2 GLYCOPROT IGA</item>
+        <item>BETA 2 GLYCOPROT IGG</item>
+        <item>BETA 2 GLYCOPROT IGM</item>
+        <item>BETA HCG (PREGNANCY CONFIRMATION)</item>
+        <item>BETA HCG (PREGNANCY CONFIRMATION)</item>
+        <item>BETA HCG (PREGNANCY CONFIRMATION)</item>
+        <item>BETA HCG (PREGNANCY CONFIRMATION)</item>
+        <item>BETA-2 TRANSFERRIN</item>
+        <item>BETA-2-MICROGLOBULIN</item>
+        <item>BETA-2-MICROGLOBULIN, URINE</item>
+        <item>BILE ACIDS TOTAL</item>
+        <item>BILIRUBIN AMN FLUID</item>
+        <item>BILIRUBIN, DIRECT</item>
+        <item>BILIRUBIN, TOTAL</item>
+        <item>BIOPSY FOR DIRECT IMMUNOFLUORESCENT STAINING</item>
+        <item>BIOTINIDASE</item>
+        <item>BK VIRUS (CSF)</item>
+        <item>BK VIRUS DNA PCR (URINE)</item>
+        <item>BK VIRUS PCR PLASMA</item>
+        <item>BK VIRUS PCR, BLOOD (SERUM)</item>
+        <item>BLOOD GAS, VENOUS</item>
+        <item>BLOOD GAS, ARTERIAL</item>
+        <item>BLOOD GAS, CAPILLARY</item>
+        <item>BLOOD GAS, CORD BLOOD, VENOUS</item>
+        <item>BNP (NT-PRO-BNP)</item>
+        <item>BONE MARROW BIOPSY</item>
+        <item>BONE SPEC ALK PHOS</item>
+        <item>BRAF MUTATION TESTING</item>
+        <item>BRAF MUTATION, REFERRED</item>
+        <item>BREAST NIPPLE DISCHARGE</item>
+        <item>BROMIDE</item>
+        <item>BRONCHIAL BRUSHING</item>
+        <item>BRONCHIAL WASHING</item>
+        <item>BRONCHOALVEOLAR LAVAGE</item>
+        <item>BUN</item>
+        <item>BUPIVACAINE LEVEL</item>
+        <item>BUPRENORPHINE BY LCMSMS, URINE CONFIRMATION</item>
+        <item>BUPRENORPHINE SCREEN (URINE)</item>
+        <item>BUPRENORPHINE SCREEN W/CONFIRM. (URINE)</item>
+        <item>BUPRENORPHINE SCREEN, FORENSIC</item>
+        <item>BUPRENORRPHINE, URINE FORENSIC CONFIRMATION</item>
+        <item>BUPROPION AND METABOLITE</item>
+        <item>BZD FORENSIC CONFIRMATION</item>
+        <item>C JEJUNI ANTIBODY</item>
+        <item>C PNEUMONIAE ABS</item>
+        <item>C PNEUMONIAE IGG AB</item>
+        <item>C PNEUMONIAE IGM AB</item>
+        <item>C PSITTACI AB PANEL</item>
+        <item>C-MYC (FISH)</item>
+        <item>C-PEPTIDE</item>
+        <item>C. DIFFICILE/EPI, PCR</item>
+        <item>C1 INHIBITOR PROTEIN</item>
+        <item>C1 ESTERASE INH. F.</item>
+        <item>C1Q BINDING ASSAY</item>
+        <item>C2 FUNCTION</item>
+        <item>C4 BINDING PROTEIN</item>
+        <item>CADASIL EVAL, COMPLETE</item>
+        <item>CADMIUM, BLOOD</item>
+        <item>CAFFEINE LEVEL</item>
+        <item>CAH 21 RARE MUTATION</item>
+        <item>CAH PEDIATRIC PROFILE 6: COMPREHENSIVE SCREEN</item>
+        <item>CAH PROFILE 1</item>
+        <item>CAH PROFILE 2</item>
+        <item>CAH PROFILE 6</item>
+        <item>CALCITONIN</item>
+        <item>CALCIUM</item>
+        <item>CALCIUM FRACTIONAL EXCRETION</item>
+        <item>CALCIUM PHOSPHORUS PRODUCT</item>
+        <item>CALCIUM, 24 HOUR URINE</item>
+        <item>CALCIUM, IONIZED</item>
+        <item>CALCIUM, IONIZED - WB</item>
+        <item>CALCIUM, RANDOM URINE</item>
+        <item>CALPROTECTIN, STOOL</item>
+        <item>CANAVAN DZ MUTATION</item>
+        <item>CANCER ANTIGEN 125</item>
+        <item>CANCER ANTIGEN 15-3</item>
+        <item>CANCER ANTIGEN 19-9</item>
+        <item>CANCER ANTIGEN 27.29</item>
+        <item>CANDIDIASIS AG</item>
+        <item>CAR (ANTI-RECOVERIN) AUTOANTIBODY</item>
+        <item>CARBAMAZEPINE</item>
+        <item>CARBAMAZEPINE</item>
+        <item>CARBAMAZEPINE</item>
+        <item>CARBOXYHEMOGLOBIN</item>
+        <item>CARCINOEMBRYONIC ANTIGEN</item>
+        <item>CARDIO IQ LIPID PANEL</item>
+        <item>CARDIOLIPIN AB IGG</item>
+        <item>CARDIOLIPIN AB IGM</item>
+        <item>CARNITINE TOTAL &amp; FREE</item>
+        <item>CARNITINE, PLASMA</item>
+        <item>CARNITINE, TOTAL AND FREE (URINE)</item>
+        <item>CARNITINE, URINE</item>
+        <item>CAROTENE LEVEL</item>
+        <item>CASPR 2 ANTIBODY</item>
+        <item>CATECHOL FRACT PLASMA</item>
+        <item>CATECHOLAMINES, FRACTIONATED, 24-HOUR URINE</item>
+        <item>CATECHOLAMINES, FRACTIONATED, RANDOM URINE</item>
+        <item>CATHARTIC LAXATIVE SCREEN</item>
+        <item>CAVEOLIN 3 DNA SEQUENCING</item>
+        <item>CBC</item>
+        <item>CBC/DIFF</item>
+        <item>CBFB MYH11 (FISH)</item>
+        <item>CCP IGG AB</item>
+        <item>CD34 (ABSOLUTE COUNT)</item>
+        <item>CD4 T-CELL SUBSET PANEL</item>
+        <item>CEA FLUID BATTERY</item>
+        <item>CELIAC AB PANEL</item>
+        <item>CELL COUNT FLD/NO DIFF</item>
+        <item>CELL CT/DIFF, FLUID</item>
+        <item>CERULOPLASMIN</item>
+        <item>CH50, TOTAL</item>
+        <item>CHLAMYDIA + GONORRHEA DNA (PAP)</item>
+        <item>CHLAMYDIA AMPLIFIED</item>
+        <item>CHLAMYDIA SPEC DIFF</item>
+        <item>CHLAMYDIA TRACH CLT</item>
+        <item>CHLAMYDIA TRACH IGM</item>
+        <item>CHLAMYDIA TRACHOMATIS DNA (PAP)</item>
+        <item>CHLAMYDIA TRACHOMATIS IGG</item>
+        <item>CHLAMYDIA TRACHOMATIS IGG, IGM, IGA ANTIBODIES</item>
+        <item>CHLORAL HYDRATE SCREEN</item>
+        <item>CHLORAMPHENICOL QUAN</item>
+        <item>CHLORIDE</item>
+        <item>CHLORIDE, 24 -HOUR URINE</item>
+        <item>CHLORIDE, RANDOM URINE</item>
+        <item>CHLORPROMAZINE LEVEL</item>
+        <item>CHOLESTEROL</item>
+        <item>CHOLESTEROL, PLEURAL FLUID</item>
+        <item>CHOLINES + DIBUCAINE INHIBITION</item>
+        <item>CHOLINESTERASE, SERUM</item>
+        <item>CHROMATIN ANTIBODY</item>
+        <item>CHROMOGRANIN A</item>
+        <item>CHROMOSOM STY CANCER</item>
+        <item>CHROMOSOME AMNIO FL</item>
+        <item>CHROMOSOME ANALYSIS, AFP</item>
+        <item>CHROMOSOME CLL/LPD</item>
+        <item>CHROMOSOME CVS</item>
+        <item>CHROMOSOME HIGH RES</item>
+        <item>CHROMOSOME LYMPH NODE</item>
+        <item>CHROMOSOME SOLID TUM</item>
+        <item>CHROMOSOME, BLOOD, ADULT</item>
+        <item>CHROMOSOME, BONE MARROW</item>
+        <item>CHROMOSOME, BONE MARROW, ADULT</item>
+        <item>CHROMOSOME, STANDARD KARYOTYPE</item>
+        <item>CHROMOSOME, TISSUE</item>
+        <item>CHRONIC URTICARIA PANEL</item>
+        <item>CIRCULATING TUMOR CELLS (BREAST)</item>
+        <item>CIRCULATING TUMOR CELLS (COLON)</item>
+        <item>CIRCULATING TUMOR CELLS (PROSTATE)</item>
+        <item>CITRATE, 24 HR URINE</item>
+        <item>CJD PANEL</item>
+        <item>CK ISOENZYMES</item>
+        <item>CK-TOTAL</item>
+        <item>CLL IGVH MUTATION</item>
+        <item>CLOMIPRAMINE LEVEL</item>
+        <item>CLONAZEPAM, URINE</item>
+        <item>CLONAZEPAN (KLONOPIN)</item>
+        <item>CLORAZEPATE (TRANZENE)</item>
+        <item>CLOZARIL LEVEL</item>
+        <item>CMV (CSF)</item>
+        <item>CMV - IGG</item>
+        <item>CMV - IGM</item>
+        <item>CMV DNA QUANT PLASMA</item>
+        <item>CMV PCR (URINE)</item>
+        <item>CO2, TOTAL</item>
+        <item>COAG CONSULT</item>
+        <item>COBALT, SERUM/PLASMA</item>
+        <item>COCAINE FORENSIC CONFIRMATION</item>
+        <item>COCAINE, CONFIRMATORY (URINE)</item>
+        <item>COCAINE, MECONIUM, GCMS</item>
+        <item>COCCIDIOIDES IMMITIS</item>
+        <item>COENZYME Q10</item>
+        <item>COLD AGGLUTININS</item>
+        <item>COLLAGEN BIND ASSAY</item>
+        <item>COLLAGEN CROSSLINK (24-HR URINE)</item>
+        <item>COMP STOOL CULTURE</item>
+        <item>COMPLEMENT C3</item>
+        <item>COMPLEMENT C4</item>
+        <item>COMPLEMENT C5</item>
+        <item>COMPREHENSIVE METABOLIC PANEL</item>
+        <item>CONJUNCTIVAL SCRAPING</item>
+        <item>CONNEXIN 32 DNA</item>
+        <item>CONVENIENT CARE SCREEN 5</item>
+        <item>CONVENIENT CARE SCREEN 7</item>
+        <item>CONVENIENT CARE SCREEN 9</item>
+        <item>COPPER 24HR URINE</item>
+        <item>COPPER, SERUM</item>
+        <item>CORD BLOOD, ARTERIAL (BLOOD GAS)</item>
+        <item>CORTICOTROPIN RELEASING FACTOR</item>
+        <item>CORTISOL</item>
+        <item>CORTISOL FREE 24-HOUR URINE</item>
+        <item>CORTISOL, SALIVA</item>
+        <item>COTININE SCREEN (URINE)</item>
+        <item>COTININE SCREEN W/CONFIRM. (URINE)</item>
+        <item>COTININE, FORENSIC</item>
+        <item>COUMADIN, PLASMA</item>
+        <item>COXSACKIE A AB, CF</item>
+        <item>COXSACKIE B1-B6 AB</item>
+        <item>CREATININE CLEARANCE</item>
+        <item>CREATININE FLUID BATTERY</item>
+        <item>CREATININE, 24 HOUR URINE</item>
+        <item>CREATININE, RANDOM URINE</item>
+        <item>CREATININE, SERUM</item>
+        <item>CRP (INFLAMMATORY MARKER)</item>
+        <item>CRP, HIGH SENSITIVITY (CARDIOVASCULAR RISK)</item>
+        <item>CRYOGLOBULIN SCREEN</item>
+        <item>CRYPTOCOCCAL ANTIGEN, CSF</item>
+        <item>CRYPTOCOCCAL ANTIGEN, SERUM</item>
+        <item>CRYPTOSPORIDIUM IMMUNOASSAY TEST</item>
+        <item>CSF FOR CYTOLOGY</item>
+        <item>CULT QUANT DOUDENAL </item>
+        <item>CULTURE, AFB</item>
+        <item>CULTURE, ANAEROBIC</item>
+        <item>CULTURE, ATTEST</item>
+        <item>CULTURE, ATTEST (OUTREACH)</item>
+        <item>CULTURE, BLOOD</item>
+        <item>CULTURE, CYSTIC FIBROSIS</item>
+        <item>CULTURE, FUNGUS DERMATOLOGICAL</item>
+        <item>CULTURE, FUNGUS OTHER</item>
+        <item>CULTURE, GC</item>
+        <item>CULTURE, GRP A STREP</item>
+        <item>CULTURE, GRP B STREP</item>
+        <item>CULTURE, LEGIONELLA</item>
+        <item>CULTURE, POSITIVE BLOOD</item>
+        <item>CULTURE, QUANT BRONCH</item>
+        <item>CULTURE, QUANT URINE</item>
+        <item>CULTURE, RESPIRATORY</item>
+        <item>CULTURE, ROUTINE</item>
+        <item>CV2 AUTO-ANTIBODY</item>
+        <item>CYANIDE, BLOOD</item>
+        <item>CYCLOSPORA/ISOSPORA</item>
+        <item>CYCLOSPORINE TROUGH</item>
+        <item>CYCLOSPORINE, C2 PEAK</item>
+        <item>CYCLOSPORINE, RANDOM</item>
+        <item>CYSTIC FIBROSIS SCREEN</item>
+        <item>CYSTICERCOSIS AB</item>
+        <item>CYSTINE 24 HR URINE</item>
+        <item>CYSTINE RANDOM URINE</item>
+        <item>CYTOCHROME P450 2C19</item>
+        <item>CYTOMEGALOVIRUS CULTURE</item>
+        <item>D DIMER (QUANTITATED)</item>
+        <item>D XYLOSE 5 HR URINE</item>
+        <item>DELTA ALA, 24HR UR</item>
+        <item>DEMENTIA, AUTOIMMUNE EVALUATION, SERUM</item>
+        <item>DEOXYCORTICOSTERONE</item>
+        <item>DESIPRAMINE-LEVEL</item>
+        <item>DHEA</item>
+        <item>DHEAS-SULFATE</item>
+        <item>DIAZEPAM (VALIUM)</item>
+        <item>DIGEORGE, PEDS (FISH)</item>
+        <item>DIGOXIN</item>
+        <item>DIGOXIN</item>
+        <item>DIHYDROTESTOSTERONE</item>
+        <item>DIPHTHERIA</item>
+        <item>DIRECT COOMBS</item>
+        <item>DIRECT COOMBS</item>
+        <item>DISACCHARIDASE ANALY</item>
+        <item>DISOPYRAMIDE</item>
+        <item>DOXEPIN/DESMETHYLDOX-LEVEL</item>
+        <item>DRUG INDUCED PLATELET</item>
+        <item>DRUG SCREEN PANEL, MECONIUM</item>
+        <item>DRUGS OF ABUSE WITH CONF, SERUM</item>
+        <item>DRVV</item>
+        <item>E HISTOLYTICA IGG AB</item>
+        <item>EBV - EBNA</item>
+        <item>EBV - VCA IGM ANTIBODY</item>
+        <item>EBV DNA PCR PLASMA</item>
+        <item>EBV EARLY ANTIGEN</item>
+        <item>EBV PCR (CSF)</item>
+        <item>EBV-VCA IGG ANTIBODY</item>
+        <item>ECHOVIRUS AB PANEL</item>
+        <item>EGFR MUTATION TESTING</item>
+        <item>EHRLICHIA AB PANEL</item>
+        <item>ELECTROLYTES</item>
+        <item>ELECTROLYTES</item>
+        <item>ELECTROLYTES, 24-HOUR URINE</item>
+        <item>ELECTROLYTES, FLUID</item>
+        <item>ELECTROLYTES, RANDOM URINE</item>
+        <item>ELECTROLYTES, WHO BLD</item>
+        <item>ELECTRON MICROSCOPY</item>
+        <item>ENCEPHALOPATHY, AUTOIMMUNE EVAL SERUM</item>
+        <item>ENDOMYSIAL AB (IgA) SCREEN REFLEX TITER</item>
+        <item>ENTEROVIRUS CULTURE</item>
+        <item>ENTEROVIRUS PCR (PLASMA)</item>
+        <item>ENTEROVIRUS RNA, QUAL.</item>
+        <item>ENTEROVIRUS, PCR (CSF)</item>
+        <item>EOSINOPHIL SMEAR</item>
+        <item>EOSINOPHILS, URINE</item>
+        <item>EPG, CSF</item>
+        <item>EPILEPSY, AUTOIMMUNE EVALUATION, SERUM</item>
+        <item>EPSTEIN BARR PANEL</item>
+        <item>EPSTEIN-BARR (EBV) VIRUS DNA TEST</item>
+        <item>ERYTHROCYTE PORTOPORPHYRIN</item>
+        <item>ERYTHROPOIETIN</item>
+        <item>ESTRADIOL</item>
+        <item>ESTROGEN</item>
+        <item>ESTRONE</item>
+        <item>ETHANOL, FORENSIC</item>
+        <item>ETHANOL, MEDICAL</item>
+        <item>ETHANOL, URINE</item>
+        <item>ETHOSUXIMIDE LEVEL</item>
+        <item>ETHOTOIN</item>
+        <item>ETHYLENE GLYCOL</item>
+        <item>ETHYLENE GLYCOL,UR</item>
+        <item>EWING/PNET (FISH)</item>
+        <item>FACIOSCAPULOHUMERAL DZ</item>
+        <item>FACTOR II (TWO) CLOTTING ASSAY</item>
+        <item>FACTOR INHIB TITER</item>
+        <item>FACTOR IX (NINE) CLOTTING ASSAY</item>
+        <item>FACTOR V CLOTTING ASSAY</item>
+        <item>FACTOR V LEIDEN [FVLM]</item>
+        <item>FACTOR VII (SEVEN) CLOTTING ASSAY</item>
+        <item>FACTOR VIII (EIGHT) CLOTTING ASSAY</item>
+        <item>FACTOR X (TEN) CLOTTING ASSAY</item>
+        <item>FACTOR XI (ELEVEN) CLOTTING ASSAY</item>
+        <item>FACTOR XII (TWELVE) CLOTTING ASSAY</item>
+        <item>FACTOR XIII SCREEN</item>
+        <item>FANCONI ANEMIA CHROMOSOME</item>
+        <item>FASTING PLASMA GLUCOSE</item>
+        <item>FECAL FAT, QUAL</item>
+        <item>FECAL LACTOFERRIN EIA</item>
+        <item>FECAL LIPIDS, TOTAL</item>
+        <item>FECAL OCCULT BLOOD, EIA (FOBT)</item>
+        <item>FELBAMATE</item>
+        <item>FENTANYL CONFIRMATION, URINE</item>
+        <item>FENTANYL SCREEN (URINE)</item>
+        <item>FENTANYL SCREEN W/CONFIRMATION (URINE)</item>
+        <item>FERRITIN</item>
+        <item>FETAL FIBRONECTIN</item>
+        <item>FETAL HEMOGLOBIN RBC STAIN</item>
+        <item>FETAL HGB (RID)</item>
+        <item>FETAL SCREEN</item>
+        <item>FIBRIN MONOMERS, SOL</item>
+        <item>FIBRIN SPLIT PRODUCT</item>
+        <item>FIBRINOGEN ANTIGEN</item>
+        <item>FIBRINOGEN LEVEL</item>
+        <item>FIBROSPECT II</item>
+        <item>FILARIA IGG AB</item>
+        <item>FINAL RECIPIENT T &amp; B CELL CROSSMATCH</item>
+        <item>FINE NEEDLE ASPIRATION OF PALPABLE TARGETS WITHOUT IMAGE GUIDANCE</item>
+        <item>FINE NEEDLE ASPIRATION, DEEP TISSUE SOURCE, WITH FLUOROSCOPIC, ULTRASOUND, OR CT GUIDANCE</item>
+        <item>FISH ALCL ALK 2P23</item>
+        <item>FISH FOR BCR ABL</item>
+        <item>FISH MLL 11Q23</item>
+        <item>FISH, AML/MDS, -5/DELETION 5q31</item>
+        <item>FISH, ANGELMAN</item>
+        <item>FISH, HER-2/NEU, PARAFFIN BLOCK</item>
+        <item>FISH, MULTIPLE MYELOMA 13q-,17p-,rea 14q32</item>
+        <item>FISH, PRENATAL SCRN</item>
+        <item>FISH, X/Y POST BMT</item>
+        <item>FLECAINIDE LEVEL</item>
+        <item>FLOW CYTOMETRY PATHOLOGY PROC (BLOOD ONLY)</item>
+        <item>FLOW CYTOMETRY PATHOLOGY PROCEDURE (NON-BLOOD)</item>
+        <item>FLOW T &amp; B CROSSMATCH</item>
+        <item>FLUOXETINE</item>
+        <item>FOLIC ACID</item>
+        <item>FOLLICLE STIMULATING HORMONE</item>
+        <item>FONDAPARINUX LEVEL</item>
+        <item>FORENSIC OXYCODONE SCREEN</item>
+        <item>FRAGILE X</item>
+        <item>FREE FATTY ACID</item>
+        <item>FREE T4</item>
+        <item>FREE T4</item>
+        <item>FREE T4 EQUILIBRIUM</item>
+        <item>FREE TEGRETOL EPOX</item>
+        <item>FRIEDREICH\'S ATAXIA</item>
+        <item>FRUCTOSAMINE</item>
+        <item>FTA-ABS</item>
+        <item>FUNGAL AB PANEL</item>
+        <item>FUNGAL AB SCREEN CF</item>
+        <item>FUNGAL CULTURE, BLOOD</item>
+        <item>FUNGAL IDENTIFICATION, DERMATOLOGY</item>
+        <item>FUNGAL IDENTIFICATION, OTHER</item>
+        <item>FUNGITELL (1-3)-B-D-GLUCAN ASSAY</item>
+        <item>G 6 PD</item>
+        <item>G-G-TRANSPEPTIDASE</item>
+        <item>G1P</item>
+        <item>GAD65 INSULIN DEPENDENCE AB</item>
+        <item>GAD65 NEUROLOGICAL SYNDROME ANTIBODY</item>
+        <item>GALACTITOL</item>
+        <item>GALACTOSEMIA QUANT</item>
+        <item>GANGLIONIC nAChR</item>
+        <item>GANGLIOSIDE GD1A ANTIBODY</item>
+        <item>GASTRIC BRUSHING</item>
+        <item>GASTRIC PARIETAL CELL ANTIBODY</item>
+        <item>GASTRIN</item>
+        <item>GASTROCCULT</item>
+        <item>GAUCHER DZ DNA MUTATION</item>
+        <item>GCMC BRAIN NATRIURETIC PEPTIDE</item>
+        <item>GCMC TOX SCREEN, URINE</item>
+        <item>GENTAMICIN PEAK</item>
+        <item>GENTAMICIN RANDOM</item>
+        <item>GENTAMICIN TROUGH</item>
+        <item>GHRELIN, TOTAL</item>
+        <item>GIARDIA ANTIBODIES</item>
+        <item>GIARDIA EIA, STOOL</item>
+        <item>GLIADIN AB PANEL</item>
+        <item>GLIADIN IGA AB</item>
+        <item>GLIADIN IGG AB</item>
+        <item>GLUCAGON, PLASMA</item>
+        <item>GLUCOSE</item>
+        <item>GLUCOSE, 2 HR POSTPRANDIAL</item>
+        <item>GLUCOSE, 24-HOUR URINE</item>
+        <item>GLUCOSE, CSF</item>
+        <item>GLUCOSE, FLUID</item>
+        <item>GLUCOSE, RANDOM URINE</item>
+        <item>GLUCOSE, WHOLE BLOOD</item>
+        <item>GLYCOSAMINOGLYCANS</item>
+        <item>GONADOTROPIN REL HOR</item>
+        <item>GONORRHEA DNA (PAP)</item>
+        <item>GPA STREP RAPID THROAT</item>
+        <item>GQ1B AUTO-ANTIBODY</item>
+        <item>GR A STREP PCR</item>
+        <item>GRAM STAIN</item>
+        <item>GROUP B STREP CULTURE/PCR</item>
+        <item>GROWTH HORMONE</item>
+        <item>GROWTH HORMONE ANTIBODY</item>
+        <item>H INFLU IGG AB</item>
+        <item>H INFLUENZAE TYPE B</item>
+        <item>H PYLORI AG STOOL</item>
+        <item>HALOPERIDOL</item>
+        <item>HAPTOGLOBIN</item>
+        <item>HCT</item>
+        <item>HCV FIBROSIS</item>
+        <item>HCV RNA GENOTYPE REFLEX TO NS5A RESISTANCE</item>
+        <item>HCV RNA QUANTITATIVE</item>
+        <item>HCV SCREEN WITH CONFIRMATION</item>
+        <item>HDL - CHOLESTEROL</item>
+        <item>HE4, OVARIAN CANCER MONITORING</item>
+        <item>HEAMTOLOGIC MALIGNANCY MICROARRAY</item>
+        <item>HEAVY METALS 24HR UR</item>
+        <item>HEAVY METALS PANEL, RANDOM URINE</item>
+        <item>HEAVY METALS, BLOOD</item>
+        <item>HEINZ BODY STAIN</item>
+        <item>HEMOGLOBIN A1C</item>
+        <item>HEMOGLOBIN A2</item>
+        <item>HEMOGLOBIN F</item>
+        <item>HEMOGLOBIN, FREE, PLASMA</item>
+        <item>HEMOGLOBIN, MEASURED</item>
+        <item>HEMOGLOBIN, URINE</item>
+        <item>HEP A AB G&amp;M</item>
+        <item>HEP A AB IGM</item>
+        <item>HEP B CORE AB IGM</item>
+        <item>HEP B CORE AB G&amp;M</item>
+        <item>HEP B GENOTYPE</item>
+        <item>HEP B SURFACE ANTIBODY</item>
+        <item>HEP B SURFACE ANTIGEN</item>
+        <item>HEP B VIRAL LOAD QNT</item>
+        <item>HEPARIN AB WITH REFLEX TO SEROTONIN RELEASE IF POSITIVE</item>
+        <item>HEPARIN AB, ANTI-PLATELET FACTOR 4</item>
+        <item>HEPARIN LEVEL, UNFRACTIONATED</item>
+        <item>HEPASORBED PT</item>
+        <item>HEPATIC FUNCTION PANEL</item>
+        <item>HEPATITIS BE AB</item>
+        <item>HEPATITIS BE ANTIGEN</item>
+        <item>HEPATITIS C ANTIBODY</item>
+        <item>HEPATITS B VIRAL DNA, QUALITATIVE</item>
+        <item>HEREDITARY HEMOCHROMATOSIS DNA TESTS</item>
+        <item>HEROIN SCREEN, URINE</item>
+        <item>HERPES 1 &amp; 2 IGG</item>
+        <item>HERPES 1 &amp; 2 IGM</item>
+        <item>HERPES SIMPLEX 1/2 (PCR)</item>
+        <item>HERPES SIMPLEX 1/2 AND VARICELLA ZOSTER PCR</item>
+        <item>HERPES SIMPLEX VIRAL CULTURE WITH TYPING</item>
+        <item>HERPES TYPE 6 ABS</item>
+        <item>HERPES VIRUS 6, CSF, PCR</item>
+        <item>HGB</item>
+        <item>HGB ELECTROPHORESIS</item>
+        <item>HISTAMINE, PLASMA</item>
+        <item>HISTONE ANTIBODY, EIA</item>
+        <item>HIV AB 1 &amp; 2, RAPID</item>
+        <item>HIV AG/AB WITH CONFIRMATION</item>
+        <item>HIV-1 GENOTYPING</item>
+        <item>HIV-1 RNA QUANT</item>
+        <item>HLA A HIGH RES</item>
+        <item>HLA A, B, C, DR, DQ TYPING (TRANSPLANT)</item>
+        <item>HLA A,B,C DNA TYPE</item>
+        <item>HLA A29 DNA TYPING, BIRDSHOT RETINOCHOROIDOPATHY</item>
+        <item>HLA B HIGH RESOLUTION</item>
+        <item>HLA B27 ANTIGEN</item>
+        <item>HLA B5701 TYPING</item>
+        <item>HLA CLASS 1 &amp; 2</item>
+        <item>HLA CW HIGH RES</item>
+        <item>HLA DR, DQ TYPE</item>
+        <item>HLA TYPING FOR CELIAC DISEASE</item>
+        <item>HLA TYPING FOR NARCOLEPSY</item>
+        <item>HLA-B*5801 GENOTYPE</item>
+        <item>HLA-DQB1 HIGH RES</item>
+        <item>HLA-DRB1 HIGH RES</item>
+        <item>HMGCR ANTIBODIES</item>
+        <item>HOMOCYSTEINE</item>
+        <item>HPV GENOTYPES, 16 &amp; 18</item>
+        <item>HSV 1 AND 2 PCR (VITREOUS FLUID)</item>
+        <item>HTLV 1+2 AB (WHOLE BLOOD)</item>
+        <item>HTLV 1/2 PROGRESSIVE</item>
+        <item>HU ANTIBODY SCREEN WITH REFLEX TO TITER AND WESTERN BLOT, CSF</item>
+        <item>HUNTINGTON\'S DISEASE</item>
+        <item>HVA, 24 HOUR URINE</item>
+        <item>HVA, RANDOM URINE</item>
+        <item>HYDROCARBON/OXYGEN</item>
+        <item>HYDROCODONE HYDROMORPHONE FORENSIC CONFIRMATION (URINE)</item>
+        <item>HYDROCODONE, HYDROMORPHONE CONFIRMATION (URINE)</item>
+        <item>HYPER PNEUMONITIS AB</item>
+        <item>HYPERTROPHIC CARDIOMYOPATHY (HCM) SEQUENCING</item>
+        <item>HYPOGLYCEMIC PNL SERUM</item>
+        <item>IgA QUANTITATION</item>
+        <item>IgA SUBCLASSES</item>
+        <item>IGD</item>
+        <item>IGE</item>
+        <item>IGFBP3</item>
+        <item>IGFII</item>
+        <item>IgG QUANTITATION</item>
+        <item>IGG SUBCLASSES</item>
+        <item>IGG SYNTHETIC RATE</item>
+        <item>IgM QUANTITATION</item>
+        <item>IMIPRAMINE/DESIPRAMINE LEVEL</item>
+        <item>IMMATURE PLATELET FRACTION</item>
+        <item>IMMUNE CELL FUNCTION</item>
+        <item>IMMUNOFIXATION, SERUM</item>
+        <item>IMMUNOGLOBULIN QUANTITATION</item>
+        <item>IMMUNOHISTOCHEMISTRY (IHC), IN-SITU HYBRIDIZATION (ISH)</item>
+        <item>INFANT BOTULISM ST</item>
+        <item>INFLIXIMAB CONC AND ANTI-INFLIXIMAB AB</item>
+        <item>INFLUENZA GROUP CF</item>
+        <item>INHERITED FSGS EVAL</item>
+        <item>INHIBIN B</item>
+        <item>INSULIN</item>
+        <item>INSULIN AB</item>
+        <item>INSULIN, FREE</item>
+        <item>INSULIN-LIKE GROWTH FACTOR 1</item>
+        <item>INTERLEUKIN 6, EIA</item>
+        <item>INTRINSIC FACTOR BLOCKING ANTIBODY</item>
+        <item>IODIDE</item>
+        <item>IPECAC USE MARKERS</item>
+        <item>IRON 24 HR URINE</item>
+        <item>IRON LIVER TISSUE</item>
+        <item>IRON SCREEN, INCLUDING TIBC</item>
+        <item>IRON STAIN BAL FOR HEMOSIDERIN</item>
+        <item>IRON STAIN URINE FOR HEMOSIDERIN</item>
+        <item>IRON, TOTAL</item>
+        <item>ITRACONAZOLE</item>
+        <item>JAK2 EXONS 12 AND 13 QUAL</item>
+        <item>JAK2 V617F, QUALITATIVE, WITH REFLEX</item>
+        <item>JANUS KINASE 2 MUTATION, QUANT [JAK2QT]</item>
+        <item>JC VIRUS</item>
+        <item>JC VIRUS DNA ULTRASENSITIVE, CSF, PCR</item>
+        <item>JC VIRUS PCR QUANTITATIVE, PLASMA</item>
+        <item>JC VIRUS PCR QUANTITATIVE, URINE</item>
+        <item>JO-1 AB</item>
+        <item>JO-1 AB WITH REFLEX MYOSITIS</item>
+        <item>KAPPA LAMBADA 24 HR</item>
+        <item>KAPPA LAMBDA RATIO (SERUM)</item>
+        <item>KAPPA LAMBDA URINE</item>
+        <item>KETAMINE</item>
+        <item>KIDNEY STONE ANALYSIS</item>
+        <item>KIF6 GENOTYPING</item>
+        <item>KRAS MUTATION TESTING</item>
+        <item>L. PNEUMOPHILA IGG</item>
+        <item>L. PNEUMOPHILA IGM</item>
+        <item>L/S RATIO WITH QUALITATIVE PHOSPHATIDYL GLYCEROL</item>
+        <item>LACOSAMIDE, L/MS/MS</item>
+        <item>LACTATE</item>
+        <item>LACTATE, CSF</item>
+        <item>LACTATE, WHOLE BLOOD</item>
+        <item>LACTOSE TOLERANCE</item>
+        <item>LAMBERT-EATON MYASTHENIC SYND. AUTOANTIBODY</item>
+        <item>LAMELLAR BODY COUNT</item>
+        <item>LAMOTRIGINE LEVEL</item>
+        <item>LD</item>
+        <item>LD</item>
+        <item>LD ISOENZYMES</item>
+        <item>LD, FLUID BATTERY</item>
+        <item>LDL (DIRECT MEASURE)</item>
+        <item>LEAD, 24 HR URINE</item>
+        <item>LEAD, FINGERSTICK</item>
+        <item>LEAD, VENIPUNCTURE</item>
+        <item>LEFLUNOMIDE LEVEL</item>
+        <item>LEGIONELLA ANTIGEN</item>
+        <item>LEPTIN</item>
+        <item>LEPTOSPIRA DNA, QUALITATIVE, REAL-TIME PCR</item>
+        <item>LEUK AB SCREEN, RECIPIENT</item>
+        <item>LEUKOCYTE ADHESION DEFICIENCY</item>
+        <item>LEVETIRACETAM LEVEL</item>
+        <item>LGI1 ANTBIODY</item>
+        <item>LH</item>
+        <item>LIDOCAINE LEVEL</item>
+        <item>LIPASE</item>
+        <item>LIPID PANEL</item>
+        <item>LIPID PANEL WITH DIRECT LDL (TRIG ABOVE 400)</item>
+        <item>LIPID-LADEN MACROPHAGES</item>
+        <item>LIPOPROTEIN A</item>
+        <item>LITHIUM LEVEL</item>
+        <item>LKM AB</item>
+        <item>LOCUS SPECIFIC (FISH)</item>
+        <item>LOCUS-SPECIFIC PROBE X2 (FISH)</item>
+        <item>LOCUS-SPECIFIC PROBE X3 (FISH)</item>
+        <item>LORAZEPAM</item>
+        <item>LOW MOLECULAR WEIGHT HEPARIN LEVEL</item>
+        <item>LOXAPINE &amp; 8-HYDROX MET</item>
+        <item>LSD CONFIRMATION</item>
+        <item>LSD RIA</item>
+        <item>LUPUS ANTICOAGULANT PANEL WITH INTERPRETATION</item>
+        <item>LUPUS ANTICOAGULANT PROFILE</item>
+        <item>LYME AB WITH CONFIRMATORY WESTERN BLOT</item>
+        <item>LYME BY PCR , SYNOVIAL FLUID</item>
+        <item>LYME DISEASE DNA PCR, BLOOD</item>
+        <item>LYME WESTERN BLOT IGG and IGM</item>
+        <item>LYMPHOMA, FOLLICULAR (FISH)</item>
+        <item>LYMPHOMA, MANTLE CELL (FISH)</item>
+        <item>LYSOSOMAL ENZYME</item>
+        <item>M TUBERCULOSIS (QUANTIFERON)</item>
+        <item>MAGNESIUM</item>
+        <item>MAGNESIUM 24 HR URINE</item>
+        <item>MAGNESIUM RANDOM URINE</item>
+        <item>MALARIA SMEAR</item>
+        <item>MANGANESE</item>
+        <item>MANNA-BINDING LECTIN PATHWAY FUNCTION</item>
+        <item>MARIJUANA, GCMS, MECONIUM</item>
+        <item>MaTa AUTOANTIBODY TEST</item>
+        <item>MB FRACTION OF CK</item>
+        <item>MDS MYELOID PANEL (FISH)</item>
+        <item>MELANIN</item>
+        <item>MELAS mtDNA EVAL</item>
+        <item>MEN2 AND FMTC MUTATIONS,</item>
+        <item>MERCURY, 24 HR URINE</item>
+        <item>MERCURY, BLOOD</item>
+        <item>MERCURY, RANDOM URINE</item>
+        <item>METANEPHRINES, FRACTIONATED, 24-HR URINE</item>
+        <item>METANEPHRINES, FRACTIONATED, RANDOM URINE</item>
+        <item>METFORMIN</item>
+        <item>METHADONE FORENSIC CONFIRMATION</item>
+        <item>METHADONE, CONFIRMATORY (URINE)</item>
+        <item>METHEMOGLOBIN</item>
+        <item>METHOTREXATE ANALYSIS LEVEL</item>
+        <item>METHYLMALONIC AC UR</item>
+        <item>METHYLMALONIC AC SER</item>
+        <item>MEXILETINE</item>
+        <item>MICROALBUMIN CREATININE RATIO</item>
+        <item>MICROSPORIDIA DETECTION</item>
+        <item>MLH1 HYPERMETHYLATION ANALYSIS, TUMOR</item>
+        <item>MONOTEST</item>
+        <item>MOSAICISM CHROMOSOME</item>
+        <item>MOTOR NEUROPATHY PROFILE COMPLETE</item>
+        <item>MRSA SCREEN, PCR</item>
+        <item>MTHFR C665T AND A1286C [MTHFRO]</item>
+        <item>MTHFR POLYMORPHISMS</item>
+        <item>MULTIPLE SCLEROSIS</item>
+        <item>MUMPS IGG ANTIBODY</item>
+        <item>MUMPS IGM AB</item>
+        <item>MURAMIDASE</item>
+        <item>MURAMIDASE, URINE</item>
+        <item>MUSCLE BIOPSY</item>
+        <item>MUSK QUANTITATIVE TITERS ANTIBODY</item>
+        <item>MYASTHENIA GRAVIS PANEL 3</item>
+        <item>MYCOBACTERIA, BLOOD CULTURE</item>
+        <item>MYCOBACTERIUM DNA</item>
+        <item>MYCOPHENOLIC ACID LEVEL</item>
+        <item>MYCOPLASMA CULTURE</item>
+        <item>MYCOPLASMA PNEUMONIAE AB IGM</item>
+        <item>MYCOPLASMA PNEUMONIAE IGG AB</item>
+        <item>MYELIN ASSOC GLYCO AB W/REFLEX MAG SGPG/AB</item>
+        <item>MYELIN ASSOCIATED GLYCOPROTEIN ANTIBODY</item>
+        <item>MYELIN ASSOCIATED GLYCOPROTEIN DUAL ANTIGEN</item>
+        <item>MYELIN BASIC PROTEIN,. CSF</item>
+        <item>MYOGLOBIN URINE QUANT</item>
+        <item>MYOTONIC DYSTROPHY TYPE-1 DNA</item>
+        <item>NAVANE</item>
+        <item>NE REGIONAL RAST</item>
+        <item>NEISSERIA AMPLIFIED</item>
+        <item>NEONATAL CHOLESTASIS PANEL</item>
+        <item>NERVE BIOPSY</item>
+        <item>NEUROMYOTONIA EVALUATION</item>
+        <item>NEURON SPECIFIC ENOLASE</item>
+        <item>NEURONAL NUCLEAR (HU) AB</item>
+        <item>NEURONAL NUCLEAR (RI) AB</item>
+        <item>NEURONTIN</item>
+        <item>NEUTRALIZING ANTIBODY</item>
+        <item>NEUTROPHIL AB, FLOW CYTOMETRY</item>
+        <item>NEWBORN SUPPLEMENTAL SCREEN</item>
+        <item>NMDA RECEPTOR (NR1) ANTIBODY</item>
+        <item>NMO-IGG AB</item>
+        <item>NOCARDIA SMEAR AND CULTURE</item>
+        <item>NONPROBAND WHOLE EXOME SEQUENCE</item>
+        <item>NORTRIPTYLINE-LEVEL</item>
+        <item>NUT RAST PANEL</item>
+        <item>O2 SAT, ARTERIAL</item>
+        <item>O2 SAT, CAPILLARY</item>
+        <item>O2 SAT, VENOUS</item>
+        <item>OLIGOCLONAL BAND, CSF</item>
+        <item>OPIOIDS FORENSIC CONFIRMATION</item>
+        <item>OPIOIDS, CONFIRMATORY (URINE) INCLUDE HYDROCODONE &amp; HYDROMORPHONE</item>
+        <item>OPIOIDS/BENZO COMPLIANCE MONITORING</item>
+        <item>OPIOIDS/BENZO COMPLIANCE MONITORING W/INTERP</item>
+        <item>ORAL SCRAPING</item>
+        <item>ORGANIC ACID QUANT.</item>
+        <item>OROTIC ACID URINE</item>
+        <item>OSMOLALITY, SERUM</item>
+        <item>OSMOLALITY, URINE</item>
+        <item>OSTEOCALCIN</item>
+        <item>OSTEOMARK, URINE</item>
+        <item>OVA &amp; PARASITE STUDY</item>
+        <item>OXALATE URINE, 24-HOUR</item>
+        <item>OXYCODONE CONFIRMATION (URINE)</item>
+        <item>OXYCODONE FORENSIC CONFIRMATION (URINE)</item>
+        <item>P53 DELETION (FISH)</item>
+        <item>PANCREATIC ELASTASE 1</item>
+        <item>PANCREATIC ENZYME ANALYSIS</item>
+        <item>PANORAMA NON-INVASIVE PRENATAL TESTING</item>
+        <item>PAP FOR DES EXPOSURE</item>
+        <item>PAP SMEAR (CONVENTIONAL)</item>
+        <item>PARANEOPLASTIC PANEL</item>
+        <item>PARAPROTEIN SERUM</item>
+        <item>PARAPROTEIN URINE</item>
+        <item>PARATHYROID HORMONE</item>
+        <item>PARATHYROID HORMONE</item>
+        <item>PAROXETINE</item>
+        <item>PARVO AB IGG IGM</item>
+        <item>PARVOVIRUS B19 DNA</item>
+        <item>PARVOVIRUS B19 PCR (PLASMA)</item>
+        <item>PARVOVIRUS B19 PCR, BLOOD (SERUM)</item>
+        <item>PATERNAL PHENOTYPING</item>
+        <item>PCB LEVEL</item>
+        <item>PEDIATRIC RAST PANEL</item>
+        <item>PENTOBARBITAL LEVEL</item>
+        <item>PERIPHERAL SMEAR</item>
+        <item>PERITONEAL FLUID</item>
+        <item>PERTUSSIS / PARA-PERTUSSIS PCR</item>
+        <item>pH, FLUID</item>
+        <item>PHENOBARBITAL</item>
+        <item>PHENOBARBITAL</item>
+        <item>PHENOBARBITAL</item>
+        <item>PHENYLALANINE</item>
+        <item>PHENYLKETONURIA (PKU) MUTATION ANALYSIS</item>
+        <item>PHENYTOIN</item>
+        <item>PHENYTOIN</item>
+        <item>PHENYTOIN</item>
+        <item>PHENYTOIN, UNBOUND</item>
+        <item>PHOSPHATIDYLSERINE ANTIBODIES (IgG, A, M)</item>
+        <item>PHOSPHORUS</item>
+        <item>PHOSPHORUS, 24 HOUR URINE</item>
+        <item>PHOSPHORUS, RANDOM URINE</item>
+        <item>PHOSPHORYLATED TAU PROTEIN (CSF)</item>
+        <item>PIT COUNT</item>
+        <item>PLASMA CELL LABELING INDEX PROFILE</item>
+        <item>PLASMA METANEPHRINES, FRACTIONATED</item>
+        <item>PLASMINOGEN ACT INHIBITOR AG</item>
+        <item>PLASMINOGEN ACTIVITY</item>
+        <item>PLATELET AB DIRECT</item>
+        <item>PLATELET AB, INDIRECT</item>
+        <item>PLATELET COUNT</item>
+        <item>PLATELET GLYCOPROTEIN</item>
+        <item>PLATELET SCREEN COLL/EPI</item>
+        <item>PLAVIX, VERIFY NOW</item>
+        <item>PLEURAL FLUID</item>
+        <item>PLT AGGREG PANEL</item>
+        <item>PMP 22 DNA</item>
+        <item>PNEUMOCOCCAL AB PANEL</item>
+        <item>PNEUMOCOCCAL ANTIBY</item>
+        <item>PNEUMOCYSTIS SMEAR</item>
+        <item>PNEUMOVAX 7 SEROTYPE AVIDITY (POST)</item>
+        <item>PNEUMOVAX 7 SEROTYPE AVIDITY (PRE)</item>
+        <item>PNH W/ HIGH SENSITIVITY</item>
+        <item>PNUEMOCOCCAL 14 SERO</item>
+        <item>POLIO ANTIBODY</item>
+        <item>POLYMYOSITIS AB</item>
+        <item>PORPHOBILINOGEN 24H UR</item>
+        <item>PORPHOBILINOGEN UR</item>
+        <item>PORPHYRINS,FRAC 24H UR</item>
+        <item>PORPHYRINS,FRAC RAND UR</item>
+        <item>POST FILTER IONIZED CALCIUM</item>
+        <item>POST HLA CLASS 1 &amp; 2</item>
+        <item>POST TRANS PURPURA</item>
+        <item>POST-VAS SEMEN ANALYSIS</item>
+        <item>POSTDIALYSIS BUN BATTERY</item>
+        <item>POTASSIUM</item>
+        <item>POTASSIUM, 24-HOUR URINE</item>
+        <item>POTASSIUM, RANDOM URINE</item>
+        <item>POTASSIUM, WHOLE BLD</item>
+        <item>PRADER WILLI, PEDS (FISH)</item>
+        <item>PRADER WILLI/ANGLEMAN DNA METHYLATION, PCR</item>
+        <item>PREALBUMIN</item>
+        <item>PREDIALYSIS BUN</item>
+        <item>PREGNANCY SCR, URINE</item>
+        <item>PREGNENOLONE</item>
+        <item>PRELIMINARY RECIPIENT T &amp; B CELL CROSSMATCH</item>
+        <item>PREMATURE RUPTURE OF MEMBRANE</item>
+        <item>PRENATAL WHOLE GENOME ARRAY</item>
+        <item>PRIMIDONE INCLUDES PHENOBARB QUANTITATIVE</item>
+        <item>PRO PREDICT TPMT</item>
+        <item>PROBAND WHOLE EXOME SEQUENCE</item>
+        <item>PROBE HUMAN PAP</item>
+        <item>PROCAINAMIDE/NAPA-LEVEL</item>
+        <item>PROCALCITONIN (PCT)</item>
+        <item>PROCOLLAGEN PEPTIDE 3</item>
+        <item>PRODUCTS OF CONCEPTION PANEL (FISH)</item>
+        <item>PROGESTERONE</item>
+        <item>PROGESTERONE, 17 OH</item>
+        <item>PROINSULIN</item>
+        <item>PROLACTIN</item>
+        <item>PROSIGNA BREAST CANCER PROGNOSTIC GENE SIGNATURE ASSAY</item>
+        <item>PROSTATE SPECIFIC ANTIGEN</item>
+        <item>PROSTATE SPECIFIC ANTIGEN</item>
+        <item>PROSTATIC ACID PHOS</item>
+        <item>PROSTHESIS CULTURE</item>
+        <item>PROTEIN C ANTIGEN</item>
+        <item>PROTEIN C FUNCTIONAL</item>
+        <item>PROTEIN ELECTROPHORESIS, 24-HOUR URINE</item>
+        <item>PROTEIN ELECTROPHORESIS, RANDOM URINE</item>
+        <item>PROTEIN S TOTAL</item>
+        <item>PROTEIN S, FREE</item>
+        <item>PROTEIN S, FUNCTIONAL</item>
+        <item>PROTEIN, 24-HOUR URINE</item>
+        <item>PROTEIN, CSF</item>
+        <item>PROTEIN, RANDOM URINE</item>
+        <item>PROTEIN, TOTAL</item>
+        <item>PROTEIN, TOTAL - FLUID BATTERY</item>
+        <item>PROTEIN/CREATININE URINE RATIO</item>
+        <item>PROTHROM GEN MUTN [PGM]</item>
+        <item>PSA BATTERY</item>
+        <item>PSA SCREEN</item>
+        <item>PSA SCREEN</item>
+        <item>PT/INR</item>
+        <item>PTH RELATED PEPTIDE</item>
+        <item>PYRUVATE KINASE</item>
+        <item>PYRUVIC ACID</item>
+        <item>Q FEVER IGG/IGM WITH REFLEX TO TITER</item>
+        <item>QUAD SCREEN PANEL</item>
+        <item>QUANTITATIVE PILOCARPINE IONTOPHORESIS 1, QUANTITATIVE PILOCARPINE IONTOPHORESIS 2 </item>
+        <item>QUINIDINE-LEVEL</item>
+        <item>RABIES TITER</item>
+        <item>RAJI CELL IMMUNE COMPLEX</item>
+        <item>RAPID MICROARRAY</item>
+        <item>RAPID PARATHYROID HORMONE</item>
+        <item>RAST PROFILE</item>
+        <item>RBC</item>
+        <item>RBC CHOLINESTERASE</item>
+        <item>RBC FOLATE BATTERY</item>
+        <item>RBC FRAGILITY</item>
+        <item>RECOMBX TM RI AUTOANTIBODY</item>
+        <item>RECOMBXTM HU AUTOANTIBODY</item>
+        <item>REDUCING SUBSTANCES, FECES</item>
+        <item>REFERRED - BNP</item>
+        <item>RENAL BIOPSY</item>
+        <item>RENAL FUNCTION PANEL</item>
+        <item>RENIN ACTIVITY (PLASMA)</item>
+        <item>REPTILASE TIME</item>
+        <item>RESPIRATORY PATHOGEN (PCR)</item>
+        <item>RESPIRATORY SYNCYTIAL VIRUS EIA (Only performed at selected GHS outpatient sites)</item>
+        <item>RETIC, AUTO</item>
+        <item>RETICULIN IGG, IGA AB</item>
+        <item>RHEUMATOID FACTOR</item>
+        <item>RIBOSOMAL</item>
+        <item>RICKETTSIA AB PANEL</item>
+        <item>RISPERIDONE</item>
+        <item>RISTOCETIN COFACTOR</item>
+        <item>RIVAROXABAN</item>
+        <item>RNA POLYMERASE III ANTIBODY</item>
+        <item>RNP RESULT EIA</item>
+        <item>RNP-SM ANTIBODY</item>
+        <item>ROTAVIRUS ANTIGEN</item>
+        <item>ROUTINE URINALYSIS</item>
+        <item>RPR</item>
+        <item>RUBELLA G ANTIBODY </item>
+        <item>RUBELLA IGM</item>
+        <item>RUBEOLA IGG AB, MEASLES</item>
+        <item>RUBEOLA IGM AB</item>
+        <item>SALICYLATES</item>
+        <item>SCL-70 AB</item>
+        <item>SEAFOOD RAST PANEL</item>
+        <item>SEDIMENTATION RATE</item>
+        <item>SELENIUM LEVEL</item>
+        <item>SEMEN ANALYSIS, MOTILITY &amp; COUNT</item>
+        <item>SENSORIMOTOR NEUROPATHY PROFILE, COMPLETE</item>
+        <item>SEROTONIN RELEASE</item>
+        <item>SEROTONIN, BLOOD</item>
+        <item>SERTRALINE</item>
+        <item>SERUM CHROMIUM</item>
+        <item>SERUM PROTEIN, EPG</item>
+        <item>SEX HORMONE BINDING GLOBULIN</item>
+        <item>SICKLE CELL SCREEN</item>
+        <item>SIROLIMUS LEVEL</item>
+        <item>SJOGRENS PANEL</item>
+        <item>SLCO1B1 GENOTYING</item>
+        <item>SLE REFLEX</item>
+        <item>SM RESULT EIA</item>
+        <item>SMA CARRIER SCREEN</item>
+        <item>SMEAR, AFB</item>
+        <item>SMEAR, FUNGUS</item>
+        <item>SMEAR, PINWORM</item>
+        <item>SMITH-MAGENIS, PEDS (FISH)</item>
+        <item>SODIUM</item>
+        <item>SODIUM FRACTIONAL EXCRETION</item>
+        <item>SODIUM, 24-HOUR URINE</item>
+        <item>SODIUM, RANDOM URINE</item>
+        <item>SODIUM, WHOLE BLOOD</item>
+        <item>SOLUBLE TRANSFERRIN RECEPTOR</item>
+        <item>SOTALOL</item>
+        <item>SPEC GRAVITY, FLUID</item>
+        <item>SPECIMEN VALIDITY TESTING, URINE</item>
+        <item>SPUTUM</item>
+        <item>SRYX CENTROMERE, PEDS (FISH)</item>
+        <item>SSA RESULT EIA</item>
+        <item>SSA-SSB ANTIBODY</item>
+        <item>SSB RESULT EIA</item>
+        <item>STAPH AUREUS PCR</item>
+        <item>STONERISK CYSTINE</item>
+        <item>STONERISK DIAGNOSTIC</item>
+        <item>STRATIFY JCV ANTIBODY WITH REFLEX</item>
+        <item>STREPTOCOCCUS PNEUMONIAE ANTIGENS, URINE</item>
+        <item>STREPTOLYSIN O AB</item>
+        <item>STREPTOMYCIN LEVEL</item>
+        <item>STREPTOZYME</item>
+        <item>STRONGOLOIDES EIA</item>
+        <item>SUBOXONE, URINE</item>
+        <item>SULFATIDE ANTIBODY</item>
+        <item>SUREPATH PAP PREP</item>
+        <item>SURG PATH UNSPECIFIED PROCEDURE</item>
+        <item>SUSCEPTIBILITY TEST</item>
+        <item>SYNOVIAL CRYSTALS</item>
+        <item>SYPHILIS SCREEN WITH CONFIRMATION</item>
+        <item>T &amp; B CELL CROSSMATCH, DONOR</item>
+        <item>T CELL FUNCTION - COMPLETE</item>
+        <item>T CELL FUNCTION - SELECT</item>
+        <item>T CELL RECEPTOR EXCISION CIRCLES</item>
+        <item>T-CELL RECEPTOR GAMMA GENE REARRANGE,PCR</item>
+        <item>T-CELL SUBSETS, BRONCHOALVEOLAR LAVAGE FLUID</item>
+        <item>T3 UPTAKE</item>
+        <item>T3, FREE</item>
+        <item>T3, FREE &amp; TOTAL, BY DIALYSIS</item>
+        <item>T3, REVERSE</item>
+        <item>T3, TOTAL</item>
+        <item>T4T8 LYMPHOCYTE SUBSET PANEL</item>
+        <item>TACROLIMUS (FK506)</item>
+        <item>TEG</item>
+        <item>TEGRETOL EPOXIDE</item>
+        <item>TEICHOIC ACID AB SCR</item>
+        <item>TESTOSTERONE PANEL, TOTAL, FREE AND BIOAVAILABLE</item>
+        <item>TESTOSTERONE, FREE AND TOTAL</item>
+        <item>TESTOSTERONE, TOTAL</item>
+        <item>TESTOSTERONE, TOTAL, PEDS</item>
+        <item>TETANUS AB TITER</item>
+        <item>THALLIUM</item>
+        <item>THC FORENSIC CONFIRMATION</item>
+        <item>THC, CONFIRMATORY (URINE)</item>
+        <item>THEOPHYLLINE</item>
+        <item>THEOPHYLLINE</item>
+        <item>THERMAL AMPLITUDE</item>
+        <item>THINPREP PAP</item>
+        <item>THIOCYANATE LEVEL</item>
+        <item>THIOPURINE METAB</item>
+        <item>THIORIDAZINE + METABOLITES</item>
+        <item>THROMBIN TIME</item>
+        <item>THROMBOSIS PROFILE</item>
+        <item>THROMBOSIS PROFILE WITH INTERP</item>
+        <item>THYROGLOBULIN</item>
+        <item>THYROID AB GROUP</item>
+        <item>THYROID PEROXIDASE AB</item>
+        <item>THYROID STIM IMMUNO</item>
+        <item>THYROID STIMULATING HORMONE</item>
+        <item>THYROXINE (T4), TOTAL</item>
+        <item>THYROXINE BINDING</item>
+        <item>TISSUE CYPHER FOR BARRETTS</item>
+        <item>TISSUE TRANSGLUTAMINASE ANTIBODY (IgG)</item>
+        <item>TISSUE TRANSGLUTAMINASE ANTIBODY (IgG, IgA)</item>
+        <item>TISSUE TRANSGLUTAMINASE IGA AB</item>
+        <item>TOBRAMYCIN PEAK</item>
+        <item>TOBRAMYCIN RANDOM</item>
+        <item>TOBRAMYCIN TROUGH</item>
+        <item>TOCAINIDE</item>
+        <item>TOLUENE</item>
+        <item>TOPIRAMATE</item>
+        <item>TORCH TITER</item>
+        <item>TOXICOLOGY SCREEN, URINE, WITH CONFIRMATION</item>
+        <item>TOXICOLOGY SCREEN, URINE, WITHOUT CONFIRMATION</item>
+        <item>TOXICOLOGY SCREEN, URINE, WITHOUT CONFIRMATION (GSACH)</item>
+        <item>TOXO IGG AB</item>
+        <item>TOXO IGM ANTIBODY</item>
+        <item>TOXOCARA AB EIA</item>
+        <item>TOXOPLASMA (CSF)</item>
+        <item>TPA ANTIGEN</item>
+        <item>TRAMADOL, CONFIRMATORY (URINE)</item>
+        <item>TRAMADOL, FORENSIC CONFIRMATION</item>
+        <item>TRANSFERRIN</item>
+        <item>TRANSFUSION REACTION</item>
+        <item>TRANSPLANT ABO CONFIRMATION</item>
+        <item>TRAZODONE</item>
+        <item>TREPONEMA PALLIDUM AB</item>
+        <item>TRICHINOSIS AB</item>
+        <item>TRICHOMONAS VAG AMPLIFIED</item>
+        <item>Trichomonas vaginalis (males only)</item>
+        <item>TRIGLYCERIDE, PLEURAL FLUID</item>
+        <item>TRIGLYCERIDES</item>
+        <item>TRIPLE SCREEN PANEL</item>
+        <item>TRISOMY 12 (FISH)</item>
+        <item>TROPONIN I</item>
+        <item>TROPONIN I</item>
+        <item>TROPONIN T</item>
+        <item>TRYPTASE</item>
+        <item>TSH RECEPTOR AB</item>
+        <item>TSH WITH FREE T4 IF INDICATED</item>
+        <item>TYPE AND SCREEN</item>
+        <item>TYPE AND SCREEN</item>
+        <item>TZANCK SMEAR</item>
+        <item>UNKNOWN PEANUT ALLERGEN PROFILE</item>
+        <item>UREA NITROGEN, 24 HOUR</item>
+        <item>UREA NITROGEN, PERITONEAL FLUID</item>
+        <item>UREA NITROGEN, RANDOM URINE</item>
+        <item>UREAPLASMA CULTURE</item>
+        <item>URIC ACID</item>
+        <item>URIC ACID, 24-HOUR URINE</item>
+        <item>URIC ACID, RANDOM URINE</item>
+        <item>URIC ACID, RASBURICASE USER</item>
+        <item>URINALYSIS WITH MICROSCOPIC</item>
+        <item>URINE FOR BK VIRUS</item>
+        <item>URINE FOR CYTOLOGY</item>
+        <item>URORISK DIAGNOSTIC</item>
+        <item>UROVYSION ASSAY</item>
+        <item>VALPROIC ACID</item>
+        <item>VALPROIC ACID</item>
+        <item>VALPROIC ACID</item>
+        <item>VALPROIC ACID, FREE</item>
+        <item>VANCOMYCIN PEAK</item>
+        <item>VANCOMYCIN PEAK</item>
+        <item>VANCOMYCIN RANDOM</item>
+        <item>VANCOMYCIN RANDOM</item>
+        <item>VANCOMYCIN TROUGH</item>
+        <item>VANCOMYCIN TROUGH</item>
+        <item>VARICELLA ZOSTER (PCR)</item>
+        <item>VARICELLA ZOSTER (VITREOUS FLUID)</item>
+        <item>VARICELLA ZOSTER IGG</item>
+        <item>VARICELLA ZOSTER IGG CSF</item>
+        <item>VARICELLA ZOSTER IGM CSF</item>
+        <item>VARICELLA ZOSTER PCR (CSF)</item>
+        <item>VARICELLA ZOSTER PCR (PLASMA)</item>
+        <item>VARICELLA-ZSTR IGM AB</item>
+        <item>VASCULAR ENDOTHELIAL GROWTH FACTOR</item>
+        <item>VASOACT INTEST POLY</item>
+        <item>VENEREAL DISEASE CSF</item>
+        <item>VENOM ALLERGY PANEL</item>
+        <item>VERY LONG FAT ACIDS</item>
+        <item>VISCOSITY</item>
+        <item>VITAMIN A</item>
+        <item>VITAMIN B1</item>
+        <item>VITAMIN B12</item>
+        <item>VITAMIN B2 (RIBOFLAVIN), PLASMA</item>
+        <item>VITAMIN B6</item>
+        <item>VITAMIN D (1,25-DIHYDROXY)</item>
+        <item>VITAMIN E</item>
+        <item>VITAMIN K</item>
+        <item>VMA RANDOM URINE</item>
+        <item>VMA, 24 HOUR URINE</item>
+        <item>VOLATILES</item>
+        <item>VOLTAGE-GATED POTASSIUM CHANNEL AB</item>
+        <item>VON WILLEBRAND MULT</item>
+        <item>VORICONAZOLE</item>
+        <item>VRE SCREEN, PCR</item>
+        <item>VWF ANTIGEN</item>
+        <item>WBC</item>
+        <item>WEST NILE VIRUS RNA, CSF</item>
+        <item>WEST NILE VIRUS, CSF, DEPT OF HEALTH</item>
+        <item>WEST NILE VIRUS, RNA</item>
+        <item>WEST NILE VIRUS, SERUM, DEPT OF HEALTH</item>
+        <item>WHOLE BLD PROF, CAPILLARY</item>
+        <item>WHOLE BLD PROF, VENOUS</item>
+        <item>WHOLE BLOOD PROFILE, ARTERIAL</item>
+        <item>WHOLE GENOME MICROARRAY</item>
+        <item>WILLIAMS SYNDROME MICRODELETION, PEDS (FISH)</item>
+        <item>WORM IDENTIFICATION</item>
+        <item>XSENSE(TM) FRAGILE X W/REFLEX CHROMOSOME ANALYSIS, BLOOD</item>
+        <item>Y CHROMOSOME MICRODELETION, PEDS (FISH)</item>
+        <item>YO ANTIBODY</item>
+        <item>ZAP 70 (FLOW CYTOMETRY)</item>
+        <item>ZIC4 ANTIBODY</item>
+        <item>ZIKA, SERUM</item>
+        <item>ZIKA, URINE</item>
+        <item>ZINC PROTOPORPHYRIN</item>
+        <item>ZINC, 24 HOUR URINE</item>
+        <item>ZINC, PLASMA</item>
+        <item>ZONISAMIDE</item>
+    </string-array>
+</resources>

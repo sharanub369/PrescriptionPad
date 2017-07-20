@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false">
+
+            <LinearLayout
+                style="@style/layoutStyle"
+                android:layout_marginBottom="@dimen/margin20"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Brand*"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/textSize16" />
+
+                    <com.prescriptionpad.app.android.util.CustomAutoCompleteTextView
+                        android:id="@+id/brandNameEdtTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_edit_text_bg"
+                        android:descendantFocusability="beforeDescendants"
+                        android:focusableInTouchMode="true"
+                        android:hint="Brand Name here"
+                        android:inputType="textNoSuggestions"
+                        android:padding="@dimen/padding10"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/textSize16" />
+                </LinearLayout>
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spaceHeight" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/margin2.5"
+                        android:layout_marginStart="@dimen/margin2.5"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Dosage From"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/textSize16" />
+
+                        <EditText
+                            android:id="@+id/dosageFromEdtTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/custom_edit_text_bg"
+                            android:descendantFocusability="beforeDescendants"
+                            android:focusableInTouchMode="false"
+                            android:hint="12/04/2017"
+                            android:inputType="textNoSuggestions"
+                            android:padding="@dimen/padding10"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/textSize16" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/margin2.5"
+                        android:layout_marginStart="@dimen/margin2.5"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Strength"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/textSize16" />
+
+                        <EditText
+                            android:id="@+id/strengthEdtTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/custom_edit_text_bg"
+                            android:descendantFocusability="beforeDescendants"
+                            android:focusableInTouchMode="true"
+                            android:hint="Strength Here"
+                            android:inputType="textNoSuggestions"
+                            android:padding="@dimen/padding10"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/textSize16" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/margin2.5"
+                        android:layout_marginStart="@dimen/margin2.5"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Symbols"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/textSize16" />
+
+                        <com.prescriptionpad.app.android.util.CustomAutoCompleteTextView
+                            android:id="@+id/symbolsAutoCompleteTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/custom_edit_text_bg"
+                            android:descendantFocusability="beforeDescendants"
+                            android:focusableInTouchMode="true"
+                            android:hint="Symbols Here"
+                            android:inputType="textNoSuggestions"
+                            android:padding="@dimen/padding10"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/textSize16" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spaceHeight" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/margin2.5"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="For Period"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/textSize16" />
+
+                        <com.prescriptionpad.app.android.util.CustomAutoCompleteTextView
+                            android:id="@+id/periodEdtTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/custom_edit_text_bg"
+                            android:descendantFocusability="beforeDescendants"
+                            android:focusableInTouchMode="true"
+                            android:hint="Period here"
+                            android:inputType="textNoSuggestions"
+                            android:padding="@dimen/padding10"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/textSize16" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin2.5"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Unit"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/textSize16" />
+
+                        <com.prescriptionpad.app.android.util.CustomAutoCompleteTextView
+                            android:id="@+id/unitEdtTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/custom_edit_text_bg"
+                            android:descendantFocusability="beforeDescendants"
+                            android:focusableInTouchMode="true"
+                            android:hint="Enter Unit here"
+                            android:inputType="textNoSuggestions"
+                            android:padding="@dimen/padding10"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/textSize16" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spaceHeight" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/margin2.5"
+                        android:layout_weight="1.2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="How*"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/textSize16" />
+
+                        <com.prescriptionpad.app.android.util.CustomAutoCompleteTextView
+                            android:id="@+id/howEdtTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/custom_edit_text_bg"
+                            android:descendantFocusability="beforeDescendants"
+                            android:focusableInTouchMode="true"
+                            android:gravity="center_vertical"
+                            android:hint="How Here"
+                            android:inputType="textNoSuggestions"
+                            android:padding="@dimen/padding10"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/textSize16" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/margin2.5"
+                        android:layout_marginStart="@dimen/margin2.5"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="When"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/textSize16" />
+
+
+                        <com.prescriptionpad.app.android.util.CustomAutoCompleteTextView
+                            android:id="@+id/whenEdtTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.2"
+                            android:background="@drawable/custom_edit_text_bg"
+                            android:descendantFocusability="beforeDescendants"
+                            android:focusableInTouchMode="true"
+                            android:gravity="center_vertical"
+                            android:hint="When"
+                            android:inputType="textNoSuggestions"
+                            android:padding="@dimen/padding10"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/textSize16" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spaceHeight" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/margin2.5"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Remark"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/textSize16" />
+
+                        <EditText
+                            android:id="@+id/remarkEdtTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/custom_edit_text_bg"
+                            android:descendantFocusability="beforeDescendants"
+                            android:focusableInTouchMode="true"
+                            android:hint="Enter Remark Here"
+                            android:inputType="textNoSuggestions"
+                            android:padding="@dimen/padding10"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/textSize16" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/margin2.5"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/textSize15" />
+
+                        <TextView
+                            android:id="@+id/addMedicineBtnTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginEnd="@dimen/margin2.5"
+                            android:layout_marginStart="@dimen/margin2.5"
+                            android:layout_weight="1"
+                            android:background="@drawable/custom_button_corner"
+                            android:gravity="center"
+                            android:padding="@dimen/padding10"
+                            android:text="Add"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/textSize15" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spaceHeightBig" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="@dimen/padding10"
+                    android:text="Prescribed Medicines"
+                    android:textColor="@color/colorCyanDark"
+                    android:textSize="@dimen/textSize18"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorCyanDark"></View>
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spaceHeight" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorCyanDark"
+                    android:fillViewport="false"
+                    android:fitsSystemWindows="true"
+                    android:nestedScrollingEnabled="true"
+                    android:scrollbarStyle="outsideOverlay"
+                    android:scrollbars="horizontal">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margin2"
+                        android:background="@color/colorWhite">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/headerColor"
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:ems="50"
+                                android:gravity="center"
+                                android:padding="@dimen/padding5"
+                                android:singleLine="false"
+                                android:text="Medicine"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="@dimen/textSize15"
+                                android:textStyle="bold"></TextView>
+
+                            <View
+                                style="@style/Divider"
+                                android:layout_span="1"></View>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="@dimen/margin1"
+                                android:layout_span="1"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:padding="@dimen/padding5"
+                                android:text="Dosage"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="@dimen/textSize15"
+                                android:textStyle="bold"></TextView>
+
+                            <View
+                                style="@style/Divider"
+                                android:layout_span="1"></View>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="@dimen/margin1"
+                                android:layout_span="1"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:padding="@dimen/padding5"
+                                android:text="Symbols"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="@dimen/textSize15"
+                                android:textStyle="bold"></TextView>
+
+                            <View
+                                style="@style/Divider"
+                                android:layout_span="1"></View>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="@dimen/margin1"
+                                android:layout_span="1"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:padding="@dimen/padding5"
+                                android:text="Interval"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="@dimen/textSize15"
+                                android:textStyle="bold"></TextView>
+
+                            <View
+                                style="@style/Divider"
+                                android:layout_span="1"></View>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="@dimen/margin1"
+                                android:layout_span="1"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:padding="@dimen/padding5"
+                                android:text="How"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="@dimen/textSize15"
+                                android:textStyle="bold"></TextView>
+
+                            <View
+                                style="@style/Divider"
+                                android:layout_span="1"></View>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="@dimen/margin1"
+                                android:layout_span="1"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:padding="@dimen/padding5"
+                                android:text="When"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="@dimen/textSize15"
+                                android:textStyle="bold"></TextView>
+
+                            <View
+                                style="@style/Divider"
+                                android:layout_span="1"></View>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="@dimen/margin1"
+                                android:layout_span="1"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:padding="@dimen/padding5"
+                                android:paddingEnd="@dimen/padding10"
+                                android:text="Remark"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="@dimen/textSize15"
+                                android:textStyle="bold"></TextView>
+
+                            <View
+                                style="@style/Divider"
+                                android:layout_span="1"></View>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="@dimen/margin1"
+                                android:layout_span="1"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:padding="@dimen/padding5"
+                                android:paddingEnd="@dimen/padding10"
+                                android:text="Symbols"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="@dimen/textSize15"
+                                android:textStyle="bold"></TextView>
+
+                            <View
+                                style="@style/Divider"
+                                android:layout_span="1"></View>
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="@dimen/margin1"
+                                android:gravity="center"
+                                android:padding="@dimen/padding5"
+                                android:text="Delete"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="@dimen/textSize15"
+                                android:textStyle="bold"></TextView>
+
+                        </LinearLayout>
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/medRecyclerView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:nestedScrollingEnabled="true"></android.support.v7.widget.RecyclerView>
+                    </TableLayout>
+                </HorizontalScrollView>
+
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spaceHeight" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/colorCyanDark"></View>
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/footerHeightBig" />
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spaceHeightBig" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/colorWhite"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <!--<Button-->
+            <!--android:id="@+id/saveBtn"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd="2dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/headerColor"-->
+            <!--android:text="Save"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textSize="@dimen/textSize16"-->
+            <!--android:textStyle="bold" />-->
+
+            <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/headerColor"-->
+            <!--android:text="Clear"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textSize="@dimen/textSize16"-->
+            <!--android:textStyle="bold" />-->
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/demographicBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:layout_weight="1"
+                android:background="@color/headerColor"
+                android:text="Demographic"
+                android:textAllCaps="false"
+                android:textSize="@dimen/textSize16"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/medicineBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:layout_weight="1"
+                android:background="@color/colorCyanDark"
+                android:text="Medicine"
+                android:textAllCaps="false"
+                android:textSize="@dimen/textSize16"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/previewBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/headerColor"
+                android:text="Preview"
+                android:textAllCaps="false"
+                android:textSize="@dimen/textSize16"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

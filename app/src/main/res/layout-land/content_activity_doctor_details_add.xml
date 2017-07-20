@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            style="@style/layoutStyle"
+            android:layout_marginBottom="@dimen/margin10"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Doctor's Info"
+                android:textColor="@color/headerColor"
+                android:textSize="@dimen/textSize20"
+                android:textStyle="bold" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spaceHeight" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin2.5"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Name*"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/textSize16" />
+
+                    <EditText
+                        android:id="@+id/doctorNameEdtTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_edit_text_bg"
+                        android:descendantFocusability="beforeDescendants"
+                        android:focusableInTouchMode="true"
+                        android:hint="Doctor Name"
+                        android:padding="@dimen/padding10"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/textSize16" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin2.5"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Qualification*"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/textSize16" />
+
+                    <EditText
+                        android:id="@+id/qualificationEdtTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_edit_text_bg"
+                        android:descendantFocusability="beforeDescendants"
+                        android:focusableInTouchMode="true"
+                        android:hint="Qualification here"
+                        android:padding="@dimen/padding10"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/textSize16" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spaceHeight" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin2.5"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Speciality*"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/textSize16" />
+
+                    <com.prescriptionpad.app.android.util.CustomAutoCompleteTextView
+                        android:id="@+id/specialityEdtTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_edit_text_bg"
+                        android:descendantFocusability="beforeDescendants"
+                        android:focusableInTouchMode="true"
+                        android:hint="Speciality"
+                        android:padding="@dimen/padding10"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/textSize16" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin2.5"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Registration No:*"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/textSize16" />
+
+                    <EditText
+                        android:id="@+id/regNoEdtTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_edit_text_bg"
+                        android:descendantFocusability="beforeDescendants"
+                        android:focusableInTouchMode="true"
+                        android:hint="REG-123456"
+                        android:padding="@dimen/padding10"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/textSize16" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spaceHeight" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email*"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/textSize16" />
+
+                <EditText
+                    android:id="@+id/doctorEmailEdtTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edit_text_bg"
+                    android:descendantFocusability="beforeDescendants"
+                    android:focusableInTouchMode="true"
+                    android:hint="Email Address Here"
+                    android:padding="@dimen/padding10"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/textSize16" />
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spaceHeight" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin10"
+                android:gravity="center"
+                android:text="Hospital/Clinic's Info"
+                android:textColor="@color/headerColor"
+                android:textSize="@dimen/textSize20"
+                android:textStyle="bold|italic" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spaceHeight" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin2.5"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hospital Name*"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/textSize16" />
+
+                    <EditText
+                        android:id="@+id/hospitalNameEdtTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_edit_text_bg"
+                        android:descendantFocusability="beforeDescendants"
+                        android:focusableInTouchMode="true"
+                        android:hint="Hospital Name Here"
+                        android:padding="@dimen/padding10"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/textSize16" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin2.5"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hospital Email*"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/textSize16" />
+
+
+                    <EditText
+                        android:id="@+id/hospitalEmailEdtTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_edit_text_bg"
+                        android:descendantFocusability="beforeDescendants"
+                        android:focusableInTouchMode="true"
+                        android:hint="Hospital Email Here"
+                        android:inputType="textNoSuggestions"
+                        android:padding="@dimen/padding10"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/textSize16" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spaceHeight" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hospital Address*"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/textSize16" />
+
+                <EditText
+                    android:id="@+id/hospitalAddressEdtTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edit_text_bg"
+                    android:descendantFocusability="beforeDescendants"
+                    android:focusableInTouchMode="true"
+                    android:hint="Hospital Address Here"
+                    android:padding="@dimen/padding10"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/textSize18" />
+
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spaceHeight" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin2.5"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hospital Mobile No*"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/textSize16" />
+
+                    <EditText
+                        android:id="@+id/hospitalMobileNoEdtTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_edit_text_bg"
+                        android:descendantFocusability="beforeDescendants"
+                        android:focusableInTouchMode="true"
+                        android:hint="Mobile No Here"
+                        android:inputType="textNoSuggestions"
+                        android:padding="@dimen/padding10"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/textSize16" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin2.5"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hospital Phone No*"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/textSize16" />
+
+                    <EditText
+                        android:id="@+id/hospitalPhoneNoEdtTxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_edit_text_bg"
+                        android:descendantFocusability="beforeDescendants"
+                        android:focusableInTouchMode="true"
+                        android:hint="Hospital Phone No Here"
+                        android:inputType="textNoSuggestions"
+                        android:padding="@dimen/padding10"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/textSize16" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spaceHeight" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Footer Message*"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/textSize16" />
+
+                <EditText
+                    android:id="@+id/footerMessageEdtTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_edit_text_bg"
+                    android:descendantFocusability="beforeDescendants"
+                    android:focusableInTouchMode="true"
+                    android:hint="Enter Message Here"
+                    android:padding="@dimen/padding10"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/textSize16" />
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/spaceHeight" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/footerPadding">
+
+                <EditText
+                    android:id="@+id/fileNameEdtTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin2.5"
+                    android:layout_weight="0.4"
+                    android:background="@drawable/custom_edit_text_bg"
+                    android:descendantFocusability="beforeDescendants"
+                    android:focusableInTouchMode="true"
+                    android:hint="Add Hospital Logo"
+                    android:padding="@dimen/padding10"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/textSize16" />
+
+                <TextView
+                    android:id="@+id/browseBtnTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/margin2.5"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button_corner"
+                    android:gravity="center"
+                    android:padding="@dimen/padding10"
+                    android:text="Browse"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/textSize16" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/saveBtnLyt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/footerHeight"
+        android:layout_gravity="bottom"
+        android:background="@color/grayColor"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/margin2.5"
+            android:layout_weight="1"
+            android:background="@color/headerColor"
+            android:gravity="center"
+            android:text="SAVE"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/textSize16"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/clearBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin2.5"
+            android:layout_weight="1"
+            android:background="@color/headerColor"
+            android:gravity="center"
+            android:text="Clear"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/textSize16"
+            android:textStyle="bold" />
+    </LinearLayout>
+</FrameLayout>

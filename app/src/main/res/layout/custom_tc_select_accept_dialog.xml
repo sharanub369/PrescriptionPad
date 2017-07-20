@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/colorWhite"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/dialogTitleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/headerColor"
+        android:gravity="center"
+        android:padding="@dimen/padding10"
+        android:text="Disclaimer &amp; privacy policy"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/textSize16"
+        android:textStyle="bold" />
+
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="2dp"-->
+    <!--android:background="@color/colorCyanDark"></View>-->
+
+    <!--<android.support.v4.widget.Space-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="@dimen/spaceHeight" />-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/diseaseWiseBtnTxt"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="fill_horizontal"-->
+    <!--android:gravity="fill_horizontal"-->
+    <!--android:padding="@dimen/padding5"-->
+    <!--android:text="This mobile app is provided for informational, educational and research purposes only. Use of the material for any other purpose constitutes infringement of the copyright and intellectual property rights owned by the specific owners for the app. By using any of this material, you assume all risks of copyright infringement and related liability."-->
+    <!--android:textColor="@color/colorBlack"-->
+    <!--android:textSize="@dimen/textSize16"-->
+    <!--android:textStyle="normal" />-->
+    <!--</LinearLayout>-->
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spaceHeight" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/acceptTCChkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin10"
+            android:scaleX="1.0"
+            android:scaleY="1.0"
+            android:text=""
+            android:layout_gravity="top"
+            android:gravity="top"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/textSize16"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/tcTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding5"
+            android:text="@string/tcText"
+            android:textColor="@color/colorCyanDark"
+            android:textSize="@dimen/textSize16"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spaceHeight" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/acceptTcTxtBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_button_shape"
+            android:gravity="center"
+            android:padding="@dimen/padding10"
+            android:text="Continue"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/textSize18"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spaceHeightSmall" />
+</LinearLayout>

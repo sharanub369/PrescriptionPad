@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <View
+        style="@style/DividerStyle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_span="1"></View>
+
+    <LinearLayout
+        android:id="@+id/diseaseExistsLyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <View
+            style="@style/DividerStyle"
+            android:layout_span="1"></View>
+
+        <TextView
+            android:id="@+id/diseaseNameTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/margin1"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/padding5"
+            android:text="Disease"></TextView>
+
+
+        <View
+            style="@style/DividerStyle"
+            android:layout_span="1"></View>
+
+        <TextView
+            android:id="@+id/diseaseRemarkTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/margin1"
+            android:layout_span="1"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/padding5"
+            android:text="Notes"></TextView>
+
+        <View
+            style="@style/DividerStyle"
+            android:layout_span="1"></View>
+
+        <ImageView
+            android:id="@+id/deleteImg"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/margin1"
+            android:gravity="center"
+            android:padding="@dimen/padding5"
+            android:src="@drawable/ic_deletel"></ImageView>
+
+        <View
+            style="@style/DividerStyle"
+            android:layout_span="1"></View>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/noDiseaseValuesTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/margin1"
+        android:layout_marginEnd="@dimen/margin1"
+        android:layout_marginStart="@dimen/margin1"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:padding="@dimen/padding5"
+        android:text="No Disease  Details Found."
+        android:textColor="@color/colorRed"
+        android:textSize="@dimen/textSize18"
+        android:textStyle="normal"
+        android:visibility="gone" />
+
+    <View
+        style="@style/DividerStyle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_span="1"
+        android:paddingBottom="@dimen/padding5"></View>
+</LinearLayout>
